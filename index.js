@@ -7,12 +7,14 @@ import toHtml from "rehype-stringify";
 import remarkSlug from "remark-slug";
 import remarkToc from "remark-toc";
 import rehypeDocument from "rehype-document";
+import { imgToFigure } from "./img-to-figure.js";
 
 let contents = unified()
   .use(remarkParse)
-  // .use(remarkSlug)
-  // .use(remarkToc)
+  .use(remarkSlug)
+  .use(remarkToc)
   .use(remarkRehype)
+  .use(imgToFigure)
   .use(toHtml)
   .use(rehypeDocument, { title: "Contents" })
   .processSync(fs.readFileSync("js.md"))
@@ -20,6 +22,4 @@ let contents = unified()
 
 contents = contents.replace(/(<ol>)(.*)(<\/ol>)/gims, `$2`);
 
-// document.append(contents)
-
-fs.writeFileSync("./js.html", contents);
+fs.writeFileSync("./src/index.html", contents);

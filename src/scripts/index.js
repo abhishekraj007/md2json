@@ -1,10 +1,11 @@
-import { getId } from "./getId";
+import "../styles/index.scss";
+import { v4 as uuid } from "uuid";
 
 const lis = document.querySelectorAll("body > li");
+console.log(uuid());
 console.log(window);
 
 let contents = [];
-console.log(getId());
 
 Array.from(lis).forEach((element) => {
   console.log(element);
@@ -16,6 +17,8 @@ Array.from(lis).forEach((element) => {
     contentObj.push(element.outerHTML);
   });
   contents.push({
+    id: uuid(),
+    bookmarked: false,
     title,
     content: contentObj,
   });
