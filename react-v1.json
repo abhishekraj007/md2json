@@ -1,0 +1,1150 @@
+[
+  {
+    "id": "1ffc6715-29bb-4307-b1e2-588cd54ea8c5",
+    "bookmarked": false,
+    "title": "What is React?",
+    "content": [
+      "<p>React is an <strong>open-source front-end JavaScript library</strong> that is used for building user interfaces, especially for single-page applications. It is used for handling view layer for web and mobile apps. React was created by <a href=\"https://github.com/jordwalke\">Jordan Walke</a>, a software engineer working for Facebook. React was first deployed on Facebook's News Feed in 2011 and on Instagram in 2012.</p>",
+      "<p><strong><a href=\"#table-of-contents\">⬆ Back to Top</a></strong></p>"
+    ]
+  },
+  {
+    "id": "30f97d91-264b-48fb-be23-8949762cea3b",
+    "bookmarked": false,
+    "title": "What are the major features of React?",
+    "content": [
+      "<p>The major features of React are:</p>",
+      "<ul>\n<li>It uses <strong>VirtualDOM</strong> instead of RealDOM considering that RealDOM manipulations are expensive.</li>\n<li>Supports <strong>server-side rendering</strong>.</li>\n<li>Follows <strong>Unidirectional</strong> data flow or data binding.</li>\n<li>Uses <strong>reusable/composable</strong> UI components to develop the view.</li>\n</ul>",
+      "<p><strong><a href=\"#table-of-contents\">⬆ Back to Top</a></strong></p>"
+    ]
+  },
+  {
+    "id": "b5f3b8a9-c079-4b43-aa45-4faaf66dbbfa",
+    "bookmarked": false,
+    "title": "What is JSX?",
+    "content": [
+      "<p><em>JSX</em> is a XML-like syntax extension to ECMAScript (the acronym stands for <em>JavaScript XML</em>). Basically it just provides syntactic sugar for the <code>React.createElement()</code> function, giving us expressiveness of JavaScript along with HTML like template syntax.</p>",
+      "<p>In the example below text inside <code>&lt;h1&gt;</code> tag is returned as JavaScript function to the render function.</p>",
+      "<pre><code class=\"language-jsx\">class App extends React.Component {\n  render() {\n    return (\n      &lt;div&gt;\n        &lt;h1&gt;{\"Welcome to React world!\"}&lt;/h1&gt;\n      &lt;/div&gt;\n    );\n  }\n}\n</code></pre>",
+      "<p><strong><a href=\"#table-of-contents\">⬆ Back to Top</a></strong></p>"
+    ]
+  },
+  {
+    "id": "8162f387-eb3e-42e9-ac76-de3b68b95c9e",
+    "bookmarked": false,
+    "title": "What is the difference between Element and Component?",
+    "content": [
+      "<p>An <em>Element</em> is a plain object describing what you want to appear on the screen in terms of the DOM nodes or other components. <em>Elements</em> can contain other <em>Elements</em> in their props. Creating a React element is cheap. Once an element is created, it is never mutated.</p>",
+      "<p>The object representation of React Element would be as follows:</p>",
+      "<pre><code class=\"language-javascript\">const element = React.createElement(\"div\", { id: \"login-btn\" }, \"Login\");\n</code></pre>",
+      "<p>The above <code>React.createElement()</code> function returns an object:</p>",
+      "<pre><code>{\n  type: 'div',\n  props: {\n    children: 'Login',\n    id: 'login-btn'\n  }\n}\n</code></pre>",
+      "<p>And finally it renders to the DOM using <code>ReactDOM.render()</code>:</p>",
+      "<pre><code class=\"language-html\">&lt;div id=\"login-btn\"&gt;Login&lt;/div&gt;\n</code></pre>",
+      "<p>Whereas a <strong>component</strong> can be declared in several different ways. It can be a class with a <code>render()</code> method or it can be defined as a function. In either case, it takes props as an input, and returns a JSX tree as the output:</p>",
+      "<pre><code class=\"language-javascript\">const Button = ({ onLogin }) =&gt; (\n  &lt;div id={\"login-btn\"} onClick={onLogin}&gt;\n    Login\n  &lt;/div&gt;\n);\n</code></pre>",
+      "<p>Then JSX gets transpiled to a <code>React.createElement()</code> function tree:</p>",
+      "<pre><code class=\"language-javascript\">const Button = ({ onLogin }) =&gt;\n  React.createElement(\n    \"div\",\n    { id: \"login-btn\", onClick: onLogin },\n    \"Login\"\n  );\n</code></pre>",
+      "<p><strong><a href=\"#table-of-contents\">⬆ Back to Top</a></strong></p>"
+    ]
+  },
+  {
+    "id": "15f15c96-55de-412b-a2a6-8305661a3fb0",
+    "bookmarked": false,
+    "title": "How to create components in React?",
+    "content": [
+      "<p>There are two possible ways to create a component.</p>",
+      "<ol>\n<li>\n<p><strong>Function Components:</strong> This is the simplest way to create a component. Those are pure JavaScript functions that accept props object as the first parameter and return React elements:</p>\n<pre><code class=\"language-jsx\">function Greeting({ message }) {\n  return &lt;h1&gt;{`Hello, ${message}`}&lt;/h1&gt;;\n}\n</code></pre>\n</li>\n<li>\n<p><strong>Class Components:</strong> You can also use ES6 class to define a component. The above function component can be written as:</p>\n<pre><code class=\"language-jsx\">class Greeting extends React.Component {\n  render() {\n    return &lt;h1&gt;{`Hello, ${this.props.message}`}&lt;/h1&gt;;\n  }\n}\n</code></pre>\n</li>\n</ol>",
+      "<p><strong><a href=\"#table-of-contents\">⬆ Back to Top</a></strong></p>"
+    ]
+  },
+  {
+    "id": "0188653b-59dc-4654-94f2-1363bb77afc9",
+    "bookmarked": false,
+    "title": "When to use a Class Component over a Function Component?",
+    "content": [
+      "<p>If the component needs <em>state or lifecycle methods</em> then use class component otherwise use function component.\n<em>However, from React 16.8 with the addition of Hooks, you could use state , lifecycle methods and other features that were only available in class component right in your function component.</em>\n_So, it is always recommended to use Function components, unless you need a React functionality whose Function component equivalent is not present yet, like Error Boundaries _</p>",
+      "<p><strong><a href=\"#table-of-contents\">⬆ Back to Top</a></strong></p>"
+    ]
+  },
+  {
+    "id": "1837daf3-cbfd-4de5-9797-8e36acac2d26",
+    "bookmarked": false,
+    "title": "What are Pure Components?",
+    "content": [
+      "<p><em><code>React.PureComponent</code></em> is exactly the same as <em><code>React.Component</code></em> except that it handles the <code>shouldComponentUpdate()</code> method for you. When props or state changes, <em>PureComponent</em> will do a shallow comparison on both props and state. <em>Component</em> on the other hand won't compare current props and state to next out of the box. Thus, the component will re-render by default whenever <code>shouldComponentUpdate</code> is called.</p>",
+      "<p><strong><a href=\"#table-of-contents\">⬆ Back to Top</a></strong></p>"
+    ]
+  },
+  {
+    "id": "5ecb41db-d097-496d-a519-7818cad9335e",
+    "bookmarked": false,
+    "title": "What is state in React?",
+    "content": [
+      "<p><em>State</em> of a component is an object that holds some information that may change over the lifetime of the component. We should always try to make our state as simple as possible and minimize the number of stateful components.</p>",
+      "<p>Let's create a user component with message state,</p>",
+      "<pre><code class=\"language-jsx\">class User extends React.Component {\n  constructor(props) {\n    super(props);\n\n    this.state = {\n      message: \"Welcome to React world\",\n    };\n  }\n\n  render() {\n    return (\n      &lt;div&gt;\n        &lt;h1&gt;{this.state.message}&lt;/h1&gt;\n      &lt;/div&gt;\n    );\n  }\n}\n</code></pre>",
+      "<p><img src=\"https://github.com/sudheerj/javascript-interview-questions/raw/master/images/state.jpg\" alt=\"state\"></p>",
+      "<p>State is similar to props, but it is private and fully controlled by the component ,i.e., it is not accessible to any other component till the owner component decides to pass it.</p>",
+      "<p><strong><a href=\"#table-of-contents\">⬆ Back to Top</a></strong></p>"
+    ]
+  },
+  {
+    "id": "dc90a914-399b-493c-9cee-8c0406798ec7",
+    "bookmarked": false,
+    "title": "What are props in React?",
+    "content": [
+      "<p><em>Props</em> are inputs to components. They are single values or objects containing a set of values that are passed to components on creation using a naming convention similar to HTML-tag attributes. They are data passed down from a parent component to a child component.</p>",
+      "<p>The primary purpose of props in React is to provide following component functionality:</p>",
+      "<ol>\n<li>Pass custom data to your component.</li>\n<li>Trigger state changes.</li>\n<li>Use via <code>this.props.reactProp</code> inside component's <code>render()</code> method.</li>\n</ol>",
+      "<p>For example, let us create an element with <code>reactProp</code> property:</p>",
+      "<pre><code class=\"language-jsx\">&lt;Element reactProp={\"1\"} /&gt;\n</code></pre>",
+      "<p>This <code>reactProp</code> (or whatever you came up with) name then becomes a property attached to React's native props object which originally already exists on all components created using React library.</p>",
+      "<pre><code>props.reactProp\n</code></pre>",
+      "<p><strong><a href=\"#table-of-contents\">⬆ Back to Top</a></strong></p>"
+    ]
+  },
+  {
+    "id": "82db0dc0-e638-43c4-b7df-5c39f4f4c70a",
+    "bookmarked": false,
+    "title": "What is the difference between state and props?",
+    "content": [
+      "<p>Both <em>props</em> and <em>state</em> are plain JavaScript objects. While both of them hold information that influences the output of render, they are different in their functionality with respect to component. Props get passed to the component similar to function parameters whereas state is managed within the component similar to variables declared within a function.</p>",
+      "<p><strong><a href=\"#table-of-contents\">⬆ Back to Top</a></strong></p>"
+    ]
+  },
+  {
+    "id": "99b39fba-2b5a-407b-8225-c37d89c7b28a",
+    "bookmarked": false,
+    "title": "Why should we not update the state directly?",
+    "content": [
+      "<p>If you try to update the state directly then it won't re-render the component.</p>",
+      "<pre><code class=\"language-javascript\">//Wrong\nthis.state.message = \"Hello world\";\n</code></pre>",
+      "<p>Instead use <code>setState()</code> method. It schedules an update to a component's state object. When state changes, the component responds by re-rendering.</p>",
+      "<pre><code class=\"language-javascript\">//Correct\nthis.setState({ message: \"Hello World\" });\n</code></pre>",
+      "<p><strong>Note:</strong> You can directly assign to the state object either in <em>constructor</em> or using latest javascript's class field declaration syntax.</p>",
+      "<p><strong><a href=\"#table-of-contents\">⬆ Back to Top</a></strong></p>"
+    ]
+  },
+  {
+    "id": "e42cd652-56f5-446f-9d2e-95470df3bbaa",
+    "bookmarked": false,
+    "title": "What is the purpose of callback function as an argument of setState()?",
+    "content": [
+      "<p>The callback function is invoked when setState finished and the component gets rendered. Since <code>setState()</code> is <strong>asynchronous</strong> the callback function is used for any post action.</p>",
+      "<p><strong>Note:</strong> It is recommended to use lifecycle method rather than this callback function.</p>",
+      "<pre><code class=\"language-javascript\">setState({ name: \"John\" }, () =&gt;\n  console.log(\"The name has updated and component re-rendered\")\n);\n</code></pre>",
+      "<p><strong><a href=\"#table-of-contents\">⬆ Back to Top</a></strong></p>"
+    ]
+  },
+  {
+    "id": "ec241bee-52a0-4dc0-9b9f-08e151ed14f5",
+    "bookmarked": false,
+    "title": "What is the difference between HTML and React event handling?",
+    "content": [
+      "<p>Below are some of the main differences between HTML and React event handling,</p>",
+      "<ol>\n<li>\n<p>In HTML, the event name usually represents in <em>lowercase</em> as a convention:</p>\n<pre><code class=\"language-html\">&lt;button onclick=\"activateLasers()\"&gt;&lt;/button&gt;\n</code></pre>\n<p>Whereas in React it follows <em>camelCase</em> convention:</p>\n<pre><code class=\"language-jsx\">&lt;button onClick={activateLasers}&gt;\n</code></pre>\n</li>\n<li>\n<p>In HTML, you can return <code>false</code> to prevent default behavior:</p>\n<pre><code class=\"language-html\">&lt;a\n  href=\"#\"\n  onclick='console.log(\"The link was clicked.\"); return false;'\n/&gt;\n</code></pre>\n<p>Whereas in React you must call <code>preventDefault()</code> explicitly:</p>\n<pre><code class=\"language-javascript\">function handleClick(event) {\n  event.preventDefault();\n  console.log(\"The link was clicked.\");\n}\n</code></pre>\n</li>\n<li>\n<p>In HTML, you need to invoke the function by appending <code>()</code>\nWhereas in react you should not append <code>()</code> with the function name. (refer \"activateLasers\" function in the first point for example)</p>\n</li>\n</ol>",
+      "<p><strong><a href=\"#table-of-contents\">⬆ Back to Top</a></strong></p>"
+    ]
+  },
+  {
+    "id": "74a7c98e-f75d-402e-b314-ba00df6e6751",
+    "bookmarked": false,
+    "title": "How to bind methods or event handlers in JSX callbacks?",
+    "content": [
+      "<p>There are 3 possible ways to achieve this:</p>",
+      "<ol>\n<li>\n<p><strong>Binding in Constructor:</strong> In JavaScript classes, the methods are not bound by default. The same thing applies for React event handlers defined as class methods. Normally we bind them in constructor.</p>\n<pre><code class=\"language-javascript\">class Foo extends Component {\n  constructor(props) {\n    super(props);\n    this.handleClick = this.handleClick.bind(this);\n  }\n  handleClick() {\n    console.log(\"Click happened\");\n  }\n  render() {\n    return &lt;button onClick={this.handleClick}&gt;Click Me&lt;/button&gt;;\n  }\n}\n</code></pre>\n</li>\n<li>\n<p><strong>Public class fields syntax:</strong> If you don't like to use bind approach then <em>public class fields syntax</em> can be used to correctly bind callbacks.</p>\n<pre><code class=\"language-jsx\">handleClick = () =&gt; {\n  console.log(\"this is:\", this);\n};\n</code></pre>\n<pre><code class=\"language-jsx\">&lt;button onClick={this.handleClick}&gt;{\"Click me\"}&lt;/button&gt;\n</code></pre>\n</li>\n<li>\n<p><strong>Arrow functions in callbacks:</strong> You can use <em>arrow functions</em> directly in the callbacks.</p>\n<pre><code class=\"language-jsx\">handleClick() {\n    console.log('Click happened');\n}\nrender() {\n    return &lt;button onClick={() =&gt; this.handleClick()}&gt;Click Me&lt;/button&gt;;\n}\n</code></pre>\n</li>\n</ol>",
+      "<p><strong>Note:</strong> If the callback is passed as prop to child components, those components might do an extra re-rendering. In those cases, it is preferred to go with <code>.bind()</code> or <em>public class fields syntax</em> approach considering performance.</p>",
+      "<p><strong><a href=\"#table-of-contents\">⬆ Back to Top</a></strong></p>"
+    ]
+  },
+  {
+    "id": "5c3b4af2-98fe-4a75-9cd8-4e1bcf2c9034",
+    "bookmarked": false,
+    "title": "How to pass a parameter to an event handler or callback?",
+    "content": [
+      "<p>You can use an <em>arrow function</em> to wrap around an <em>event handler</em> and pass parameters:</p>",
+      "<pre><code class=\"language-jsx\">&lt;button onClick={() =&gt; this.handleClick(id)} /&gt;\n</code></pre>",
+      "<p>This is an equivalent to calling <code>.bind</code>:</p>",
+      "<pre><code class=\"language-jsx\">&lt;button onClick={this.handleClick.bind(this, id)} /&gt;\n</code></pre>",
+      "<p>Apart from these two approaches, you can also pass arguments to a function which is defined as arrow function</p>",
+      "<pre><code class=\"language-jsx\">&lt;button onClick={this.handleClick(id)} /&gt;;\nhandleClick = (id) =&gt; () =&gt; {\n  console.log(\"Hello, your ticket number is\", id);\n};\n</code></pre>",
+      "<p><strong><a href=\"#table-of-contents\">⬆ Back to Top</a></strong></p>"
+    ]
+  },
+  {
+    "id": "0d72c8ea-01b8-423b-94dc-9a7264d99fd9",
+    "bookmarked": false,
+    "title": "What are synthetic events in React?",
+    "content": [
+      "<p><code>SyntheticEvent</code> is a cross-browser wrapper around the browser's native event. Its API is same as the browser's native event, including <code>stopPropagation()</code> and <code>preventDefault()</code>, except the events work identically across all browsers.</p>",
+      "<p><strong><a href=\"#table-of-contents\">⬆ Back to Top</a></strong></p>"
+    ]
+  },
+  {
+    "id": "b62f9feb-22b4-492e-bafc-9a1d7dcb9f77",
+    "bookmarked": false,
+    "title": "What are inline conditional expressions?",
+    "content": [
+      "<p>You can use either <em>if statements</em> or <em>ternary expressions</em> which are available from JS to conditionally render expressions. Apart from these approaches, you can also embed any expressions in JSX by wrapping them in curly braces and then followed by JS logical operator <code>&amp;&amp;</code>.</p>",
+      "<pre><code class=\"language-jsx\">&lt;h1&gt;Hello!&lt;/h1&gt;;\n{\n  messages.length &gt; 0 &amp;&amp; !isLogin ? (\n    &lt;h2&gt;You have {messages.length} unread messages.&lt;/h2&gt;\n  ) : (\n    &lt;h2&gt;You don't have unread messages.&lt;/h2&gt;\n  );\n}\n</code></pre>",
+      "<p><strong><a href=\"#table-of-contents\">⬆ Back to Top</a></strong></p>"
+    ]
+  },
+  {
+    "id": "447cb100-a2b6-4fca-b8c1-57a9af611c4f",
+    "bookmarked": false,
+    "title": "What is \"key\" prop and what is the benefit of using it in arrays of elements?",
+    "content": [
+      "<p>A <code>key</code> is a special string attribute you <strong>should</strong> include when creating arrays of elements. <em>Key</em> prop helps React identify which items have changed, are added, or are removed.</p>",
+      "<p>Most often we use ID from our data as <em>key</em>:</p>",
+      "<pre><code class=\"language-jsx\">const todoItems = todos.map((todo) =&gt; &lt;li key={todo.id}&gt;{todo.text}&lt;/li&gt;);\n</code></pre>",
+      "<p>When you don't have stable IDs for rendered items, you may use the item <em>index</em> as a <em>key</em> as a last resort:</p>",
+      "<pre><code class=\"language-jsx\">const todoItems = todos.map((todo, index) =&gt; (\n  &lt;li key={index}&gt;{todo.text}&lt;/li&gt;\n));\n</code></pre>",
+      "<p><strong>Note:</strong></p>",
+      "<ol>\n<li>Using <em>indexes</em> for <em>keys</em> is <strong>not recommended</strong> if the order of items may change. This can negatively impact performance and may cause issues with component state.</li>\n<li>If you extract list item as separate component then apply <em>keys</em> on list component instead of <code>li</code> tag.</li>\n<li>There will be a warning message in the console if the <code>key</code> prop is not present on list items.</li>\n</ol>",
+      "<p><strong><a href=\"#table-of-contents\">⬆ Back to Top</a></strong></p>"
+    ]
+  },
+  {
+    "id": "881396a2-c7f1-4299-8afa-b3af304c4b85",
+    "bookmarked": false,
+    "title": "What is the use of refs?",
+    "content": [
+      "<p>The <em>ref</em> is used to return a reference to the element. They <em>should be avoided</em> in most cases, however, they can be useful when you need a direct access to the DOM element or an instance of a component.</p>",
+      "<p><strong><a href=\"#table-of-contents\">⬆ Back to Top</a></strong></p>"
+    ]
+  },
+  {
+    "id": "0201a4c2-9fc6-4cb1-8352-844b96f288a6",
+    "bookmarked": false,
+    "title": "How to create refs?",
+    "content": [
+      "<p>There are two approaches</p>",
+      "<ol>\n<li>\n<p>This is a recently added approach. <em>Refs</em> are created using <code>React.createRef()</code> method and attached to React elements via the <code>ref</code> attribute. In order to use <em>refs</em> throughout the component, just assign the <em>ref</em> to the instance property within constructor.</p>\n<pre><code class=\"language-jsx\">class MyComponent extends React.Component {\n  constructor(props) {\n    super(props);\n    this.myRef = React.createRef();\n  }\n  render() {\n    return &lt;div ref={this.myRef} /&gt;;\n  }\n}\n</code></pre>\n</li>\n<li>\n<p>You can also use ref callbacks approach regardless of React version. For example, the search bar component's input element is accessed as follows,</p>\n<pre><code class=\"language-jsx\">class SearchBar extends Component {\n  constructor(props) {\n    super(props);\n    this.txtSearch = null;\n    this.state = { term: \"\" };\n    this.setInputSearchRef = (e) =&gt; {\n      this.txtSearch = e;\n    };\n  }\n  onInputChange(event) {\n    this.setState({ term: this.txtSearch.value });\n  }\n  render() {\n    return (\n      &lt;input\n        value={this.state.term}\n        onChange={this.onInputChange.bind(this)}\n        ref={this.setInputSearchRef}\n      /&gt;\n    );\n  }\n}\n</code></pre>\n</li>\n</ol>",
+      "<p>You can also use <em>refs</em> in function components using <strong>closures</strong>.\n<strong>Note</strong>: You can also use inline ref callbacks even though it is not a recommended approach.</p>",
+      "<p><strong><a href=\"#table-of-contents\">⬆ Back to Top</a></strong></p>"
+    ]
+  },
+  {
+    "id": "5be62629-8e40-4b8f-b996-2d076ef5b3a9",
+    "bookmarked": false,
+    "title": "What are forward refs?",
+    "content": [
+      "<p><em>Ref forwarding</em> is a feature that lets some components take a <em>ref</em> they receive, and pass it further down to a child.</p>",
+      "<pre><code class=\"language-jsx\">const ButtonElement = React.forwardRef((props, ref) =&gt; (\n  &lt;button ref={ref} className=\"CustomButton\"&gt;\n    {props.children}\n  &lt;/button&gt;\n));\n\n// Create ref to the DOM button:\nconst ref = React.createRef();\n&lt;ButtonElement ref={ref}&gt;{\"Forward Ref\"}&lt;/ButtonElement&gt;;\n</code></pre>",
+      "<p><strong><a href=\"#table-of-contents\">⬆ Back to Top</a></strong></p>"
+    ]
+  },
+  {
+    "id": "245eaa88-5173-4e37-ab58-8346d944903f",
+    "bookmarked": false,
+    "title": "Which is preferred option with in callback refs and findDOMNode()?",
+    "content": [
+      "<p>It is preferred to use <em>callback refs</em> over <code>findDOMNode()</code> API. Because <code>findDOMNode()</code> prevents certain improvements in React in the future.</p>",
+      "<p>The <strong>legacy</strong> approach of using <code>findDOMNode</code>:</p>",
+      "<pre><code class=\"language-javascript\">class MyComponent extends Component {\n  componentDidMount() {\n    findDOMNode(this).scrollIntoView();\n  }\n\n  render() {\n    return &lt;div /&gt;;\n  }\n}\n</code></pre>",
+      "<p>The recommended approach is:</p>",
+      "<pre><code class=\"language-javascript\">class MyComponent extends Component {\n  constructor(props) {\n    super(props);\n    this.node = createRef();\n  }\n  componentDidMount() {\n    this.node.current.scrollIntoView();\n  }\n\n  render() {\n    return &lt;div ref={this.node} /&gt;;\n  }\n}\n</code></pre>",
+      "<p><strong><a href=\"#table-of-contents\">⬆ Back to Top</a></strong></p>"
+    ]
+  },
+  {
+    "id": "fc8ff69c-f28e-47b4-a959-fa6b38081df4",
+    "bookmarked": false,
+    "title": "Why are String Refs legacy?",
+    "content": [
+      "<p>If you worked with React before, you might be familiar with an older API where the <code>ref</code> attribute is a string, like <code>ref={'textInput'}</code>, and the DOM node is accessed as <code>this.refs.textInput</code>. We advise against it because <em>string refs have below issues</em>, and are considered legacy. String refs were <strong>removed in React v16</strong>.</p>",
+      "<ol>\n<li>\n<p>They <em>force React to keep track of currently executing component</em>. This is problematic because it makes react module stateful, and thus causes weird errors when react module is duplicated in the bundle.</p>\n</li>\n<li>\n<p>They are <em>not composable</em> — if a library puts a ref on the passed child, the user can't put another ref on it. Callback refs are perfectly composable.</p>\n</li>\n<li>\n<p>They <em>don't work with static analysis</em> like Flow. Flow can't guess the magic that framework does to make the string ref appear on <code>this.refs</code>, as well as its type (which could be different). Callback refs are friendlier to static analysis.</p>\n</li>\n<li>\n<p>It doesn't work as most people would expect with the \"render callback\" pattern (e.g. )</p>\n<pre><code class=\"language-jsx\">class MyComponent extends Component {\n  renderRow = (index) =&gt; {\n    // This won't work. Ref will get attached to DataTable rather than MyComponent:\n    return &lt;input ref={\"input-\" + index} /&gt;;\n\n    // This would work though! Callback refs are awesome.\n    return &lt;input ref={(input) =&gt; (this[\"input-\" + index] = input)} /&gt;;\n  };\n\n  render() {\n    return (\n      &lt;DataTable data={this.props.data} renderRow={this.renderRow} /&gt;\n    );\n  }\n}\n</code></pre>\n</li>\n</ol>",
+      "<p><strong><a href=\"#table-of-contents\">⬆ Back to Top</a></strong></p>"
+    ]
+  },
+  {
+    "id": "861de738-b6a6-4efd-ade0-23fd09bab902",
+    "bookmarked": false,
+    "title": "What is Virtual DOM?",
+    "content": [
+      "<p>The <em>Virtual DOM</em> (VDOM) is an in-memory representation of <em>Real DOM</em>. The representation of a UI is kept in memory and synced with the \"real\" DOM. It's a step that happens between the render function being called and the displaying of elements on the screen. This entire process is called <em>reconciliation</em>.</p>",
+      "<p><strong><a href=\"#table-of-contents\">⬆ Back to Top</a></strong></p>"
+    ]
+  },
+  {
+    "id": "cabd4588-5e37-425d-9ed6-b75d93c0e2d4",
+    "bookmarked": false,
+    "title": "How Virtual DOM works?",
+    "content": [
+      "<p>The <em>Virtual DOM</em> works in three simple steps.</p>",
+      "<ol>\n<li>\n<p>Whenever any underlying data changes, the entire UI is re-rendered in Virtual DOM representation.</p>\n<p><img src=\"https://github.com/sudheerj/javascript-interview-questions/raw/master/images/vdom1.png\" alt=\"vdom\"></p>\n</li>\n<li>\n<p>Then the difference between the previous DOM representation and the new one is calculated.</p>\n<p><img src=\"https://github.com/sudheerj/javascript-interview-questions/raw/master/images/vdom2.png\" alt=\"vdom2\"></p>\n</li>\n<li>\n<p>Once the calculations are done, the real DOM will be updated with only the things that have actually changed.</p>\n<p><img src=\"https://github.com/sudheerj/javascript-interview-questions/raw/master/images/vdom3.png\" alt=\"vdom3\"></p>\n</li>\n</ol>",
+      "<p><strong><a href=\"#table-of-contents\">⬆ Back to Top</a></strong></p>"
+    ]
+  },
+  {
+    "id": "80e9b965-6802-48b9-b5b7-969c1b2e99f8",
+    "bookmarked": false,
+    "title": "What is the difference between Shadow DOM and Virtual DOM?",
+    "content": [
+      "<p>The <em>Shadow DOM</em> is a browser technology designed primarily for scoping variables and CSS in <em>web components</em>. The <em>Virtual DOM</em> is a concept implemented by libraries in JavaScript on top of browser APIs.</p>",
+      "<p><strong><a href=\"#table-of-contents\">⬆ Back to Top</a></strong></p>"
+    ]
+  },
+  {
+    "id": "406c0c01-d3af-4405-9adb-cf02baa56b6f",
+    "bookmarked": false,
+    "title": "What is React Fiber?",
+    "content": [
+      "<p>Fiber is the new <em>reconciliation</em> engine or reimplementation of core algorithm in React v16. The goal of React Fiber is to increase its suitability for areas like animation, layout, gestures, ability to pause, abort, or reuse work and assign priority to different types of updates; and new concurrency primitives.</p>",
+      "<p><strong><a href=\"#table-of-contents\">⬆ Back to Top</a></strong></p>"
+    ]
+  },
+  {
+    "id": "257ca47a-4ee8-4175-8e0c-78be1a1568f5",
+    "bookmarked": false,
+    "title": "What is the main goal of React Fiber?",
+    "content": [
+      "<p>The goal of <em>React Fiber</em> is to increase its suitability for areas like animation, layout, and gestures. Its headline feature is <strong>incremental rendering</strong>: the ability to split rendering work into chunks and spread it out over multiple frames.</p>",
+      "<p><em>from documentation</em></p>",
+      "<p>Its main goals are:</p>",
+      "<ol>\n<li>Ability to split interruptible work in chunks.</li>\n<li>Ability to prioritize, rebase and reuse work in progress.</li>\n<li>Ability to yield back and forth between parents and children to support layout in React.</li>\n<li>Ability to return multiple elements from render().</li>\n<li>Better support for error boundaries.</li>\n</ol>",
+      "<p><strong><a href=\"#table-of-contents\">⬆ Back to Top</a></strong></p>"
+    ]
+  },
+  {
+    "id": "c374b5ef-0e1d-4816-9d5c-def13e3ab014",
+    "bookmarked": false,
+    "title": "What are controlled components?",
+    "content": [
+      "<p>A component that controls the input elements within the forms on subsequent user input is called <strong>Controlled Component</strong>, i.e, every state mutation will have an associated handler function.</p>",
+      "<p>For example, to write all the names in uppercase letters, we use handleChange as below,</p>",
+      "<pre><code class=\"language-javascript\">handleChange(event) {\n  this.setState({value: event.target.value.toUpperCase()})\n}\n</code></pre>",
+      "<p><strong><a href=\"#table-of-contents\">⬆ Back to Top</a></strong></p>"
+    ]
+  },
+  {
+    "id": "d1a20f99-9564-4cbf-8277-25021ce4acc2",
+    "bookmarked": false,
+    "title": "What are uncontrolled components?",
+    "content": [
+      "<p>The <strong>Uncontrolled Components</strong> are the ones that store their own state internally, and you query the DOM using a ref to find its current value when you need it. This is a bit more like traditional HTML.</p>",
+      "<p>In the below UserProfile component, the <code>name</code> input is accessed using ref.</p>",
+      "<pre><code class=\"language-jsx\">class UserProfile extends React.Component {\n  constructor(props) {\n    super(props);\n    this.handleSubmit = this.handleSubmit.bind(this);\n    this.input = React.createRef();\n  }\n\n  handleSubmit(event) {\n    alert(\"A name was submitted: \" + this.input.current.value);\n    event.preventDefault();\n  }\n\n  render() {\n    return (\n      &lt;form onSubmit={this.handleSubmit}&gt;\n        &lt;label&gt;\n          {\"Name:\"}\n          &lt;input type=\"text\" ref={this.input} /&gt;\n        &lt;/label&gt;\n        &lt;input type=\"submit\" value=\"Submit\" /&gt;\n      &lt;/form&gt;\n    );\n  }\n}\n</code></pre>",
+      "<p>In most cases, it's recommend to use controlled components to implement forms. In a controlled component, form data is handled by a React component. The alternative is uncontrolled components, where form data is handled by the DOM itself.</p>",
+      "<p><strong><a href=\"#table-of-contents\">⬆ Back to Top</a></strong></p>"
+    ]
+  },
+  {
+    "id": "a3c2bc96-a4ae-47b5-9fd8-b68410ee6ba0",
+    "bookmarked": false,
+    "title": "What is the difference between createElement and cloneElement?",
+    "content": [
+      "<p>JSX elements will be transpiled to <code>React.createElement()</code> functions to create React elements which are going to be used for the object representation of UI. Whereas <code>cloneElement</code> is used to clone an element and pass it new props.</p>",
+      "<p><strong><a href=\"#table-of-contents\">⬆ Back to Top</a></strong></p>"
+    ]
+  },
+  {
+    "id": "df46a1f7-b1ca-4a50-a81e-0905f26b1ce4",
+    "bookmarked": false,
+    "title": "What is Lifting State Up in React?",
+    "content": [
+      "<p>When several components need to share the same changing data then it is recommended to <em>lift the shared state up</em> to their closest common ancestor. That means if two child components share the same data from its parent, then move the state to parent instead of maintaining local state in both of the child components.</p>",
+      "<p><strong><a href=\"#table-of-contents\">⬆ Back to Top</a></strong></p>"
+    ]
+  },
+  {
+    "id": "affd1c4b-788a-4fbe-9725-1c7970e871b5",
+    "bookmarked": false,
+    "title": "What are the different phases of component lifecycle?",
+    "content": [
+      "<p>The component lifecycle has three distinct lifecycle phases:</p>",
+      "<ol>\n<li>\n<p><strong>Mounting:</strong> The component is ready to mount in the browser DOM. This phase covers initialization from <code>constructor()</code>, <code>getDerivedStateFromProps()</code>, <code>render()</code>, and <code>componentDidMount()</code> lifecycle methods.</p>\n</li>\n<li>\n<p><strong>Updating:</strong> In this phase, the component gets updated in two ways, sending the new props and updating the state either from <code>setState()</code> or <code>forceUpdate()</code>. This phase covers <code>getDerivedStateFromProps()</code>, <code>shouldComponentUpdate()</code>, <code>render()</code>, <code>getSnapshotBeforeUpdate()</code> and <code>componentDidUpdate()</code> lifecycle methods.</p>\n</li>\n<li>\n<p><strong>Unmounting:</strong> In this last phase, the component is not needed and gets unmounted from the browser DOM. This phase includes <code>componentWillUnmount()</code> lifecycle method.</p>\n</li>\n</ol>",
+      "<p>It's worth mentioning that React internally has a concept of phases when applying changes to the DOM. They are separated as follows</p>",
+      "<ol>\n<li>\n<p><strong>Render</strong> The component will render without any side effects. This applies to Pure components and in this phase, React can pause, abort, or restart the render.</p>\n</li>\n<li>\n<p><strong>Pre-commit</strong> Before the component actually applies the changes to the DOM, there is a moment that allows React to read from the DOM through the <code>getSnapshotBeforeUpdate()</code>.</p>\n</li>\n<li>\n<p><strong>Commit</strong> React works with the DOM and executes the final lifecycles respectively <code>componentDidMount()</code> for mounting, <code>componentDidUpdate()</code> for updating, and <code>componentWillUnmount()</code> for unmounting.</p>\n</li>\n</ol>",
+      "<p>React 16.3+ Phases (or an <a href=\"http://projects.wojtekmaj.pl/react-lifecycle-methods-diagram/\">interactive version</a>)</p>",
+      "<p><img src=\"https://github.com/sudheerj/javascript-interview-questions/raw/master/images/phases16.4.png\" alt=\"phases 16.4+\"></p>",
+      "<p>Before React 16.3</p>",
+      "<p><img src=\"https://github.com/sudheerj/javascript-interview-questions/raw/master/images/phases.png\" alt=\"phases 16.2\"></p>",
+      "<p><strong><a href=\"#table-of-contents\">⬆ Back to Top</a></strong></p>"
+    ]
+  },
+  {
+    "id": "4192cb0e-f799-477e-980d-76286d550bb0",
+    "bookmarked": false,
+    "title": "What are the lifecycle methods of React?",
+    "content": [
+      "<p>Before React 16.3</p>",
+      "<ul>\n<li><strong>componentWillMount:</strong> Executed before rendering and is used for App level configuration in your root component.</li>\n<li><strong>componentDidMount:</strong> Executed after first rendering and here all AJAX requests, DOM or state updates, and set up event listeners should occur.</li>\n<li><strong>componentWillReceiveProps:</strong> Executed when particular prop updates to trigger state transitions.</li>\n<li><strong>shouldComponentUpdate:</strong> Determines if the component will be updated or not. By default it returns <code>true</code>. If you are sure that the component doesn't need to render after state or props are updated, you can return false value. It is a great place to improve performance as it allows you to prevent a re-render if component receives new prop.</li>\n<li><strong>componentWillUpdate:</strong> Executed before re-rendering the component when there are props &amp; state changes confirmed by <code>shouldComponentUpdate()</code> which returns true.</li>\n<li><strong>componentDidUpdate:</strong> Mostly it is used to update the DOM in response to prop or state changes.</li>\n<li><strong>componentWillUnmount:</strong> It will be used to cancel any outgoing network requests, or remove all event listeners associated with the component.</li>\n</ul>",
+      "<p>React 16.3+</p>",
+      "<ul>\n<li><strong>getDerivedStateFromProps:</strong> Invoked right before calling <code>render()</code> and is invoked on <em>every</em> render. This exists for rare use cases where you need a derived state. Worth reading <a href=\"https://reactjs.org/blog/2018/06/07/you-probably-dont-need-derived-state.html\">if you need derived state</a>.</li>\n<li><strong>componentDidMount:</strong> Executed after first rendering and where all AJAX requests, DOM or state updates, and set up event listeners should occur.</li>\n<li><strong>shouldComponentUpdate:</strong> Determines if the component will be updated or not. By default, it returns <code>true</code>. If you are sure that the component doesn't need to render after the state or props are updated, you can return a false value. It is a great place to improve performance as it allows you to prevent a re-render if component receives a new prop.</li>\n<li><strong>getSnapshotBeforeUpdate:</strong> Executed right before rendered output is committed to the DOM. Any value returned by this will be passed into <code>componentDidUpdate()</code>. This is useful to capture information from the DOM i.e. scroll position.</li>\n<li><strong>componentDidUpdate:</strong> Mostly it is used to update the DOM in response to prop or state changes. This will not fire if <code>shouldComponentUpdate()</code> returns <code>false</code>.</li>\n<li><strong>componentWillUnmount</strong> It will be used to cancel any outgoing network requests, or remove all event listeners associated with the component.</li>\n</ul>",
+      "<p><strong><a href=\"#table-of-contents\">⬆ Back to Top</a></strong></p>"
+    ]
+  },
+  {
+    "id": "9d3365f9-2a56-42c3-a352-d6e9f6f0574f",
+    "bookmarked": false,
+    "title": "What are Higher-Order Components?",
+    "content": [
+      "<p>A <em>higher-order component</em> (<em>HOC</em>) is a function that takes a component and returns a new component. Basically, it's a pattern that is derived from React's compositional nature.</p>",
+      "<p>We call them <strong>pure components</strong> because they can accept any dynamically provided child component but they won't modify or copy any behavior from their input components.</p>",
+      "<pre><code class=\"language-javascript\">const EnhancedComponent = higherOrderComponent(WrappedComponent);\n</code></pre>",
+      "<p>HOC can be used for many use cases:</p>",
+      "<ol>\n<li>Code reuse, logic and bootstrap abstraction.</li>\n<li>Render hijacking.</li>\n<li>State abstraction and manipulation.</li>\n<li>Props manipulation.</li>\n</ol>",
+      "<p><strong><a href=\"#table-of-contents\">⬆ Back to Top</a></strong></p>"
+    ]
+  },
+  {
+    "id": "f89da2f0-5088-4d72-9285-6c887ac09062",
+    "bookmarked": false,
+    "title": "How to create props proxy for HOC component?",
+    "content": [
+      "<p>You can add/edit props passed to the component using <em>props proxy</em> pattern like this:</p>",
+      "<pre><code class=\"language-jsx\">function HOC(WrappedComponent) {\n  return class Test extends Component {\n    render() {\n      const newProps = {\n        title: \"New Header\",\n        footer: false,\n        showFeatureX: false,\n        showFeatureY: true,\n      };\n\n      return &lt;WrappedComponent {...this.props} {...newProps} /&gt;;\n    }\n  };\n}\n</code></pre>",
+      "<p><strong><a href=\"#table-of-contents\">⬆ Back to Top</a></strong></p>"
+    ]
+  },
+  {
+    "id": "8c3e69e1-f907-467c-8fb7-0a06c1d6dca2",
+    "bookmarked": false,
+    "title": "What is context?",
+    "content": [
+      "<p><em>Context</em> provides a way to pass data through the component tree without having to pass props down manually at every level.</p>",
+      "<p>For example, authenticated users, locale preferences, UI themes need to be accessed in the application by many components.</p>",
+      "<pre><code class=\"language-javascript\">const { Provider, Consumer } = React.createContext(defaultValue);\n</code></pre>",
+      "<p><strong><a href=\"#table-of-contents\">⬆ Back to Top</a></strong></p>"
+    ]
+  },
+  {
+    "id": "6e39ba66-21ec-449e-9679-dbe157b9b281",
+    "bookmarked": false,
+    "title": "What is children prop?",
+    "content": [
+      "<p><em>Children</em> is a prop (<code>this.props.children</code>) that allows you to pass components as data to other components, just like any other prop you use. Component tree put between component's opening and closing tag will be passed to that component as <code>children</code> prop.</p>",
+      "<p>There are several methods available in the React API to work with this prop. These include <code>React.Children.map</code>, <code>React.Children.forEach</code>, <code>React.Children.count</code>, <code>React.Children.only</code>, <code>React.Children.toArray</code>.</p>",
+      "<p>A simple usage of children prop looks as below,</p>",
+      "<pre><code class=\"language-jsx\">const MyDiv = React.createClass({\n  render: function () {\n    return &lt;div&gt;{this.props.children}&lt;/div&gt;;\n  },\n});\n\nReactDOM.render(\n  &lt;MyDiv&gt;\n    &lt;span&gt;{\"Hello\"}&lt;/span&gt;\n    &lt;span&gt;{\"World\"}&lt;/span&gt;\n  &lt;/MyDiv&gt;,\n  node\n);\n</code></pre>",
+      "<p><strong><a href=\"#table-of-contents\">⬆ Back to Top</a></strong></p>"
+    ]
+  },
+  {
+    "id": "cfa0a595-4cd7-44c2-ad58-b290e0d75f13",
+    "bookmarked": false,
+    "title": "How to write comments in React?",
+    "content": [
+      "<p>The comments in React/JSX are similar to JavaScript Multiline comments but are wrapped in curly braces.</p>",
+      "<p><strong>Single-line comments:</strong></p>",
+      "<pre><code class=\"language-jsx\">&lt;div&gt;\n  {/* Single-line comments(In vanilla JavaScript, the single-line comments are represented by double slash(//)) */}\n  {`Welcome ${user}, let's play React`}\n&lt;/div&gt;\n</code></pre>",
+      "<p><strong>Multi-line comments:</strong></p>",
+      "<pre><code class=\"language-jsx\">&lt;div&gt;\n  {/* Multi-line comments for more than\n   one line */}\n  {`Welcome ${user}, let's play React`}\n&lt;/div&gt;\n</code></pre>",
+      "<p><strong><a href=\"#table-of-contents\">⬆ Back to Top</a></strong></p>"
+    ]
+  },
+  {
+    "id": "f0db64bc-3098-4640-bff8-82d50ad9e3d2",
+    "bookmarked": false,
+    "title": "What is the purpose of using super constructor with props argument?",
+    "content": [
+      "<p>A child class constructor cannot make use of <code>this</code> reference until the <code>super()</code> method has been called. The same applies to ES6 sub-classes as well. The main reason for passing props parameter to <code>super()</code> call is to access <code>this.props</code> in your child constructors.</p>",
+      "<p><strong>Passing props:</strong></p>",
+      "<pre><code class=\"language-javascript\">class MyComponent extends React.Component {\n  constructor(props) {\n    super(props);\n\n    console.log(this.props); // prints { name: 'John', age: 42 }\n  }\n}\n</code></pre>",
+      "<p><strong>Not passing props:</strong></p>",
+      "<pre><code class=\"language-javascript\">class MyComponent extends React.Component {\n  constructor(props) {\n    super();\n\n    console.log(this.props); // prints undefined\n\n    // but props parameter is still available\n    console.log(props); // prints { name: 'John', age: 42 }\n  }\n\n  render() {\n    // no difference outside constructor\n    console.log(this.props); // prints { name: 'John', age: 42 }\n  }\n}\n</code></pre>",
+      "<p>The above code snippets reveals that <code>this.props</code> is different only within the constructor. It would be the same outside the constructor.</p>",
+      "<p><strong><a href=\"#table-of-contents\">⬆ Back to Top</a></strong></p>"
+    ]
+  },
+  {
+    "id": "d2a5f30a-8d83-439f-8905-fbd36a3d0123",
+    "bookmarked": false,
+    "title": "What is reconciliation?",
+    "content": [
+      "<p>When a component's props or state change, React decides whether an actual DOM update is necessary by comparing the newly returned element with the previously rendered one. When they are not equal, React will update the DOM. This process is called <em>reconciliation</em>.</p>",
+      "<p><strong><a href=\"#table-of-contents\">⬆ Back to Top</a></strong></p>"
+    ]
+  },
+  {
+    "id": "b62bfbca-db41-4655-aaed-e111ba3f495c",
+    "bookmarked": false,
+    "title": "How to set state with a dynamic key name?",
+    "content": [
+      "<p>If you are using ES6 or the Babel transpiler to transform your JSX code then you can accomplish this with <em>computed property names</em>.</p>",
+      "<pre><code class=\"language-javascript\">handleInputChange(event) {\n  this.setState({ [event.target.id]: event.target.value })\n}\n</code></pre>",
+      "<p><strong><a href=\"#table-of-contents\">⬆ Back to Top</a></strong></p>"
+    ]
+  },
+  {
+    "id": "c96f7a9c-c4e5-49ba-aed0-8c3f08b806ef",
+    "bookmarked": false,
+    "title": "What would be the common mistake of function being called every time the component renders?",
+    "content": [
+      "<p>You need to make sure that function is not being called while passing the function as a parameter.</p>",
+      "<pre><code class=\"language-jsx\">render() {\n  // Wrong: handleClick is called instead of passed as a reference!\n  return &lt;button onClick={this.handleClick()}&gt;{'Click Me'}&lt;/button&gt;\n}\n</code></pre>",
+      "<p>Instead, pass the function itself without parenthesis:</p>",
+      "<pre><code class=\"language-jsx\">render() {\n  // Correct: handleClick is passed as a reference!\n  return &lt;button onClick={this.handleClick}&gt;{'Click Me'}&lt;/button&gt;\n}\n</code></pre>",
+      "<p><strong><a href=\"#table-of-contents\">⬆ Back to Top</a></strong></p>"
+    ]
+  },
+  {
+    "id": "807cc674-9769-4038-8cd8-2a6da6a835cf",
+    "bookmarked": false,
+    "title": "Is lazy function supports named exports?",
+    "content": [
+      "<p>No, currently <code>React.lazy</code> function supports default exports only. If you would like to import modules which are named exports, you can create an intermediate module that reexports it as the default. It also ensures that tree shaking keeps working and don’t pull unused components.\nLet's take a component file which exports multiple named components,</p>",
+      "<pre><code class=\"language-javascript\">// MoreComponents.js\nexport const SomeComponent = /* ... */;\nexport const UnusedComponent = /* ... */;\n</code></pre>",
+      "<p>and reexport <code>MoreComponents.js</code> components in an intermediate file <code>IntermediateComponent.js</code></p>",
+      "<pre><code class=\"language-javascript\">// IntermediateComponent.js\nexport { SomeComponent as default } from \"./MoreComponents.js\";\n</code></pre>",
+      "<p>Now you can import the module using lazy function as below,</p>",
+      "<pre><code class=\"language-javascript\">import React, { lazy } from \"react\";\nconst SomeComponent = lazy(() =&gt; import(\"./IntermediateComponent.js\"));\n</code></pre>",
+      "<p><strong><a href=\"#table-of-contents\">⬆ Back to Top</a></strong></p>"
+    ]
+  },
+  {
+    "id": "0a179d59-984b-4068-941c-19c59c81eb6e",
+    "bookmarked": false,
+    "title": "Why React uses className over class attribute?",
+    "content": [
+      "<p><code>class</code> is a keyword in JavaScript, and JSX is an extension of JavaScript. That's the principal reason why React uses <code>className</code> instead of <code>class</code>. Pass a string as the <code>className</code> prop.</p>",
+      "<pre><code class=\"language-jsx\">render() {\n  return &lt;span className={'menu navigation-menu'}&gt;{'Menu'}&lt;/span&gt;\n}\n</code></pre>",
+      "<p><strong><a href=\"#table-of-contents\">⬆ Back to Top</a></strong></p>"
+    ]
+  },
+  {
+    "id": "da3b307a-3bd9-4014-9773-798cd7d71ea2",
+    "bookmarked": false,
+    "title": "What are fragments?",
+    "content": [
+      "<p>It's a common pattern in React which is used for a component to return multiple elements. <em>Fragments</em> let you group a list of children without adding extra nodes to the DOM.</p>",
+      "<pre><code class=\"language-jsx\">render() {\n  return (\n    &lt;React.Fragment&gt;\n      &lt;ChildA /&gt;\n      &lt;ChildB /&gt;\n      &lt;ChildC /&gt;\n    &lt;/React.Fragment&gt;\n  )\n}\n</code></pre>",
+      "<p>There is also a <em>shorter syntax</em>, but it's not supported in many tools:</p>",
+      "<pre><code class=\"language-jsx\">render() {\n  return (\n    &lt;&gt;\n      &lt;ChildA /&gt;\n      &lt;ChildB /&gt;\n      &lt;ChildC /&gt;\n    &lt;/&gt;\n  )\n}\n</code></pre>",
+      "<p><strong><a href=\"#table-of-contents\">⬆ Back to Top</a></strong></p>"
+    ]
+  },
+  {
+    "id": "0a372501-a296-4059-b6ca-63125add60b3",
+    "bookmarked": false,
+    "title": "Why fragments are better than container divs?",
+    "content": [
+      "<p>Below are the list of reasons,</p>",
+      "<ol>\n<li>Fragments are a bit faster and use less memory by not creating an extra DOM node. This only has a real benefit on very large and deep trees.</li>\n<li>Some CSS mechanisms like <em>Flexbox</em> and <em>CSS Grid</em> have a special parent-child relationships, and adding divs in the middle makes it hard to keep the desired layout.</li>\n<li>The DOM Inspector is less cluttered.</li>\n</ol>",
+      "<p><strong><a href=\"#table-of-contents\">⬆ Back to Top</a></strong></p>"
+    ]
+  },
+  {
+    "id": "e9e3c3a0-ac17-4800-ad3a-5bf7187d8dd1",
+    "bookmarked": false,
+    "title": "What are portals in React?",
+    "content": [
+      "<p><em>Portal</em> is a recommended way to render children into a DOM node that exists outside the DOM hierarchy of the parent component.</p>",
+      "<pre><code class=\"language-javascript\">ReactDOM.createPortal(child, container);\n</code></pre>",
+      "<p>The first argument is any render-able React child, such as an element, string, or fragment. The second argument is a DOM element.</p>",
+      "<p><strong><a href=\"#table-of-contents\">⬆ Back to Top</a></strong></p>"
+    ]
+  },
+  {
+    "id": "2d941eec-bb2b-4389-aba2-2be38b3a96ff",
+    "bookmarked": false,
+    "title": "What are stateless components?",
+    "content": [
+      "<p>If the behaviour is independent of its state then it can be a stateless component. You can use either a function or a class for creating stateless components. But unless you need to use a lifecycle hook in your components, you should go for function components. There are a lot of benefits if you decide to use function components here; they are easy to write, understand, and test, a little faster, and you can avoid the <code>this</code> keyword altogether.</p>",
+      "<p><strong><a href=\"#table-of-contents\">⬆ Back to Top</a></strong></p>"
+    ]
+  },
+  {
+    "id": "750d2438-e052-4037-95b4-35cb2737b464",
+    "bookmarked": false,
+    "title": "What are stateful components?",
+    "content": [
+      "<p>If the behaviour of a component is dependent on the <em>state</em> of the component then it can be termed as stateful component. These <em>stateful components</em> are always <em>class components</em> and have a state that gets initialized in the <code>constructor</code>.</p>",
+      "<pre><code class=\"language-javascript\">class App extends Component {\n  constructor(props) {\n    super(props);\n    this.state = { count: 0 };\n  }\n\n  render() {\n    // ...\n  }\n}\n</code></pre>",
+      "<p><strong>React 16.8 Update:</strong></p>",
+      "<p>Hooks let you use state and other React features without writing classes.</p>",
+      "<p><em>The Equivalent Functional Component</em></p>",
+      "<pre><code>```javascript\n import React, {useState} from 'react';\n\n const App = (props) =&gt; {\n   const [count, setCount] = useState(0);\n\n   return (\n     // JSX\n   )\n }\n```\n</code></pre>",
+      "<p><strong><a href=\"#table-of-contents\">⬆ Back to Top</a></strong></p>"
+    ]
+  },
+  {
+    "id": "76703663-f3eb-416e-86f1-9f3a0ca83890",
+    "bookmarked": false,
+    "title": "How to apply validation on props in React?",
+    "content": [
+      "<p>When the application is running in <em>development mode</em>, React will automatically check all props that we set on components to make sure they have <em>correct type</em>. If the type is incorrect, React will generate warning messages in the console. It's disabled in <em>production mode</em> due to performance impact. The mandatory props are defined with <code>isRequired</code>.</p>",
+      "<p>The set of predefined prop types:</p>",
+      "<ol>\n<li><code>PropTypes.number</code></li>\n<li><code>PropTypes.string</code></li>\n<li><code>PropTypes.array</code></li>\n<li><code>PropTypes.object</code></li>\n<li><code>PropTypes.func</code></li>\n<li><code>PropTypes.node</code></li>\n<li><code>PropTypes.element</code></li>\n<li><code>PropTypes.bool</code></li>\n<li><code>PropTypes.symbol</code></li>\n<li><code>PropTypes.any</code></li>\n</ol>",
+      "<p>We can define <code>propTypes</code> for <code>User</code> component as below:</p>",
+      "<pre><code class=\"language-jsx\">import React from \"react\";\nimport PropTypes from \"prop-types\";\n\nclass User extends React.Component {\n  static propTypes = {\n    name: PropTypes.string.isRequired,\n    age: PropTypes.number.isRequired,\n  };\n\n  render() {\n    return (\n      &lt;&gt;\n        &lt;h1&gt;{`Welcome, ${this.props.name}`}&lt;/h1&gt;\n        &lt;h2&gt;{`Age, ${this.props.age}`}&lt;/h2&gt;\n      &lt;/&gt;\n    );\n  }\n}\n</code></pre>",
+      "<p><strong>Note:</strong> In React v15.5 <em>PropTypes</em> were moved from <code>React.PropTypes</code> to <code>prop-types</code> library.</p>",
+      "<p><em>The Equivalent Functional Component</em></p>",
+      "<pre><code class=\"language-jsx\">import React from \"react\";\nimport PropTypes from \"prop-types\";\n\nfunction User({ name, age }) {\n  return (\n    &lt;&gt;\n      &lt;h1&gt;{`Welcome, ${name}`}&lt;/h1&gt;\n      &lt;h2&gt;{`Age, ${age}`}&lt;/h2&gt;\n    &lt;/&gt;\n  );\n}\n\nUser.propTypes = {\n  name: PropTypes.string.isRequired,\n  age: PropTypes.number.isRequired,\n};\n</code></pre>",
+      "<p><strong><a href=\"#table-of-contents\">⬆ Back to Top</a></strong></p>"
+    ]
+  },
+  {
+    "id": "4820b2c9-cacc-4aef-be29-2876c21f6b09",
+    "bookmarked": false,
+    "title": "What are the advantages of React?",
+    "content": [
+      "<p>Below are the list of main advantages of React,</p>",
+      "<ol>\n<li>Increases the application's performance with <em>Virtual DOM</em>.</li>\n<li>JSX makes code easy to read and write.</li>\n<li>It renders both on client and server side (<em>SSR</em>).</li>\n<li>Easy to integrate with frameworks (Angular, Backbone) since it is only a view library.</li>\n<li>Easy to write unit and integration tests with tools such as Jest.</li>\n</ol>",
+      "<p><strong><a href=\"#table-of-contents\">⬆ Back to Top</a></strong></p>"
+    ]
+  },
+  {
+    "id": "cc5000eb-d186-44f5-a4db-5c746c1f4e1e",
+    "bookmarked": false,
+    "title": "What are the limitations of React?",
+    "content": [
+      "<p>Apart from the advantages, there are few limitations of React too,</p>",
+      "<ol>\n<li>React is just a view library, not a full framework.</li>\n<li>There is a learning curve for beginners who are new to web development.</li>\n<li>Integrating React into a traditional MVC framework requires some additional configuration.</li>\n<li>The code complexity increases with inline templating and JSX.</li>\n<li>Too many smaller components leading to over engineering or boilerplate.</li>\n</ol>",
+      "<p><strong><a href=\"#table-of-contents\">⬆ Back to Top</a></strong></p>"
+    ]
+  },
+  {
+    "id": "3fb074b0-dae3-4218-b882-3ad9bd9e4821",
+    "bookmarked": false,
+    "title": "What are error boundaries in React v16?",
+    "content": [
+      "<p><em>Error boundaries</em> are components that catch JavaScript errors anywhere in their child component tree, log those errors, and display a fallback UI instead of the component tree that crashed.</p>",
+      "<p>A class component becomes an error boundary if it defines a new lifecycle method called <code>componentDidCatch(error, info)</code> or <code>static getDerivedStateFromError() </code>:</p>",
+      "<pre><code class=\"language-jsx\">class ErrorBoundary extends React.Component {\n  constructor(props) {\n    super(props);\n    this.state = { hasError: false };\n  }\n\n  componentDidCatch(error, info) {\n    // You can also log the error to an error reporting service\n    logErrorToMyService(error, info);\n  }\n\n  static getDerivedStateFromError(error) {\n    // Update state so the next render will show the fallback UI.\n    return { hasError: true };\n  }\n\n  render() {\n    if (this.state.hasError) {\n      // You can render any custom fallback UI\n      return &lt;h1&gt;{\"Something went wrong.\"}&lt;/h1&gt;;\n    }\n    return this.props.children;\n  }\n}\n</code></pre>",
+      "<p>After that use it as a regular component:</p>",
+      "<pre><code class=\"language-jsx\">&lt;ErrorBoundary&gt;\n  &lt;MyWidget /&gt;\n&lt;/ErrorBoundary&gt;\n</code></pre>",
+      "<p><strong><a href=\"#table-of-contents\">⬆ Back to Top</a></strong></p>"
+    ]
+  },
+  {
+    "id": "95a10434-fa95-47ae-870a-4fa56efcd536",
+    "bookmarked": false,
+    "title": "How error boundaries handled in React v15?",
+    "content": [
+      "<p>React v15 provided very basic support for <em>error boundaries</em> using <code>unstable_handleError</code> method. It has been renamed to <code>componentDidCatch</code> in React v16.</p>",
+      "<p><strong><a href=\"#table-of-contents\">⬆ Back to Top</a></strong></p>"
+    ]
+  },
+  {
+    "id": "e973e442-02a3-4abb-b08b-d7c50406be52",
+    "bookmarked": false,
+    "title": "What are the recommended ways for static type checking?",
+    "content": [
+      "<p>Normally we use <em>PropTypes library</em> (<code>React.PropTypes</code> moved to a <code>prop-types</code> package since React v15.5) for <em>type checking</em> in the React applications. For large code bases, it is recommended to use <em>static type checkers</em> such as Flow or TypeScript, that perform type checking at compile time and provide auto-completion features.</p>",
+      "<p><strong><a href=\"#table-of-contents\">⬆ Back to Top</a></strong></p>"
+    ]
+  },
+  {
+    "id": "b5acfb15-66c5-46f5-a4de-b72f98781de1",
+    "bookmarked": false,
+    "title": "What is the use of react-dom package?",
+    "content": [
+      "<p>The <code>react-dom</code> package provides <em>DOM-specific methods</em> that can be used at the top level of your app. Most of the components are not required to use this module. Some of the methods of this package are:</p>",
+      "<ol>\n<li><code>render()</code></li>\n<li><code>hydrate()</code></li>\n<li><code>unmountComponentAtNode()</code></li>\n<li><code>findDOMNode()</code></li>\n<li><code>createPortal()</code></li>\n</ol>",
+      "<p><strong><a href=\"#table-of-contents\">⬆ Back to Top</a></strong></p>"
+    ]
+  },
+  {
+    "id": "335550b6-fb92-4045-828e-0f360d0f680a",
+    "bookmarked": false,
+    "title": "What is the purpose of render method of react-dom?",
+    "content": [
+      "<p>This method is used to render a React element into the DOM in the supplied container and return a reference to the component. If the React element was previously rendered into container, it will perform an update on it and only mutate the DOM as necessary to reflect the latest changes.</p>",
+      "<pre><code>ReactDOM.render(element, container[, callback])\n</code></pre>",
+      "<p>If the optional callback is provided, it will be executed after the component is rendered or updated.</p>",
+      "<p><strong><a href=\"#table-of-contents\">⬆ Back to Top</a></strong></p>"
+    ]
+  },
+  {
+    "id": "a49d33f5-0276-4ca4-892b-93edd8c6ca96",
+    "bookmarked": false,
+    "title": "What is ReactDOMServer?",
+    "content": [
+      "<p>The <code>ReactDOMServer</code> object enables you to render components to static markup (typically used on node server). This object is mainly used for <em>server-side rendering</em> (SSR). The following methods can be used in both the server and browser environments:</p>",
+      "<ol>\n<li><code>renderToString()</code></li>\n<li><code>renderToStaticMarkup()</code></li>\n</ol>",
+      "<p>For example, you generally run a Node-based web server like Express, Hapi, or Koa, and you call <code>renderToString</code> to render your root component to a string, which you then send as response.</p>",
+      "<pre><code class=\"language-javascript\">// using Express\nimport { renderToString } from \"react-dom/server\";\nimport MyPage from \"./MyPage\";\n\napp.get(\"/\", (req, res) =&gt; {\n  res.write(\n    \"&lt;!DOCTYPE html&gt;&lt;html&gt;&lt;head&gt;&lt;title&gt;My Page&lt;/title&gt;&lt;/head&gt;&lt;body&gt;\"\n  );\n  res.write('&lt;div id=\"content\"&gt;');\n  res.write(renderToString(&lt;MyPage /&gt;));\n  res.write(\"&lt;/div&gt;&lt;/body&gt;&lt;/html&gt;\");\n  res.end();\n});\n</code></pre>",
+      "<p><strong><a href=\"#table-of-contents\">⬆ Back to Top</a></strong></p>"
+    ]
+  },
+  {
+    "id": "13ba5b87-c7d5-44f3-ae2b-39c90a051a98",
+    "bookmarked": false,
+    "title": "How to use innerHTML in React?",
+    "content": [
+      "<p>The <code>dangerouslySetInnerHTML</code> attribute is React's replacement for using <code>innerHTML</code> in the browser DOM. Just like <code>innerHTML</code>, it is risky to use this attribute considering cross-site scripting (XSS) attacks. You just need to pass a <code>__html</code> object as key and HTML text as value.</p>",
+      "<p>In this example MyComponent uses <code>dangerouslySetInnerHTML</code> attribute for setting HTML markup:</p>",
+      "<pre><code class=\"language-jsx\">function createMarkup() {\n  return { __html: \"First &amp;middot; Second\" };\n}\n\nfunction MyComponent() {\n  return &lt;div dangerouslySetInnerHTML={createMarkup()} /&gt;;\n}\n</code></pre>",
+      "<p><strong><a href=\"#table-of-contents\">⬆ Back to Top</a></strong></p>"
+    ]
+  },
+  {
+    "id": "b691bd51-4e62-41a7-8e43-2f0723f7cd9b",
+    "bookmarked": false,
+    "title": "How to use styles in React?",
+    "content": [
+      "<p>The <code>style</code> attribute accepts a JavaScript object with camelCased properties rather than a CSS string. This is consistent with the DOM style JavaScript property, is more efficient, and prevents XSS security holes.</p>",
+      "<pre><code class=\"language-jsx\">const divStyle = {\n  color: \"blue\",\n  backgroundImage: \"url(\" + imgUrl + \")\",\n};\n\nfunction HelloWorldComponent() {\n  return &lt;div style={divStyle}&gt;Hello World!&lt;/div&gt;;\n}\n</code></pre>",
+      "<p>Style keys are camelCased in order to be consistent with accessing the properties on DOM nodes in JavaScript (e.g. <code>node.style.backgroundImage</code>).</p>",
+      "<p><strong><a href=\"#table-of-contents\">⬆ Back to Top</a></strong></p>"
+    ]
+  },
+  {
+    "id": "eab17906-411b-4d20-8647-bdb06b859b63",
+    "bookmarked": false,
+    "title": "How events are different in React?",
+    "content": [
+      "<p>Handling events in React elements has some syntactic differences:</p>",
+      "<ol>\n<li>React event handlers are named using camelCase, rather than lowercase.</li>\n<li>With JSX you pass a function as the event handler, rather than a string.</li>\n</ol>",
+      "<p><strong><a href=\"#table-of-contents\">⬆ Back to Top</a></strong></p>"
+    ]
+  },
+  {
+    "id": "88b76696-07c5-4af6-a4f2-9fcf0c16e751",
+    "bookmarked": false,
+    "title": "What will happen if you use setState() in constructor?",
+    "content": [
+      "<p>When you use <code>setState()</code>, then apart from assigning to the object state React also re-renders the component and all its children. You would get error like this: <em>Can only update a mounted or mounting component.</em> So we need to use <code>this.state</code> to initialize variables inside constructor.</p>",
+      "<p><strong><a href=\"#table-of-contents\">⬆ Back to Top</a></strong></p>"
+    ]
+  },
+  {
+    "id": "b79f280f-702d-411c-957b-91e80e2c1259",
+    "bookmarked": false,
+    "title": "What is the impact of indexes as keys?",
+    "content": [
+      "<p>Keys should be stable, predictable, and unique so that React can keep track of elements.</p>",
+      "<p>In the below code snippet each element's key will be based on ordering, rather than tied to the data that is being represented. This limits the optimizations that React can do.</p>",
+      "<pre><code class=\"language-jsx\">{\n  todos.map((todo, index) =&gt; &lt;Todo {...todo} key={index} /&gt;);\n}\n</code></pre>",
+      "<p>If you use element data for unique key, assuming todo.id is unique to this list and stable, React would be able to reorder elements without needing to reevaluate them as much.</p>",
+      "<pre><code class=\"language-jsx\">{\n  todos.map((todo) =&gt; &lt;Todo {...todo} key={todo.id} /&gt;);\n}\n</code></pre>",
+      "<p><strong><a href=\"#table-of-contents\">⬆ Back to Top</a></strong></p>"
+    ]
+  },
+  {
+    "id": "0a817361-7f14-43de-896d-c218ce68f6b3",
+    "bookmarked": false,
+    "title": "Is it good to use setState() in componentWillMount() method?",
+    "content": [
+      "<p>Yes, it is safe to use <code>setState()</code> inside <code>componentWillMount()</code> method. But at the same it is recommended to avoid async initialization in <code>componentWillMount()</code> lifecycle method. <code>componentWillMount()</code> is invoked immediately before mounting occurs. It is called before <code>render()</code>, therefore setting state in this method will not trigger a re-render. Avoid introducing any side-effects or subscriptions in this method. We need to make sure async calls for component initialization happened in <code>componentDidMount()</code> instead of <code>componentWillMount()</code>.</p>",
+      "<pre><code class=\"language-jsx\">componentDidMount() {\n  axios.get(`api/todos`)\n    .then((result) =&gt; {\n      this.setState({\n        messages: [...result.data]\n      })\n    })\n}\n</code></pre>",
+      "<p><strong><a href=\"#table-of-contents\">⬆ Back to Top</a></strong></p>"
+    ]
+  },
+  {
+    "id": "db6132b6-d051-4ba0-ab29-7f57a8265afc",
+    "bookmarked": false,
+    "title": "What will happen if you use props in initial state?",
+    "content": [
+      "<p>If the props on the component are changed without the component being refreshed, the new prop value will never be displayed because the constructor function will never update the current state of the component. The initialization of state from props only runs when the component is first created.</p>",
+      "<p>The below component won't display the updated input value:</p>",
+      "<pre><code class=\"language-jsx\">class MyComponent extends React.Component {\n  constructor(props) {\n    super(props);\n\n    this.state = {\n      records: [],\n      inputValue: this.props.inputValue,\n    };\n  }\n\n  render() {\n    return &lt;div&gt;{this.state.inputValue}&lt;/div&gt;;\n  }\n}\n</code></pre>",
+      "<p>Using props inside render method will update the value:</p>",
+      "<pre><code class=\"language-jsx\">class MyComponent extends React.Component {\n  constructor(props) {\n    super(props);\n\n    this.state = {\n      record: [],\n    };\n  }\n\n  render() {\n    return &lt;div&gt;{this.props.inputValue}&lt;/div&gt;;\n  }\n}\n</code></pre>",
+      "<p><strong><a href=\"#table-of-contents\">⬆ Back to Top</a></strong></p>"
+    ]
+  },
+  {
+    "id": "43b9f58c-85ab-4c5e-8667-1ff8db6afe18",
+    "bookmarked": false,
+    "title": "How do you conditionally render components?",
+    "content": [
+      "<p>In some cases you want to render different components depending on some state. JSX does not render <code>false</code> or <code>undefined</code>, so you can use conditional <em>short-circuiting</em> to render a given part of your component only if a certain condition is true.</p>",
+      "<pre><code class=\"language-jsx\">const MyComponent = ({ name, address }) =&gt; (\n  &lt;div&gt;\n    &lt;h2&gt;{name}&lt;/h2&gt;\n    {address &amp;&amp; &lt;p&gt;{address}&lt;/p&gt;}\n  &lt;/div&gt;\n);\n</code></pre>",
+      "<p>If you need an <code>if-else</code> condition then use <em>ternary operator</em>.</p>",
+      "<pre><code class=\"language-jsx\">const MyComponent = ({ name, address }) =&gt; (\n  &lt;div&gt;\n    &lt;h2&gt;{name}&lt;/h2&gt;\n    {address ? &lt;p&gt;{address}&lt;/p&gt; : &lt;p&gt;{\"Address is not available\"}&lt;/p&gt;}\n  &lt;/div&gt;\n);\n</code></pre>",
+      "<p><strong><a href=\"#table-of-contents\">⬆ Back to Top</a></strong></p>"
+    ]
+  },
+  {
+    "id": "11f64e7c-792f-468d-bc85-4bf8c87c7ac4",
+    "bookmarked": false,
+    "title": "Why we need to be careful when spreading props on DOM elements?",
+    "content": [
+      "<p>When we <em>spread props</em> we run into the risk of adding unknown HTML attributes, which is a bad practice. Instead we can use prop destructuring with <code>...rest</code> operator, so it will add only required props.</p>",
+      "<p>For example,</p>",
+      "<pre><code class=\"language-jsx\">const ComponentA = () =&gt; (\n  &lt;ComponentB isDisplay={true} className={\"componentStyle\"} /&gt;\n);\n\nconst ComponentB = ({ isDisplay, ...domProps }) =&gt; (\n  &lt;div {...domProps}&gt;{\"ComponentB\"}&lt;/div&gt;\n);\n</code></pre>",
+      "<p><strong><a href=\"#table-of-contents\">⬆ Back to Top</a></strong></p>"
+    ]
+  },
+  {
+    "id": "e810e22a-e57e-48c1-8921-8dc995ce3cfc",
+    "bookmarked": false,
+    "title": "How you use decorators in React?",
+    "content": [
+      "<p>You can <em>decorate</em> your <em>class</em> components, which is the same as passing the component into a function. <strong>Decorators</strong> are flexible and readable way of modifying component functionality.</p>",
+      "<pre><code class=\"language-jsx\">@setTitle(\"Profile\")\nclass Profile extends React.Component {\n  //....\n}\n\n/*\n  title is a string that will be set as a document title\n  WrappedComponent is what our decorator will receive when\n  put directly above a component class as seen in the example above\n*/\nconst setTitle = (title) =&gt; (WrappedComponent) =&gt; {\n  return class extends React.Component {\n    componentDidMount() {\n      document.title = title;\n    }\n\n    render() {\n      return &lt;WrappedComponent {...this.props} /&gt;;\n    }\n  };\n};\n</code></pre>",
+      "<p><strong>Note:</strong> Decorators are a feature that didn't make it into ES7, but are currently a <em>stage 2 proposal</em>.</p>",
+      "<p><strong><a href=\"#table-of-contents\">⬆ Back to Top</a></strong></p>"
+    ]
+  },
+  {
+    "id": "cd1045e2-f05c-416d-bbad-5044b322f09a",
+    "bookmarked": false,
+    "title": "How do you memoize a component?",
+    "content": [
+      "<p>There are memoize libraries available which can be used on function components.</p>",
+      "<p>For example <code>moize</code> library can memoize the component in another component.</p>",
+      "<pre><code class=\"language-jsx\">import moize from \"moize\";\nimport Component from \"./components/Component\"; // this module exports a non-memoized component\n\nconst MemoizedFoo = moize.react(Component);\n\nconst Consumer = () =&gt; {\n  &lt;div&gt;\n    {\"I will memoize the following entry:\"}\n    &lt;MemoizedFoo /&gt;\n  &lt;/div&gt;;\n};\n</code></pre>",
+      "<p><strong>Update:</strong> Since React v16.6.0, we have a <code>React.memo</code>. It provides a higher order component which memoizes component unless the props change. To use it, simply wrap the component using React.memo before you use it.</p>",
+      "<pre><code class=\"language-js\">const MemoComponent = React.memo(function MemoComponent(props) {\n  /* render using props */\n});\nOR;\nexport default React.memo(MyFunctionComponent);\n</code></pre>",
+      "<p><strong><a href=\"#table-of-contents\">⬆ Back to Top</a></strong></p>"
+    ]
+  },
+  {
+    "id": "8b50813d-4208-46d0-ab9e-18622e59746f",
+    "bookmarked": false,
+    "title": "How you implement Server Side Rendering or SSR?",
+    "content": [
+      "<p>React is already equipped to handle rendering on Node servers. A special version of the DOM renderer is available, which follows the same pattern as on the client side.</p>",
+      "<pre><code class=\"language-jsx\">import ReactDOMServer from \"react-dom/server\";\nimport App from \"./App\";\n\nReactDOMServer.renderToString(&lt;App /&gt;);\n</code></pre>",
+      "<p>This method will output the regular HTML as a string, which can be then placed inside a page body as part of the server response. On the client side, React detects the pre-rendered content and seamlessly picks up where it left off.</p>",
+      "<p><strong><a href=\"#table-of-contents\">⬆ Back to Top</a></strong></p>"
+    ]
+  },
+  {
+    "id": "040b4795-61e4-4fdd-b92a-04114952a91a",
+    "bookmarked": false,
+    "title": "How to enable production mode in React?",
+    "content": [
+      "<p>You should use Webpack's <code>DefinePlugin</code> method to set <code>NODE_ENV</code> to <code>production</code>, by which it strip out things like propType validation and extra warnings. Apart from this, if you minify the code, for example, Uglify's dead-code elimination to strip out development only code and comments, it will drastically reduce the size of your bundle.</p>",
+      "<p><strong><a href=\"#table-of-contents\">⬆ Back to Top</a></strong></p>"
+    ]
+  },
+  {
+    "id": "8b26ff5c-17eb-4065-9a33-f80bd4c12003",
+    "bookmarked": false,
+    "title": "What is CRA and its benefits?",
+    "content": [
+      "<p>The <code>create-react-app</code> CLI tool allows you to quickly create &amp; run React applications with no configuration step.</p>",
+      "<p>Let's create Todo App using <em>CRA</em>:</p>",
+      "<pre><code class=\"language-console\"># Installation\n$ npm install -g create-react-app\n\n# Create new project\n$ create-react-app todo-app\n$ cd todo-app\n\n# Build, test and run\n$ npm run build\n$ npm run test\n$ npm start\n</code></pre>",
+      "<p>It includes everything we need to build a React app:</p>",
+      "<ol>\n<li>React, JSX, ES6, and Flow syntax support.</li>\n<li>Language extras beyond ES6 like the object spread operator.</li>\n<li>Autoprefixed CSS, so you don’t need -webkit- or other prefixes.</li>\n<li>A fast interactive unit test runner with built-in support for coverage reporting.</li>\n<li>A live development server that warns about common mistakes.</li>\n<li>A build script to bundle JS, CSS, and images for production, with hashes and sourcemaps.</li>\n</ol>",
+      "<p><strong><a href=\"#table-of-contents\">⬆ Back to Top</a></strong></p>"
+    ]
+  },
+  {
+    "id": "87fc3e12-dde6-44d8-b72f-3090afad5444",
+    "bookmarked": false,
+    "title": "What is the lifecycle methods order in mounting?",
+    "content": [
+      "<p>The lifecycle methods are called in the following order when an instance of a component is being created and inserted into the DOM.</p>",
+      "<ol>\n<li><code>constructor()</code></li>\n<li><code>static getDerivedStateFromProps()</code></li>\n<li><code>render()</code></li>\n<li><code>componentDidMount()</code></li>\n</ol>",
+      "<p><strong><a href=\"#table-of-contents\">⬆ Back to Top</a></strong></p>"
+    ]
+  },
+  {
+    "id": "9db0b36b-1ed6-4ad9-9d6d-e0ec42af57cc",
+    "bookmarked": false,
+    "title": "What are the lifecycle methods going to be deprecated in React v16?",
+    "content": [
+      "<p>The following lifecycle methods going to be unsafe coding practices and will be more problematic with async rendering.</p>",
+      "<ol>\n<li><code>componentWillMount()</code></li>\n<li><code>componentWillReceiveProps()</code></li>\n<li><code>componentWillUpdate()</code></li>\n</ol>",
+      "<p>Starting with React v16.3 these methods are aliased with <code>UNSAFE_</code> prefix, and the unprefixed version will be removed in React v17.</p>",
+      "<p><strong><a href=\"#table-of-contents\">⬆ Back to Top</a></strong></p>"
+    ]
+  },
+  {
+    "id": "4c869ce0-e05b-46e6-b853-82a7c49fd6a0",
+    "bookmarked": false,
+    "title": "What is the purpose of getDerivedStateFromProps() lifecycle method?",
+    "content": [
+      "<p>The new static <code>getDerivedStateFromProps()</code> lifecycle method is invoked after a component is instantiated as well as before it is re-rendered. It can return an object to update state, or <code>null</code> to indicate that the new props do not require any state updates.</p>",
+      "<pre><code class=\"language-javascript\">class MyComponent extends React.Component {\n  static getDerivedStateFromProps(props, state) {\n    // ...\n  }\n}\n</code></pre>",
+      "<p>This lifecycle method along with <code>componentDidUpdate()</code> covers all the use cases of <code>componentWillReceiveProps()</code>.</p>",
+      "<p><strong><a href=\"#table-of-contents\">⬆ Back to Top</a></strong></p>"
+    ]
+  },
+  {
+    "id": "1c82fe4b-1fc4-4770-8492-b5e0e23aaf6f",
+    "bookmarked": false,
+    "title": "What is the purpose of getSnapshotBeforeUpdate() lifecycle method?",
+    "content": [
+      "<p>The new <code>getSnapshotBeforeUpdate()</code> lifecycle method is called right before DOM updates. The return value from this method will be passed as the third parameter to <code>componentDidUpdate()</code>.</p>",
+      "<pre><code class=\"language-javascript\">class MyComponent extends React.Component {\n  getSnapshotBeforeUpdate(prevProps, prevState) {\n    // ...\n  }\n}\n</code></pre>",
+      "<p>This lifecycle method along with <code>componentDidUpdate()</code> covers all the use cases of <code>componentWillUpdate()</code>.</p>",
+      "<p><strong><a href=\"#table-of-contents\">⬆ Back to Top</a></strong></p>"
+    ]
+  },
+  {
+    "id": "f365675b-755a-470f-a21b-e6511bbd5a55",
+    "bookmarked": false,
+    "title": "Do Hooks replace render props and higher order components?",
+    "content": [
+      "<p>Both render props and higher-order components render only a single child but in most of the cases Hooks are a simpler way to serve this by reducing nesting in your tree.</p>",
+      "<p><strong><a href=\"#table-of-contents\">⬆ Back to Top</a></strong></p>"
+    ]
+  },
+  {
+    "id": "c5be1ddc-5022-4c24-aee0-2a3f9ea6de23",
+    "bookmarked": false,
+    "title": "What is the recommended way for naming components?",
+    "content": [
+      "<p>It is recommended to name the component by reference instead of using <code>displayName</code>.</p>",
+      "<p>Using <code>displayName</code> for naming component:</p>",
+      "<pre><code class=\"language-javascript\">export default React.createClass({\n  displayName: \"TodoApp\",\n  // ...\n});\n</code></pre>",
+      "<p>The <strong>recommended</strong> approach:</p>",
+      "<pre><code class=\"language-javascript\">export default class TodoApp extends React.Component {\n  // ...\n}\n</code></pre>",
+      "<p>also</p>",
+      "<pre><code class=\"language-javascript\">const TodoApp = () =&gt; {\n  //...\n};\nexport default TodoApp;\n</code></pre>",
+      "<p><strong><a href=\"#table-of-contents\">⬆ Back to Top</a></strong></p>"
+    ]
+  },
+  {
+    "id": "18e89df3-ef14-4681-ab54-a1ce8c2b5c8c",
+    "bookmarked": false,
+    "title": "What is the recommended ordering of methods in component class?",
+    "content": [
+      "<p><em>Recommended</em> ordering of methods from <em>mounting</em> to <em>render stage</em>:</p>",
+      "<ol>\n<li><code>static</code> methods</li>\n<li><code>constructor()</code></li>\n<li><code>getChildContext()</code></li>\n<li><code>componentWillMount()</code></li>\n<li><code>componentDidMount()</code></li>\n<li><code>componentWillReceiveProps()</code></li>\n<li><code>shouldComponentUpdate()</code></li>\n<li><code>componentWillUpdate()</code></li>\n<li><code>componentDidUpdate()</code></li>\n<li><code>componentWillUnmount()</code></li>\n<li>click handlers or event handlers like <code>onClickSubmit()</code> or <code>onChangeDescription()</code></li>\n<li>getter methods for render like <code>getSelectReason()</code> or <code>getFooterContent()</code></li>\n<li>optional render methods like <code>renderNavigation()</code> or <code>renderProfilePicture()</code></li>\n<li><code>render()</code></li>\n</ol>",
+      "<p><strong><a href=\"#table-of-contents\">⬆ Back to Top</a></strong></p>"
+    ]
+  },
+  {
+    "id": "806cfe86-d7d3-460b-b492-b38ea2b8921c",
+    "bookmarked": false,
+    "title": "What is a switching component?",
+    "content": [
+      "<p>A <em>switching component</em> is a component that renders one of many components. We need to use object to map prop values to components.</p>",
+      "<p>For example, a switching component to display different pages based on <code>page</code> prop:</p>",
+      "<pre><code class=\"language-jsx\">import HomePage from \"./HomePage\";\nimport AboutPage from \"./AboutPage\";\nimport ServicesPage from \"./ServicesPage\";\nimport ContactPage from \"./ContactPage\";\n\nconst PAGES = {\n  home: HomePage,\n  about: AboutPage,\n  services: ServicesPage,\n  contact: ContactPage,\n};\n\nconst Page = (props) =&gt; {\n  const Handler = PAGES[props.page] || ContactPage;\n\n  return &lt;Handler {...props} /&gt;;\n};\n\n// The keys of the PAGES object can be used in the prop types to catch dev-time errors.\nPage.propTypes = {\n  page: PropTypes.oneOf(Object.keys(PAGES)).isRequired,\n};\n</code></pre>",
+      "<p><strong><a href=\"#table-of-contents\">⬆ Back to Top</a></strong></p>"
+    ]
+  },
+  {
+    "id": "8961905f-1300-43d1-89a5-761318b8efc4",
+    "bookmarked": false,
+    "title": "Why we need to pass a function to setState()?",
+    "content": [
+      "<p>The reason behind for this is that <code>setState()</code> is an asynchronous operation. React batches state changes for performance reasons, so the state may not change immediately after <code>setState()</code> is called. That means you should not rely on the current state when calling <code>setState()</code> since you can't be sure what that state will be. The solution is to pass a function to <code>setState()</code>, with the previous state as an argument. By doing this you can avoid issues with the user getting the old state value on access due to the asynchronous nature of <code>setState()</code>.</p>",
+      "<p>Let's say the initial count value is zero. After three consecutive increment operations, the value is going to be incremented only by one.</p>",
+      "<pre><code class=\"language-javascript\">// assuming this.state.count === 0\nthis.setState({ count: this.state.count + 1 });\nthis.setState({ count: this.state.count + 1 });\nthis.setState({ count: this.state.count + 1 });\n// this.state.count === 1, not 3\n</code></pre>",
+      "<p>If we pass a function to <code>setState()</code>, the count gets incremented correctly.</p>",
+      "<pre><code class=\"language-javascript\">this.setState((prevState, props) =&gt; ({\n  count: prevState.count + props.increment,\n}));\n// this.state.count === 3 as expected\n</code></pre>",
+      "<p><strong>(OR)</strong></p>",
+      "<h3 id=\"why-function-is-preferred-over-object-for-setstate\">Why function is preferred over object for <code>setState()</code>?</h3>",
+      "<p>React may batch multiple <code>setState()</code> calls into a single update for performance. Because <code>this.props</code> and <code>this.state</code> may be updated asynchronously, you should not rely on their values for calculating the next state.</p>",
+      "<p>This counter example will fail to update as expected:</p>",
+      "<pre><code class=\"language-javascript\">// Wrong\nthis.setState({\n  counter: this.state.counter + this.props.increment,\n});\n</code></pre>",
+      "<p>The preferred approach is to call <code>setState()</code> with function rather than object. That function will receive the previous state as the first argument, and the props at the time the update is applied as the second argument.</p>",
+      "<pre><code class=\"language-javascript\">// Correct\nthis.setState((prevState, props) =&gt; ({\n  counter: prevState.counter + props.increment,\n}));\n</code></pre>",
+      "<p><strong><a href=\"#table-of-contents\">⬆ Back to Top</a></strong></p>"
+    ]
+  },
+  {
+    "id": "c0c37f52-dbee-4d29-b252-105b2c971c64",
+    "bookmarked": false,
+    "title": "What is strict mode in React?",
+    "content": [
+      "<p><code>React.StrictMode</code> is a useful component for highlighting potential problems in an application. Just like <code>&lt;Fragment&gt;</code>, <code>&lt;StrictMode&gt;</code> does not render any extra DOM elements. It activates additional checks and warnings for its descendants. These checks apply for <em>development mode</em> only.</p>",
+      "<pre><code class=\"language-jsx\">import React from \"react\";\n\nfunction ExampleApplication() {\n  return (\n    &lt;div&gt;\n      &lt;Header /&gt;\n      &lt;React.StrictMode&gt;\n        &lt;div&gt;\n          &lt;ComponentOne /&gt;\n          &lt;ComponentTwo /&gt;\n        &lt;/div&gt;\n      &lt;/React.StrictMode&gt;\n      &lt;Header /&gt;\n    &lt;/div&gt;\n  );\n}\n</code></pre>",
+      "<p>In the example above, the <em>strict mode</em> checks apply to <code>&lt;ComponentOne&gt;</code> and <code>&lt;ComponentTwo&gt;</code> components only.</p>",
+      "<p><strong><a href=\"#table-of-contents\">⬆ Back to Top</a></strong></p>"
+    ]
+  },
+  {
+    "id": "8d678067-9eba-4e7e-b739-2009ccdd3788",
+    "bookmarked": false,
+    "title": "What are React Mixins?",
+    "content": [
+      "<p><em>Mixins</em> are a way to totally separate components to have a common functionality. Mixins <strong>should not be used</strong> and can be replaced with <em>higher-order components</em> or <em>decorators</em>.</p>",
+      "<p>One of the most commonly used mixins is <code>PureRenderMixin</code>. You might be using it in some components to prevent unnecessary re-renders when the props and state are shallowly equal to the previous props and state:</p>",
+      "<pre><code class=\"language-javascript\">const PureRenderMixin = require(\"react-addons-pure-render-mixin\");\n\nconst Button = React.createClass({\n  mixins: [PureRenderMixin],\n  // ...\n});\n</code></pre>",
+      "<p><strong><a href=\"#table-of-contents\">⬆ Back to Top</a></strong></p>"
+    ]
+  },
+  {
+    "id": "a00561aa-e001-4c03-8d20-9084abb922f4",
+    "bookmarked": false,
+    "title": "Why is isMounted() an anti-pattern and what is the proper solution?",
+    "content": [
+      "<p>The primary use case for <code>isMounted()</code> is to avoid calling <code>setState()</code> after a component has been unmounted, because it will emit a warning.</p>",
+      "<pre><code class=\"language-javascript\">if (this.isMounted()) {\n  this.setState({...})\n}\n</code></pre>",
+      "<p>Checking <code>isMounted()</code> before calling <code>setState()</code> does eliminate the warning, but it also defeats the purpose of the warning. Using <code>isMounted()</code> is a code smell because the only reason you would check is because you think you might be holding a reference after the component has unmounted.</p>",
+      "<p>An optimal solution would be to find places where <code>setState()</code> might be called after a component has unmounted, and fix them. Such situations most commonly occur due to callbacks, when a component is waiting for some data and gets unmounted before the data arrives. Ideally, any callbacks should be canceled in <code>componentWillUnmount()</code>, prior to unmounting.</p>",
+      "<p><strong><a href=\"#table-of-contents\">⬆ Back to Top</a></strong></p>"
+    ]
+  },
+  {
+    "id": "24eca63d-6f21-484d-af64-fbc5ea504a47",
+    "bookmarked": false,
+    "title": "What are the Pointer Events supported in React?",
+    "content": [
+      "<p><em>Pointer Events</em> provide a unified way of handling all input events. In the old days we had a mouse and respective event listeners to handle them but nowadays we have many devices which don't correlate to having a mouse, like phones with touch surface or pens. We need to remember that these events will only work in browsers that support the <em>Pointer Events</em> specification.</p>",
+      "<p>The following event types are now available in <em>React DOM</em>:</p>",
+      "<ol>\n<li><code>onPointerDown</code></li>\n<li><code>onPointerMove</code></li>\n<li><code>onPointerUp</code></li>\n<li><code>onPointerCancel</code></li>\n<li><code>onGotPointerCapture</code></li>\n<li><code>onLostPointerCapture</code></li>\n<li><code>onPointerEnter</code></li>\n<li><code>onPointerLeave</code></li>\n<li><code>onPointerOver</code></li>\n<li><code>onPointerOut</code></li>\n</ol>",
+      "<p><strong><a href=\"#table-of-contents\">⬆ Back to Top</a></strong></p>"
+    ]
+  },
+  {
+    "id": "cec20eb5-f10f-4c51-b912-f8f1bc857b15",
+    "bookmarked": false,
+    "title": "Why should component names start with capital letter?",
+    "content": [
+      "<p>If you are rendering your component using JSX, the name of that component has to begin with a capital letter otherwise React will throw an error as an unrecognized tag. This convention is because only HTML elements and SVG tags can begin with a lowercase letter.</p>",
+      "<pre><code class=\"language-jsx\">class SomeComponent extends Component {\n  // Code goes here\n}\n</code></pre>",
+      "<p>You can define component class which name starts with lowercase letter, but when it's imported it should have capital letter. Here lowercase is fine:</p>",
+      "<pre><code class=\"language-jsx\">class myComponent extends Component {\n  render() {\n    return &lt;div /&gt;;\n  }\n}\n\nexport default myComponent;\n</code></pre>",
+      "<p>While when imported in another file it should start with capital letter:</p>",
+      "<pre><code class=\"language-jsx\">import MyComponent from \"./MyComponent\";\n</code></pre>",
+      "<h4 id=\"what-are-the-exceptions-on-react-component-naming\">What are the exceptions on React component naming?</h4>",
+      "<p>The component names should start with an uppercase letter but there are few exceptions to this convention. The lowercase tag names with a dot (property accessors) are still considered as valid component names.\nFor example, the below tag can be compiled to a valid component,</p>",
+      "<pre><code class=\"language-jsx\">     render() {\n          return (\n            &lt;obj.component/&gt; // `React.createElement(obj.component)`\n          )\n    }\n</code></pre>",
+      "<p><strong><a href=\"#table-of-contents\">⬆ Back to Top</a></strong></p>"
+    ]
+  },
+  {
+    "id": "531ad34b-92c2-4077-a31d-a374fc189bb8",
+    "bookmarked": false,
+    "title": "Are custom DOM attributes supported in React v16?",
+    "content": [
+      "<p>Yes. In the past, React used to ignore unknown DOM attributes. If you wrote JSX with an attribute that React doesn't recognize, React would just skip it.</p>",
+      "<p>For example, let's take a look at the below attribute:</p>",
+      "<pre><code class=\"language-jsx\">&lt;div mycustomattribute={\"something\"} /&gt;\n</code></pre>",
+      "<p>Would render an empty div to the DOM with React v15:</p>",
+      "<pre><code class=\"language-html\">&lt;div /&gt;\n</code></pre>",
+      "<p>In React v16 any unknown attributes will end up in the DOM:</p>",
+      "<pre><code class=\"language-html\">&lt;div mycustomattribute=\"something\" /&gt;\n</code></pre>",
+      "<p>This is useful for supplying browser-specific non-standard attributes, trying new DOM APIs, and integrating with opinionated third-party libraries.</p>",
+      "<p><strong><a href=\"#table-of-contents\">⬆ Back to Top</a></strong></p>"
+    ]
+  },
+  {
+    "id": "6d9901af-ff89-44e2-86ac-34fa690daf2a",
+    "bookmarked": false,
+    "title": "What is the difference between constructor and getInitialState?",
+    "content": [
+      "<p>You should initialize state in the constructor when using ES6 classes, and <code>getInitialState()</code> method when using <code>React.createClass()</code>.</p>",
+      "<p><strong>Using ES6 classes:</strong></p>",
+      "<pre><code class=\"language-javascript\">class MyComponent extends React.Component {\n  constructor(props) {\n    super(props);\n    this.state = {\n      /* initial state */\n    };\n  }\n}\n</code></pre>",
+      "<p><strong>Using <code>React.createClass()</code>:</strong></p>",
+      "<pre><code class=\"language-javascript\">const MyComponent = React.createClass({\n  getInitialState() {\n    return {\n      /* initial state */\n    };\n  },\n});\n</code></pre>",
+      "<p><strong>Note:</strong> <code>React.createClass()</code> is deprecated and removed in React v16. Use plain JavaScript classes instead.</p>",
+      "<p><strong><a href=\"#table-of-contents\">⬆ Back to Top</a></strong></p>"
+    ]
+  },
+  {
+    "id": "f368ca7e-5c3d-4364-852b-bc1bd5e0f009",
+    "bookmarked": false,
+    "title": "Can you force a component to re-render without calling setState?",
+    "content": [
+      "<p>By default, when your component's state or props change, your component will re-render. If your <code>render()</code> method depends on some other data, you can tell React that the component needs re-rendering by calling <code>forceUpdate()</code>.</p>",
+      "<pre><code class=\"language-javascript\">component.forceUpdate(callback);\n</code></pre>",
+      "<p>It is recommended to avoid all uses of <code>forceUpdate()</code> and only read from <code>this.props</code> and <code>this.state</code> in <code>render()</code>.</p>",
+      "<p><strong><a href=\"#table-of-contents\">⬆ Back to Top</a></strong></p>"
+    ]
+  },
+  {
+    "id": "b86f0412-388f-4d0a-a0d9-56e23ae9018e",
+    "bookmarked": false,
+    "title": "What is the difference between super() and super(props) in React using ES6 classes?",
+    "content": [
+      "<p>When you want to access <code>this.props</code> in <code>constructor()</code> then you should pass props to <code>super()</code> method.</p>",
+      "<p><strong>Using <code>super(props)</code>:</strong></p>",
+      "<pre><code class=\"language-javascript\">class MyComponent extends React.Component {\n  constructor(props) {\n    super(props);\n    console.log(this.props); // { name: 'John', ... }\n  }\n}\n</code></pre>",
+      "<p><strong>Using <code>super()</code>:</strong></p>",
+      "<pre><code class=\"language-javascript\">class MyComponent extends React.Component {\n  constructor(props) {\n    super();\n    console.log(this.props); // undefined\n  }\n}\n</code></pre>",
+      "<p>Outside <code>constructor()</code> both will display same value for <code>this.props</code>.</p>",
+      "<p><strong><a href=\"#table-of-contents\">⬆ Back to Top</a></strong></p>"
+    ]
+  },
+  {
+    "id": "c5f9f119-d320-4644-ab7a-1982272fee22",
+    "bookmarked": false,
+    "title": "How to loop inside JSX?",
+    "content": [
+      "<p>You can simply use <code>Array.prototype.map</code> with ES6 <em>arrow function</em> syntax.</p>",
+      "<p>For example, the <code>items</code> array of objects is mapped into an array of components:</p>",
+      "<pre><code class=\"language-jsx\">&lt;tbody&gt;\n  {items.map((item) =&gt; (\n    &lt;SomeComponent key={item.id} name={item.name} /&gt;\n  ))}\n&lt;/tbody&gt;\n</code></pre>",
+      "<p>But you can't iterate using <code>for</code> loop:</p>",
+      "<pre><code class=\"language-jsx\">&lt;tbody&gt;\n  for (let i = 0; i &lt; items.length; i++) {\n    &lt;SomeComponent key={items[i].id} name={items[i].name} /&gt;\n  }\n&lt;/tbody&gt;\n</code></pre>",
+      "<p>This is because JSX tags are transpiled into <em>function calls</em>, and you can't use statements inside expressions. This may change thanks to <code>do</code> expressions which are <em>stage 1 proposal</em>.</p>",
+      "<p><strong><a href=\"#table-of-contents\">⬆ Back to Top</a></strong></p>"
+    ]
+  },
+  {
+    "id": "ce8df325-e51c-4b62-8bf0-03a85b12a483",
+    "bookmarked": false,
+    "title": "How do you access props in attribute quotes?",
+    "content": [
+      "<p>React (or JSX) doesn't support variable interpolation inside an attribute value. The below representation won't work:</p>",
+      "<pre><code class=\"language-jsx\">&lt;img className=\"image\" src=\"images/{this.props.image}\" /&gt;\n</code></pre>",
+      "<p>But you can put any JS expression inside curly braces as the entire attribute value. So the below expression works:</p>",
+      "<pre><code class=\"language-jsx\">&lt;img className=\"image\" src={\"images/\" + this.props.image} /&gt;\n</code></pre>",
+      "<p>Using <em>template strings</em> will also work:</p>",
+      "<pre><code class=\"language-jsx\">&lt;img className=\"image\" src={`images/${this.props.image}`} /&gt;\n</code></pre>",
+      "<p><strong><a href=\"#table-of-contents\">⬆ Back to Top</a></strong></p>"
+    ]
+  },
+  {
+    "id": "4979e9bf-aa6b-400f-8916-9e42a91f965e",
+    "bookmarked": false,
+    "title": "What is React proptype array with shape?",
+    "content": [
+      "<p>If you want to pass an array of objects to a component with a particular shape then use <code>React.PropTypes.shape()</code> as an argument to <code>React.PropTypes.arrayOf()</code>.</p>",
+      "<pre><code class=\"language-javascript\">ReactComponent.propTypes = {\n  arrayWithShape: React.PropTypes.arrayOf(\n    React.PropTypes.shape({\n      color: React.PropTypes.string.isRequired,\n      fontSize: React.PropTypes.number.isRequired,\n    })\n  ).isRequired,\n};\n</code></pre>",
+      "<p><strong><a href=\"#table-of-contents\">⬆ Back to Top</a></strong></p>"
+    ]
+  },
+  {
+    "id": "0abce7a3-52f6-48a1-a8b1-9cb7db258fd8",
+    "bookmarked": false,
+    "title": "How to conditionally apply class attributes?",
+    "content": [
+      "<p>You shouldn't use curly braces inside quotes because it is going to be evaluated as a string.</p>",
+      "<pre><code class=\"language-jsx\">&lt;div className=\"btn-panel {this.props.visible ? 'show' : 'hidden'}\"&gt;\n</code></pre>",
+      "<p>Instead you need to move curly braces outside (don't forget to include spaces between class names):</p>",
+      "<pre><code class=\"language-jsx\">&lt;div className={'btn-panel ' + (this.props.visible ? 'show' : 'hidden')}&gt;\n</code></pre>",
+      "<p><em>Template strings</em> will also work:</p>",
+      "<pre><code class=\"language-jsx\">&lt;div className={`btn-panel ${this.props.visible ? 'show' : 'hidden'}`}&gt;\n</code></pre>",
+      "<p><strong><a href=\"#table-of-contents\">⬆ Back to Top</a></strong></p>"
+    ]
+  },
+  {
+    "id": "6543f76b-15d1-41bf-9148-4c812068461f",
+    "bookmarked": false,
+    "title": "What is the difference between React and ReactDOM?",
+    "content": [
+      "<p>The <code>react</code> package contains <code>React.createElement()</code>, <code>React.Component</code>, <code>React.Children</code>, and other helpers related to elements and component classes. You can think of these as the isomorphic or universal helpers that you need to build components. The <code>react-dom</code> package contains <code>ReactDOM.render()</code>, and in <code>react-dom/server</code> we have <em>server-side rendering</em> support with <code>ReactDOMServer.renderToString()</code> and <code>ReactDOMServer.renderToStaticMarkup()</code>.</p>",
+      "<p><strong><a href=\"#table-of-contents\">⬆ Back to Top</a></strong></p>"
+    ]
+  },
+  {
+    "id": "b040c144-d2f8-4d7a-bf39-d5f5cfe958cf",
+    "bookmarked": false,
+    "title": "Why ReactDOM is separated from React?",
+    "content": [
+      "<p>The React team worked on extracting all DOM-related features into a separate library called <em>ReactDOM</em>. React v0.14 is the first release in which the libraries are split. By looking at some of the packages, <code>react-native</code>, <code>react-art</code>, <code>react-canvas</code>, and <code>react-three</code>, it has become clear that the beauty and essence of React has nothing to do with browsers or the DOM.</p>",
+      "<p>To build more environments that React can render to, React team planned to split the main React package into two: <code>react</code> and <code>react-dom</code>. This paves the way to writing components that can be shared between the web version of React and React Native.</p>",
+      "<p><strong><a href=\"#table-of-contents\">⬆ Back to Top</a></strong></p>"
+    ]
+  },
+  {
+    "id": "ac39f2a4-3e05-4e89-bc1f-0e451450494b",
+    "bookmarked": false,
+    "title": "How to use React label element?",
+    "content": [
+      "<p>If you try to render a <code>&lt;label&gt;</code> element bound to a text input using the standard <code>for</code> attribute, then it produces HTML missing that attribute and prints a warning to the console.</p>",
+      "<pre><code class=\"language-jsx\">&lt;label for={'user'}&gt;{'User'}&lt;/label&gt;\n&lt;input type={'text'} id={'user'} /&gt;\n</code></pre>",
+      "<p>Since <code>for</code> is a reserved keyword in JavaScript, use <code>htmlFor</code> instead.</p>",
+      "<pre><code class=\"language-jsx\">&lt;label htmlFor={'user'}&gt;{'User'}&lt;/label&gt;\n&lt;input type={'text'} id={'user'} /&gt;\n</code></pre>",
+      "<p><strong><a href=\"#table-of-contents\">⬆ Back to Top</a></strong></p>"
+    ]
+  },
+  {
+    "id": "6a61fd33-9574-4771-b308-28ab84b21bcb",
+    "bookmarked": false,
+    "title": "How to combine multiple inline style objects?",
+    "content": [
+      "<p>You can use <em>spread operator</em> in regular React:</p>",
+      "<pre><code class=\"language-jsx\">&lt;button style={{ ...styles.panel.button, ...styles.panel.submitButton }}&gt;\n  {\"Submit\"}\n&lt;/button&gt;\n</code></pre>",
+      "<p>If you're using React Native then you can use the array notation:</p>",
+      "<pre><code class=\"language-jsx\">&lt;button style={[styles.panel.button, styles.panel.submitButton]}&gt;\n  {\"Submit\"}\n&lt;/button&gt;\n</code></pre>",
+      "<p><strong><a href=\"#table-of-contents\">⬆ Back to Top</a></strong></p>"
+    ]
+  },
+  {
+    "id": "46700252-2d01-4a19-bbf8-977018debe92",
+    "bookmarked": false,
+    "title": "How to re-render the view when the browser is resized?",
+    "content": [
+      "<p>You can listen to the <code>resize</code> event in <code>componentDidMount()</code> and then update the dimensions (<code>width</code> and <code>height</code>). You should remove the listener in <code>componentWillUnmount()</code> method.</p>",
+      "<pre><code class=\"language-javascript\">class WindowDimensions extends React.Component {\n  constructor(props) {\n    super(props);\n    this.updateDimensions = this.updateDimensions.bind(this);\n  }\n\n  componentWillMount() {\n    this.updateDimensions();\n  }\n\n  componentDidMount() {\n    window.addEventListener(\"resize\", this.updateDimensions);\n  }\n\n  componentWillUnmount() {\n    window.removeEventListener(\"resize\", this.updateDimensions);\n  }\n\n  updateDimensions() {\n    this.setState({\n      width: window.innerWidth,\n      height: window.innerHeight,\n    });\n  }\n\n  render() {\n    return (\n      &lt;span&gt;\n        {this.state.width} x {this.state.height}\n      &lt;/span&gt;\n    );\n  }\n}\n</code></pre>"
+    ]
+  }
+]

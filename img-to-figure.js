@@ -13,7 +13,7 @@ export const imgToFigure = (_options) => (tree) => {
       // const caption = captionNode.value.trim();
 
       const src = imageNode.properties.src;
-      imageNode.properties.src = `https://github.com/sudheerj/javascript-interview-questions/raw/master/${src}`;
+      imageNode.properties.src = `https://raw.githubusercontent.com/sudheerj/reactjs-interview-questions/master/${src}`;
       // const alt = imageNode.properties.alt;
 
       // node.type = "element";

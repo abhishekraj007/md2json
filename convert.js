@@ -17,7 +17,7 @@ let contents = unified()
   .use(imgToFigure)
   .use(toHtml)
   .use(rehypeDocument, { title: "Contents" })
-  .processSync(fs.readFileSync("js.md"))
+  .processSync(fs.readFileSync("react.md"))
   .toString();
 
 contents = contents.replace(/(<ol>)(.*)(<\/ol>)/gims, `$2`);

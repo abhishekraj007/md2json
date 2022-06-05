@@ -2,8 +2,6 @@ import "../styles/index.scss";
 import { v4 as uuid } from "uuid";
 
 const lis = document.querySelectorAll("body > li");
-console.log(uuid());
-console.log(window);
 
 let contents = [];
 
