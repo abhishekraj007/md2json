@@ -1,5 +1,6 @@
 [
   {
+    "type": "REACT",
     "id": "c1a78106-a32b-4d06-8ec3-63799279de5d",
     "bookmarked": false,
     "title": "What is React?",
@@ -8,6 +9,7 @@
     ]
   },
   {
+    "type": "REACT",
     "id": "11f6d8d5-0ffa-4477-8e5e-6cf0276ca89b",
     "bookmarked": false,
     "title": "What are the major features of React?",
@@ -17,6 +19,7 @@
     ]
   },
   {
+    "type": "REACT",
     "id": "8a6d37ee-4f81-45cb-af92-c8777a54529f",
     "bookmarked": false,
     "title": "What is JSX?",
@@ -27,6 +30,7 @@
     ]
   },
   {
+    "type": "REACT",
     "id": "f2986e4a-138b-46d5-9fc5-844962be6e33",
     "bookmarked": false,
     "title": "What is the difference between Element and Component?",
@@ -45,6 +49,7 @@
     ]
   },
   {
+    "type": "REACT",
     "id": "1fccaf50-3b1d-4687-aacf-8077557ffab6",
     "bookmarked": false,
     "title": "How to create components in React?",
@@ -54,6 +59,7 @@
     ]
   },
   {
+    "type": "REACT",
     "id": "2b4ffe14-4d67-4415-93f7-d6a545b1f7d7",
     "bookmarked": false,
     "title": "When to use a Class Component over a Function Component?",
@@ -62,6 +68,7 @@
     ]
   },
   {
+    "type": "REACT",
     "id": "fdef08a8-d8ff-45b1-97ce-bf97c88cda7a",
     "bookmarked": false,
     "title": "What are Pure Components?",
@@ -70,6 +77,7 @@
     ]
   },
   {
+    "type": "REACT",
     "id": "c04ce92c-be78-4219-965a-9dd9f45813d3",
     "bookmarked": false,
     "title": "What is state in React?",
@@ -82,6 +90,7 @@
     ]
   },
   {
+    "type": "REACT",
     "id": "75553416-1b0a-4846-b42a-0c18d7f4be9c",
     "bookmarked": false,
     "title": "What are props in React?",
@@ -96,6 +105,7 @@
     ]
   },
   {
+    "type": "REACT",
     "id": "c09146fa-5395-4ea0-85e8-55ab01bcafe9",
     "bookmarked": false,
     "title": "What is the difference between state and props?",
@@ -104,6 +114,7 @@
     ]
   },
   {
+    "type": "REACT",
     "id": "7594091f-4303-41c5-8b6a-e4b7f43b0122",
     "bookmarked": false,
     "title": "Why should we not update the state directly?",
@@ -116,6 +127,7 @@
     ]
   },
   {
+    "type": "REACT",
     "id": "46bc6c28-f911-4e33-86ad-854dbae5903d",
     "bookmarked": false,
     "title": "What is the purpose of callback function as an argument of setState()?",
@@ -126,6 +138,7 @@
     ]
   },
   {
+    "type": "REACT",
     "id": "ff397bab-afd2-4b8f-b5ce-694fe04fca49",
     "bookmarked": false,
     "title": "What is the difference between HTML and React event handling?",
@@ -135,6 +148,7 @@
     ]
   },
   {
+    "type": "REACT",
     "id": "bae3b9af-b9bc-4dfe-89ff-46cf8c91c370",
     "bookmarked": false,
     "title": "How to bind methods or event handlers in JSX callbacks?",
@@ -145,6 +159,7 @@
     ]
   },
   {
+    "type": "REACT",
     "id": "78f1179a-0d07-46b5-a45d-ca72c812cca3",
     "bookmarked": false,
     "title": "How to pass a parameter to an event handler or callback?",
@@ -158,6 +173,7 @@
     ]
   },
   {
+    "type": "REACT",
     "id": "d47491b7-ff54-446a-a310-27e00b70cfba",
     "bookmarked": false,
     "title": "What are synthetic events in React?",
@@ -166,6 +182,7 @@
     ]
   },
   {
+    "type": "REACT",
     "id": "de4d78df-6be7-4057-b8f5-942ead011af0",
     "bookmarked": false,
     "title": "What are inline conditional expressions?",
@@ -175,6 +192,7 @@
     ]
   },
   {
+    "type": "REACT",
     "id": "1e185a91-a836-4376-ba87-5178cdb3ad43",
     "bookmarked": false,
     "title": "What is \"key\" prop and what is the benefit of using it in arrays of elements?",
@@ -189,6 +207,7 @@
     ]
   },
   {
+    "type": "REACT",
     "id": "8eeb616c-2f94-474d-9321-31244ef1a00f",
     "bookmarked": false,
     "title": "What is the use of refs?",
@@ -197,6 +216,7 @@
     ]
   },
   {
+    "type": "REACT",
     "id": "55817a3d-6e8d-47e3-8048-d039d6048fb5",
     "bookmarked": false,
     "title": "How to create refs?",
@@ -207,6 +227,7 @@
     ]
   },
   {
+    "type": "REACT",
     "id": "c14ed436-581e-4eb0-9dcf-91c3f9d47b5d",
     "bookmarked": false,
     "title": "What are forward refs?",
@@ -216,6 +237,7 @@
     ]
   },
   {
+    "type": "REACT",
     "id": "e487e9b0-7a6a-45ef-a78a-0f612bb0ba84",
     "bookmarked": false,
     "title": "Which is preferred option with in callback refs and findDOMNode()?",
@@ -228,6 +250,7 @@
     ]
   },
   {
+    "type": "REACT",
     "id": "02bae6b2-02ea-4209-b1d7-3c33d1319fd8",
     "bookmarked": false,
     "title": "Why are String Refs legacy?",
@@ -237,6 +260,7 @@
     ]
   },
   {
+    "type": "REACT",
     "id": "2a578aef-e08f-4828-9696-bd5e8bfca5ca",
     "bookmarked": false,
     "title": "What is Virtual DOM?",
@@ -245,6 +269,7 @@
     ]
   },
   {
+    "type": "REACT",
     "id": "4923b9ca-b958-4311-9463-d100749ba687",
     "bookmarked": false,
     "title": "How Virtual DOM works?",
@@ -254,6 +279,7 @@
     ]
   },
   {
+    "type": "REACT",
     "id": "687de39b-b161-4831-b29b-1e9021ff610f",
     "bookmarked": false,
     "title": "What is the difference between Shadow DOM and Virtual DOM?",
@@ -262,6 +288,7 @@
     ]
   },
   {
+    "type": "REACT",
     "id": "161ab4bb-af98-4cc8-abe9-e579902446ac",
     "bookmarked": false,
     "title": "What is React Fiber?",
@@ -270,6 +297,7 @@
     ]
   },
   {
+    "type": "REACT",
     "id": "00e91530-da62-47b8-bc82-f54713c0d75a",
     "bookmarked": false,
     "title": "What is the main goal of React Fiber?",
@@ -281,6 +309,7 @@
     ]
   },
   {
+    "type": "REACT",
     "id": "7bcb149a-d22c-45ea-9f0c-6d61752d91a0",
     "bookmarked": false,
     "title": "What are controlled components?",
@@ -291,6 +320,7 @@
     ]
   },
   {
+    "type": "REACT",
     "id": "c5c7613d-0e49-49f5-83fc-33c98dac6d19",
     "bookmarked": false,
     "title": "What are uncontrolled components?",
@@ -302,6 +332,7 @@
     ]
   },
   {
+    "type": "REACT",
     "id": "1377614d-c58f-4df8-969b-0859a645e2fd",
     "bookmarked": false,
     "title": "What is the difference between createElement and cloneElement?",
@@ -310,6 +341,7 @@
     ]
   },
   {
+    "type": "REACT",
     "id": "5d40e26f-fdd8-4c36-9ae1-540d43befbfa",
     "bookmarked": false,
     "title": "What is Lifting State Up in React?",
@@ -318,6 +350,7 @@
     ]
   },
   {
+    "type": "REACT",
     "id": "33603864-1611-4687-b35e-21bb5040e372",
     "bookmarked": false,
     "title": "What are the different phases of component lifecycle?",
@@ -333,6 +366,7 @@
     ]
   },
   {
+    "type": "REACT",
     "id": "5bc721a5-b801-45b5-8c03-c2f8684d650e",
     "bookmarked": false,
     "title": "What are the lifecycle methods of React?",
@@ -344,6 +378,7 @@
     ]
   },
   {
+    "type": "REACT",
     "id": "8d6fc1b9-e423-474c-8288-fcf2a751b40e",
     "bookmarked": false,
     "title": "What are Higher-Order Components?",
@@ -356,6 +391,7 @@
     ]
   },
   {
+    "type": "REACT",
     "id": "317bd664-8591-4e3c-bc79-0888ae33f681",
     "bookmarked": false,
     "title": "How to create props proxy for HOC component?",
@@ -365,6 +401,7 @@
     ]
   },
   {
+    "type": "REACT",
     "id": "98daaf12-1afb-4295-a939-e5d0facdaee2",
     "bookmarked": false,
     "title": "What is context?",
@@ -375,6 +412,7 @@
     ]
   },
   {
+    "type": "REACT",
     "id": "1744370d-1539-4d7a-b466-8a889bd6dc56",
     "bookmarked": false,
     "title": "What is children prop?",
@@ -386,6 +424,7 @@
     ]
   },
   {
+    "type": "REACT",
     "id": "3ba25b38-fe60-43a9-aa43-b30cd3042d24",
     "bookmarked": false,
     "title": "How to write comments in React?",
@@ -398,6 +437,7 @@
     ]
   },
   {
+    "type": "REACT",
     "id": "723d19e7-d46d-4db9-84fe-f6616b66a1ad",
     "bookmarked": false,
     "title": "What is the purpose of using super constructor with props argument?",
@@ -411,6 +451,7 @@
     ]
   },
   {
+    "type": "REACT",
     "id": "07f6e11e-ae39-473c-a3c1-09a0d8914655",
     "bookmarked": false,
     "title": "What is reconciliation?",
@@ -419,6 +460,7 @@
     ]
   },
   {
+    "type": "REACT",
     "id": "e7184f68-5793-423c-839f-eacb1d769729",
     "bookmarked": false,
     "title": "How to set state with a dynamic key name?",
@@ -428,6 +470,7 @@
     ]
   },
   {
+    "type": "REACT",
     "id": "4dc1b180-915d-4426-8a91-c1cedb22780c",
     "bookmarked": false,
     "title": "What would be the common mistake of function being called every time the component renders?",
@@ -439,6 +482,7 @@
     ]
   },
   {
+    "type": "REACT",
     "id": "e5ddf487-fada-4e55-8c1a-bd53a4299890",
     "bookmarked": false,
     "title": "Is lazy function supports named exports?",
@@ -452,6 +496,7 @@
     ]
   },
   {
+    "type": "REACT",
     "id": "3da04113-9afc-4d22-bea6-75e311cba74c",
     "bookmarked": false,
     "title": "Why React uses className over class attribute?",
@@ -461,6 +506,7 @@
     ]
   },
   {
+    "type": "REACT",
     "id": "6eed848f-8e00-4f34-8bcf-170e02dd5d57",
     "bookmarked": false,
     "title": "What are fragments?",
@@ -472,6 +518,7 @@
     ]
   },
   {
+    "type": "REACT",
     "id": "58328bb1-9984-418a-abe8-ee540723f6ad",
     "bookmarked": false,
     "title": "Why fragments are better than container divs?",
@@ -481,6 +528,7 @@
     ]
   },
   {
+    "type": "REACT",
     "id": "8378a50e-8617-4c09-81f7-089d88d9e469",
     "bookmarked": false,
     "title": "What are portals in React?",
@@ -491,6 +539,7 @@
     ]
   },
   {
+    "type": "REACT",
     "id": "7824ccc6-cfb3-40c3-ae86-969081649cf9",
     "bookmarked": false,
     "title": "What are stateless components?",
@@ -499,6 +548,7 @@
     ]
   },
   {
+    "type": "REACT",
     "id": "5af16ab5-bd05-4537-af40-7f7a094ad6d0",
     "bookmarked": false,
     "title": "What are stateful components?",
@@ -512,6 +562,7 @@
     ]
   },
   {
+    "type": "REACT",
     "id": "3589d485-7350-4152-9655-5acd5b77171d",
     "bookmarked": false,
     "title": "How to apply validation on props in React?",
@@ -527,6 +578,7 @@
     ]
   },
   {
+    "type": "REACT",
     "id": "4f5ec027-46d0-43a7-bb3a-adc8971969e8",
     "bookmarked": false,
     "title": "What are the advantages of React?",
@@ -536,6 +588,7 @@
     ]
   },
   {
+    "type": "REACT",
     "id": "189d96eb-1c32-419b-bcbb-de436323278f",
     "bookmarked": false,
     "title": "What are the limitations of React?",
@@ -545,6 +598,7 @@
     ]
   },
   {
+    "type": "REACT",
     "id": "bbbb895b-c687-408d-9181-2d7e7794484c",
     "bookmarked": false,
     "title": "What are error boundaries in React v16?",
@@ -557,6 +611,7 @@
     ]
   },
   {
+    "type": "REACT",
     "id": "d5001525-f0b8-4473-b34b-15bf5f0a6a1b",
     "bookmarked": false,
     "title": "How error boundaries handled in React v15?",
@@ -565,6 +620,7 @@
     ]
   },
   {
+    "type": "REACT",
     "id": "6d999b10-4e40-4488-a529-6eae97c0ec67",
     "bookmarked": false,
     "title": "What are the recommended ways for static type checking?",
@@ -573,6 +629,7 @@
     ]
   },
   {
+    "type": "REACT",
     "id": "2ff640cb-aae9-405d-9bf8-acda13abe7a7",
     "bookmarked": false,
     "title": "What is the use of react-dom package?",
@@ -582,6 +639,7 @@
     ]
   },
   {
+    "type": "REACT",
     "id": "00105971-7425-49e3-8443-02cc36d4792c",
     "bookmarked": false,
     "title": "What is the purpose of render method of react-dom?",
@@ -592,6 +650,7 @@
     ]
   },
   {
+    "type": "REACT",
     "id": "119f7d32-e569-4206-8e9a-8dfcc2c6e89b",
     "bookmarked": false,
     "title": "What is ReactDOMServer?",
@@ -603,6 +662,7 @@
     ]
   },
   {
+    "type": "REACT",
     "id": "3cf5dcb3-637f-4ecd-8b42-ed6c6e1736e1",
     "bookmarked": false,
     "title": "How to use innerHTML in React?",
@@ -613,6 +673,7 @@
     ]
   },
   {
+    "type": "REACT",
     "id": "590a573c-1f02-4dd7-aa0a-35482075edff",
     "bookmarked": false,
     "title": "How to use styles in React?",
@@ -623,6 +684,7 @@
     ]
   },
   {
+    "type": "REACT",
     "id": "32525895-690e-468e-abdd-fba9787a54ad",
     "bookmarked": false,
     "title": "How events are different in React?",
@@ -632,6 +694,7 @@
     ]
   },
   {
+    "type": "REACT",
     "id": "0363ee27-69d4-4121-997b-1c8f32cf54b1",
     "bookmarked": false,
     "title": "What will happen if you use setState() in constructor?",
@@ -640,6 +703,7 @@
     ]
   },
   {
+    "type": "REACT",
     "id": "89793f1a-6213-43b1-8b41-17a35eeb9700",
     "bookmarked": false,
     "title": "What is the impact of indexes as keys?",
@@ -652,6 +716,7 @@
     ]
   },
   {
+    "type": "REACT",
     "id": "946bf9de-bca8-4a15-bc13-2be8b642ea1e",
     "bookmarked": false,
     "title": "Is it good to use setState() in componentWillMount() method?",
@@ -661,6 +726,7 @@
     ]
   },
   {
+    "type": "REACT",
     "id": "6545229e-e867-4047-bf6d-810f7629b96d",
     "bookmarked": false,
     "title": "What will happen if you use props in initial state?",
@@ -673,6 +739,7 @@
     ]
   },
   {
+    "type": "REACT",
     "id": "13aa53e2-85d4-4f98-8322-81892b515622",
     "bookmarked": false,
     "title": "How do you conditionally render components?",
@@ -684,6 +751,7 @@
     ]
   },
   {
+    "type": "REACT",
     "id": "e80a33ff-c97f-49b4-8840-2edb53de39f2",
     "bookmarked": false,
     "title": "Why we need to be careful when spreading props on DOM elements?",
@@ -694,6 +762,7 @@
     ]
   },
   {
+    "type": "REACT",
     "id": "0a993547-f3d8-49c9-8b72-8eb5b505448d",
     "bookmarked": false,
     "title": "How you use decorators in React?",
@@ -704,6 +773,7 @@
     ]
   },
   {
+    "type": "REACT",
     "id": "d95a0768-5c51-46e0-ba6b-198be8233ceb",
     "bookmarked": false,
     "title": "How do you memoize a component?",
@@ -716,6 +786,7 @@
     ]
   },
   {
+    "type": "REACT",
     "id": "27f7f7bb-3b78-4ff5-bad1-edac23bd7568",
     "bookmarked": false,
     "title": "How you implement Server Side Rendering or SSR?",
@@ -726,6 +797,7 @@
     ]
   },
   {
+    "type": "REACT",
     "id": "b3e97cda-f0cc-4f8d-86c6-2dec2d289a28",
     "bookmarked": false,
     "title": "How to enable production mode in React?",
@@ -734,6 +806,7 @@
     ]
   },
   {
+    "type": "REACT",
     "id": "a9d9bbe1-77c3-4d68-a199-6e12bb91f0de",
     "bookmarked": false,
     "title": "What is CRA and its benefits?",
@@ -746,6 +819,7 @@
     ]
   },
   {
+    "type": "REACT",
     "id": "7022a40d-f612-4a5a-94c6-d55ed5952885",
     "bookmarked": false,
     "title": "What is the lifecycle methods order in mounting?",
@@ -755,6 +829,7 @@
     ]
   },
   {
+    "type": "REACT",
     "id": "0c91b00b-04b4-4f70-9bed-d5cae97bab1f",
     "bookmarked": false,
     "title": "What are the lifecycle methods going to be deprecated in React v16?",
@@ -765,6 +840,7 @@
     ]
   },
   {
+    "type": "REACT",
     "id": "065cab65-c1b3-4701-a457-c77817156577",
     "bookmarked": false,
     "title": "What is the purpose of getDerivedStateFromProps() lifecycle method?",
@@ -775,6 +851,7 @@
     ]
   },
   {
+    "type": "REACT",
     "id": "01600204-5b49-437d-ad9d-3d195bd82f26",
     "bookmarked": false,
     "title": "What is the purpose of getSnapshotBeforeUpdate() lifecycle method?",
@@ -785,6 +862,7 @@
     ]
   },
   {
+    "type": "REACT",
     "id": "d8e64a8c-bc3b-40e4-81b9-66d9cdd4450e",
     "bookmarked": false,
     "title": "Do Hooks replace render props and higher order components?",
@@ -793,6 +871,7 @@
     ]
   },
   {
+    "type": "REACT",
     "id": "466d5e27-532b-4d18-be9b-8130f8021ada",
     "bookmarked": false,
     "title": "What is the recommended way for naming components?",
@@ -807,6 +886,7 @@
     ]
   },
   {
+    "type": "REACT",
     "id": "339dde7a-faf5-45c1-a68d-8244ce7aa613",
     "bookmarked": false,
     "title": "What is the recommended ordering of methods in component class?",
@@ -816,6 +896,7 @@
     ]
   },
   {
+    "type": "REACT",
     "id": "1718c912-75fb-41a1-b61c-ce5d9b63e082",
     "bookmarked": false,
     "title": "What is a switching component?",
@@ -826,6 +907,7 @@
     ]
   },
   {
+    "type": "REACT",
     "id": "b9c1e846-3e77-4f9e-8b7d-3f24baf2cfaf",
     "bookmarked": false,
     "title": "Why we need to pass a function to setState()?",
@@ -845,6 +927,7 @@
     ]
   },
   {
+    "type": "REACT",
     "id": "a78b9019-d5a1-4ff4-ae1b-4a96be5ba969",
     "bookmarked": false,
     "title": "What is strict mode in React?",
@@ -855,6 +938,7 @@
     ]
   },
   {
+    "type": "REACT",
     "id": "99e9a3d2-14b6-46bc-94d7-0f3d49568ec0",
     "bookmarked": false,
     "title": "What are React Mixins?",
@@ -865,6 +949,7 @@
     ]
   },
   {
+    "type": "REACT",
     "id": "52c157a9-4f9c-4ac2-ac74-d4980ff36a12",
     "bookmarked": false,
     "title": "Why is isMounted() an anti-pattern and what is the proper solution?",
@@ -876,6 +961,7 @@
     ]
   },
   {
+    "type": "REACT",
     "id": "9384b25c-e30d-47c3-9f99-01cad0b43c51",
     "bookmarked": false,
     "title": "What are the Pointer Events supported in React?",
@@ -886,6 +972,7 @@
     ]
   },
   {
+    "type": "REACT",
     "id": "23344b44-c1c2-4134-8a3a-b23a187bb3f1",
     "bookmarked": false,
     "title": "Why should component names start with capital letter?",
@@ -902,6 +989,7 @@
     ]
   },
   {
+    "type": "REACT",
     "id": "4c46da01-a15e-4fa1-b84a-6aecdb44d43c",
     "bookmarked": false,
     "title": "Are custom DOM attributes supported in React v16?",
@@ -917,6 +1005,7 @@
     ]
   },
   {
+    "type": "REACT",
     "id": "58e206e8-100a-4aef-8ae9-d89e00cc188f",
     "bookmarked": false,
     "title": "What is the difference between constructor and getInitialState?",
@@ -930,6 +1019,7 @@
     ]
   },
   {
+    "type": "REACT",
     "id": "58e25c49-7acd-47f2-9031-c93ac28df4f4",
     "bookmarked": false,
     "title": "Can you force a component to re-render without calling setState?",
@@ -940,6 +1030,7 @@
     ]
   },
   {
+    "type": "REACT",
     "id": "3e20b14a-8665-4740-be1d-3b678c14e698",
     "bookmarked": false,
     "title": "What is the difference between super() and super(props) in React using ES6 classes?",
@@ -953,6 +1044,7 @@
     ]
   },
   {
+    "type": "REACT",
     "id": "2586ac20-4f52-42d2-9d47-8d3b42f730bc",
     "bookmarked": false,
     "title": "How to loop inside JSX?",
@@ -966,6 +1058,7 @@
     ]
   },
   {
+    "type": "REACT",
     "id": "a1598f45-149f-4da3-9077-7285f67db4b3",
     "bookmarked": false,
     "title": "How do you access props in attribute quotes?",
@@ -979,6 +1072,7 @@
     ]
   },
   {
+    "type": "REACT",
     "id": "df3133cd-c335-4164-8868-32cf216eb3c4",
     "bookmarked": false,
     "title": "What is React proptype array with shape?",
@@ -988,6 +1082,7 @@
     ]
   },
   {
+    "type": "REACT",
     "id": "52baa7c5-0d80-4ae5-b97e-4ab62f438d02",
     "bookmarked": false,
     "title": "How to conditionally apply class attributes?",
@@ -1001,6 +1096,7 @@
     ]
   },
   {
+    "type": "REACT",
     "id": "f25c4181-9843-42f5-8039-259e3d461f5d",
     "bookmarked": false,
     "title": "What is the difference between React and ReactDOM?",
@@ -1009,6 +1105,7 @@
     ]
   },
   {
+    "type": "REACT",
     "id": "954b9eca-9067-4a25-aeec-fd29c610391d",
     "bookmarked": false,
     "title": "Why ReactDOM is separated from React?",
@@ -1018,6 +1115,7 @@
     ]
   },
   {
+    "type": "REACT",
     "id": "4285260e-e509-4b7d-b2ef-223f682ec1a6",
     "bookmarked": false,
     "title": "How to use React label element?",
@@ -1029,6 +1127,7 @@
     ]
   },
   {
+    "type": "REACT",
     "id": "6cbfa614-3131-49b8-8a37-c5d27fa5a132",
     "bookmarked": false,
     "title": "How to combine multiple inline style objects?",
@@ -1040,6 +1139,7 @@
     ]
   },
   {
+    "type": "REACT",
     "id": "b1479e71-7cf6-4a47-bd89-3be133bddcc1",
     "bookmarked": false,
     "title": "How to re-render the view when the browser is resized?",
@@ -1049,6 +1149,7 @@
     ]
   },
   {
+    "type": "REACT",
     "id": "0433dccb-13e8-4982-9013-cbf3d0d3414d",
     "bookmarked": false,
     "title": "What is the difference between setState() and replaceState() methods?",
@@ -1057,6 +1158,7 @@
     ]
   },
   {
+    "type": "REACT",
     "id": "ae61f3b1-1d42-4b59-979a-36391fd137a9",
     "bookmarked": false,
     "title": "How to listen to state changes?",
@@ -1067,6 +1169,7 @@
     ]
   },
   {
+    "type": "REACT",
     "id": "816b5555-f241-434f-a784-5c955d6c67ad",
     "bookmarked": false,
     "title": "What is the recommended approach of removing an array element in React state?",
@@ -1077,6 +1180,7 @@
     ]
   },
   {
+    "type": "REACT",
     "id": "61fa4060-96bb-443f-960c-93616a4099b9",
     "bookmarked": false,
     "title": "Is it possible to use React without rendering HTML?",
@@ -1091,6 +1195,7 @@
     ]
   },
   {
+    "type": "REACT",
     "id": "75098e2c-379d-4da8-b101-4b9f1fcc9bdb",
     "bookmarked": false,
     "title": "How to pretty print JSON with React?",
@@ -1100,6 +1205,7 @@
     ]
   },
   {
+    "type": "REACT",
     "id": "3ed06858-2516-442d-b4d8-634447eacb4f",
     "bookmarked": false,
     "title": "Why you can't update props in React?",
@@ -1108,6 +1214,7 @@
     ]
   },
   {
+    "type": "REACT",
     "id": "829176db-537c-42d5-9eb7-2e2d9980543d",
     "bookmarked": false,
     "title": "How to focus an input element on page load?",
@@ -1119,6 +1226,7 @@
     ]
   },
   {
+    "type": "REACT",
     "id": "b629dc7c-1107-4af1-978d-91c9f4fa44b0",
     "bookmarked": false,
     "title": "What are the possible ways of updating objects in state?",
@@ -1127,6 +1235,7 @@
     ]
   },
   {
+    "type": "REACT",
     "id": "862362f9-f13e-4208-aa90-10a79175e2d4",
     "bookmarked": false,
     "title": "How can we find the version of React at runtime in the browser?",
@@ -1136,6 +1245,7 @@
     ]
   },
   {
+    "type": "REACT",
     "id": "7a28dcbe-c4c6-4422-8c45-410b535ae385",
     "bookmarked": false,
     "title": "What are the approaches to include polyfills in your create-react-app?",
@@ -1145,6 +1255,7 @@
     ]
   },
   {
+    "type": "REACT",
     "id": "a778f7f8-664b-4bba-bd69-559f1134445c",
     "bookmarked": false,
     "title": "How to use https instead of http in create-react-app?",
@@ -1155,6 +1266,7 @@
     ]
   },
   {
+    "type": "REACT",
     "id": "f5338f38-0e5d-4ae5-a0f8-86c9f131e2ec",
     "bookmarked": false,
     "title": "How to avoid using relative path imports in create-react-app?",
@@ -1165,6 +1277,7 @@
     ]
   },
   {
+    "type": "REACT",
     "id": "05313b62-6562-4a17-b564-0b937f6601a2",
     "bookmarked": false,
     "title": "How to add Google Analytics for React Router?",
@@ -1174,6 +1287,7 @@
     ]
   },
   {
+    "type": "REACT",
     "id": "c576e724-1ae8-4781-8d2b-ddeeedd51bbc",
     "bookmarked": false,
     "title": "How to update a component every second?",
@@ -1183,6 +1297,7 @@
     ]
   },
   {
+    "type": "REACT",
     "id": "119cd546-e96e-4c2b-9a43-0b346f777a73",
     "bookmarked": false,
     "title": "How do you apply vendor prefixes to inline styles in React?",
@@ -1192,6 +1307,7 @@
     ]
   },
   {
+    "type": "REACT",
     "id": "249ed4c3-3619-487b-815f-0527ba8bcc20",
     "bookmarked": false,
     "title": "How to import and export components using React and ES6?",
@@ -1202,6 +1318,7 @@
     ]
   },
   {
+    "type": "REACT",
     "id": "653f0b51-abf2-459b-865c-4b476fdd9db7",
     "bookmarked": false,
     "title": "Why is a component constructor called only once?",
@@ -1210,6 +1327,7 @@
     ]
   },
   {
+    "type": "REACT",
     "id": "b942dec6-ec91-4986-85c7-101dd12d8eb7",
     "bookmarked": false,
     "title": "How to define constants in React?",
@@ -1219,6 +1337,7 @@
     ]
   },
   {
+    "type": "REACT",
     "id": "7e355493-efd3-482d-84b5-424bcbe30b17",
     "bookmarked": false,
     "title": "How to programmatically trigger click event in React?",
@@ -1229,6 +1348,7 @@
     ]
   },
   {
+    "type": "REACT",
     "id": "18e841d3-7748-4d32-8eed-b2a0c43305cb",
     "bookmarked": false,
     "title": "Is it possible to use async/await in plain React?",
@@ -1237,6 +1357,7 @@
     ]
   },
   {
+    "type": "REACT",
     "id": "578e1508-914b-4449-a808-59bc1da3d8f6",
     "bookmarked": false,
     "title": "What are the common folder structures for React?",
@@ -1246,6 +1367,7 @@
     ]
   },
   {
+    "type": "REACT",
     "id": "9a128a63-ff30-40ab-92c6-232f0e8abd8f",
     "bookmarked": false,
     "title": "What are the popular packages for animation?",
@@ -1254,6 +1376,7 @@
     ]
   },
   {
+    "type": "REACT",
     "id": "3f926bd7-b0c6-4b2f-b0bb-0e95e5cb9af8",
     "bookmarked": false,
     "title": "What is the benefit of styles modules?",
@@ -1266,6 +1389,7 @@
     ]
   },
   {
+    "type": "REACT",
     "id": "83268ca7-0078-41a3-83a5-0fb42e06c357",
     "bookmarked": false,
     "title": "What are the popular React-specific linters?",
@@ -1275,6 +1399,7 @@
     ]
   },
   {
+    "type": "REACT",
     "id": "290b64d1-65c3-42b6-a6df-5f8281f91661",
     "bookmarked": false,
     "title": "How to make AJAX call and in which component lifecycle methods should I make an AJAX call?",
@@ -1285,6 +1410,7 @@
     ]
   },
   {
+    "type": "REACT",
     "id": "6370331e-09ab-4244-a1d8-3428281838a4",
     "bookmarked": false,
     "title": "What are render props?",
