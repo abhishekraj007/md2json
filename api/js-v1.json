@@ -1,6 +1,6 @@
 [
   {
-    "type": "JS",
+    "type": "JAVASCRIPT",
     "id": "3616ae3c-e73b-4239-a291-dff02f69b762",
     "bookmarked": false,
     "title": "What are the possible ways to create objects in JavaScript",
@@ -10,7 +10,7 @@
     ]
   },
   {
-    "type": "JS",
+    "type": "JAVASCRIPT",
     "id": "0b90aa49-5c35-46a4-aa6f-e2742ccf6a4c",
     "bookmarked": false,
     "title": "What is a prototype chain",
@@ -21,7 +21,7 @@
     ]
   },
   {
-    "type": "JS",
+    "type": "JAVASCRIPT",
     "id": "aad1bd48-0675-4cbb-a3cf-3a26c140114b",
     "bookmarked": false,
     "title": "What is the difference between Call, Apply and Bind",
@@ -38,7 +38,7 @@
     ]
   },
   {
-    "type": "JS",
+    "type": "JAVASCRIPT",
     "id": "80260f76-bcb8-4f34-9f6f-6085bf477f99",
     "bookmarked": false,
     "title": "What is JSON and its common operations",
@@ -51,7 +51,7 @@
     ]
   },
   {
-    "type": "JS",
+    "type": "JAVASCRIPT",
     "id": "4f19cb63-6e0d-41bf-9129-5b12091019c1",
     "bookmarked": false,
     "title": "What is the purpose of the array slice method",
@@ -63,7 +63,7 @@
     ]
   },
   {
-    "type": "JS",
+    "type": "JAVASCRIPT",
     "id": "370a1eee-476a-4f2a-b350-dee165761784",
     "bookmarked": false,
     "title": "What is the purpose of the array splice method",
@@ -75,7 +75,7 @@
     ]
   },
   {
-    "type": "JS",
+    "type": "JAVASCRIPT",
     "id": "2c3d4d84-4bac-462d-9d52-62d4034efe09",
     "bookmarked": false,
     "title": "What is the difference between slice and splice",
@@ -85,7 +85,7 @@
     ]
   },
   {
-    "type": "JS",
+    "type": "JAVASCRIPT",
     "id": "60d14e76-e787-4c40-9dd8-231605325ddc",
     "bookmarked": false,
     "title": "How do you compare Object and Map",
@@ -95,7 +95,7 @@
     ]
   },
   {
-    "type": "JS",
+    "type": "JAVASCRIPT",
     "id": "0a96e778-6f40-4f6e-a1cd-4e254fd7005c",
     "bookmarked": false,
     "title": "What is the difference between == and === operators",
@@ -107,7 +107,7 @@
     ]
   },
   {
-    "type": "JS",
+    "type": "JAVASCRIPT",
     "id": "35fa5434-f4b9-43e0-9b4e-a00cb903a4af",
     "bookmarked": false,
     "title": "What are lambda or arrow functions",
@@ -116,7 +116,7 @@
     ]
   },
   {
-    "type": "JS",
+    "type": "JAVASCRIPT",
     "id": "360147f5-1c18-40e1-a6c4-ceb86658e71e",
     "bookmarked": false,
     "title": "What is a first class function",
@@ -127,7 +127,7 @@
     ]
   },
   {
-    "type": "JS",
+    "type": "JAVASCRIPT",
     "id": "867405aa-4019-4587-85ea-759b2a2bc713",
     "bookmarked": false,
     "title": "What is a first order function",
@@ -137,7 +137,7 @@
     ]
   },
   {
-    "type": "JS",
+    "type": "JAVASCRIPT",
     "id": "0c9c1de4-4c1e-450f-b419-99fc8449538d",
     "bookmarked": false,
     "title": "What is a higher order function",
@@ -147,7 +147,7 @@
     ]
   },
   {
-    "type": "JS",
+    "type": "JAVASCRIPT",
     "id": "74d98044-c8b4-454f-98c5-982f786af7d8",
     "bookmarked": false,
     "title": "What is a unary function",
@@ -158,7 +158,7 @@
     ]
   },
   {
-    "type": "JS",
+    "type": "JAVASCRIPT",
     "id": "0a9f1253-a144-4db7-8739-5b894729cca1",
     "bookmarked": false,
     "title": "What is the currying function",
@@ -170,7 +170,7 @@
     ]
   },
   {
-    "type": "JS",
+    "type": "JAVASCRIPT",
     "id": "eee8afe3-2451-4f9b-9f7b-2b8ee95e6499",
     "bookmarked": false,
     "title": "What is a pure function",
@@ -183,7 +183,7 @@
     ]
   },
   {
-    "type": "JS",
+    "type": "JAVASCRIPT",
     "id": "f78c3248-49c3-409f-8bd8-79d40e454e6c",
     "bookmarked": false,
     "title": "What is the purpose of the let keyword",
@@ -194,7 +194,7 @@
     ]
   },
   {
-    "type": "JS",
+    "type": "JAVASCRIPT",
     "id": "9ed62d32-6c72-415e-b701-44d70aac3cec",
     "bookmarked": false,
     "title": "What is the difference between let and var",
@@ -206,7 +206,7 @@
     ]
   },
   {
-    "type": "JS",
+    "type": "JAVASCRIPT",
     "id": "fa404597-5123-4b32-8775-8f1575d715f3",
     "bookmarked": false,
     "title": "What is the reason to choose the name let as a keyword",
@@ -215,7 +215,7 @@
     ]
   },
   {
-    "type": "JS",
+    "type": "JAVASCRIPT",
     "id": "582d3c3d-d5b5-4a9f-8d71-73fc642a17f0",
     "bookmarked": false,
     "title": "How do you redeclare variables in switch block without an error",
@@ -227,7 +227,7 @@
     ]
   },
   {
-    "type": "JS",
+    "type": "JAVASCRIPT",
     "id": "b49d8f2f-42e1-4f04-a886-59923c3c08c1",
     "bookmarked": false,
     "title": "What is the Temporal Dead Zone",
@@ -238,7 +238,7 @@
     ]
   },
   {
-    "type": "JS",
+    "type": "JAVASCRIPT",
     "id": "c0cdc189-a34a-4600-a282-2b4f13ca9040",
     "bookmarked": false,
     "title": "What is IIFE(Immediately Invoked Function Expression)",
@@ -250,7 +250,7 @@
     ]
   },
   {
-    "type": "JS",
+    "type": "JAVASCRIPT",
     "id": "7bf896d1-bf80-4e89-8e8c-70bcefd0e8e5",
     "bookmarked": false,
     "title": "How do you decode or encode a URL in JavaScript?",
@@ -261,7 +261,7 @@
     ]
   },
   {
-    "type": "JS",
+    "type": "JAVASCRIPT",
     "id": "af3bef1e-3a4a-42e6-b136-9a2558e06a36",
     "bookmarked": false,
     "title": "What is memoization",
@@ -271,7 +271,7 @@
     ]
   },
   {
-    "type": "JS",
+    "type": "JAVASCRIPT",
     "id": "48ea3320-1726-4205-b70a-5e13e30b990a",
     "bookmarked": false,
     "title": "What is Hoisting",
@@ -286,7 +286,7 @@
     ]
   },
   {
-    "type": "JS",
+    "type": "JAVASCRIPT",
     "id": "ba3dae11-ff76-4de2-ac02-62f5cdb63abe",
     "bookmarked": false,
     "title": "What are classes in ES6",
@@ -298,7 +298,7 @@
     ]
   },
   {
-    "type": "JS",
+    "type": "JAVASCRIPT",
     "id": "895052a0-c973-4b7c-8bc2-11a9ede06a5c",
     "bookmarked": false,
     "title": "What are closures",
@@ -311,7 +311,7 @@
     ]
   },
   {
-    "type": "JS",
+    "type": "JAVASCRIPT",
     "id": "49f412e9-a1ac-4107-87cb-baccd704e20a",
     "bookmarked": false,
     "title": "What are modules",
@@ -320,7 +320,7 @@
     ]
   },
   {
-    "type": "JS",
+    "type": "JAVASCRIPT",
     "id": "37cdc4dc-0443-4540-a878-f8a5e1b166b8",
     "bookmarked": false,
     "title": "Why do you need modules",
@@ -330,7 +330,7 @@
     ]
   },
   {
-    "type": "JS",
+    "type": "JAVASCRIPT",
     "id": "218936cf-9f59-4a2c-b7da-01713566ba3e",
     "bookmarked": false,
     "title": "What is scope in javascript",
@@ -339,7 +339,7 @@
     ]
   },
   {
-    "type": "JS",
+    "type": "JAVASCRIPT",
     "id": "399c0834-ebc5-4abf-8e96-8db928dfff30",
     "bookmarked": false,
     "title": "What is a service worker",
@@ -348,7 +348,7 @@
     ]
   },
   {
-    "type": "JS",
+    "type": "JAVASCRIPT",
     "id": "24b7efe3-bb34-46f9-a36b-a509aadf4a9c",
     "bookmarked": false,
     "title": "How do you manipulate DOM using a service worker",
@@ -357,7 +357,7 @@
     ]
   },
   {
-    "type": "JS",
+    "type": "JAVASCRIPT",
     "id": "66244d96-882b-4965-bef9-60d5a702840e",
     "bookmarked": false,
     "title": "How do you reuse information across service worker restarts",
@@ -366,7 +366,7 @@
     ]
   },
   {
-    "type": "JS",
+    "type": "JAVASCRIPT",
     "id": "058038f4-3b9c-4155-acb8-90c96dc9b37f",
     "bookmarked": false,
     "title": "What is IndexedDB",
@@ -375,7 +375,7 @@
     ]
   },
   {
-    "type": "JS",
+    "type": "JAVASCRIPT",
     "id": "d9047369-9d1c-42ea-b0e8-2d7581d128fa",
     "bookmarked": false,
     "title": "What is web storage",
@@ -385,7 +385,7 @@
     ]
   },
   {
-    "type": "JS",
+    "type": "JAVASCRIPT",
     "id": "cce08ad2-2eb2-4471-8296-045b74da17e5",
     "bookmarked": false,
     "title": "What is a post message",
@@ -394,7 +394,7 @@
     ]
   },
   {
-    "type": "JS",
+    "type": "JAVASCRIPT",
     "id": "723ca63f-34e3-4c14-b44b-1d9ed092ad64",
     "bookmarked": false,
     "title": "What is a Cookie",
@@ -405,7 +405,7 @@
     ]
   },
   {
-    "type": "JS",
+    "type": "JAVASCRIPT",
     "id": "35b86af5-91c0-4e60-be4e-fc44b72a736d",
     "bookmarked": false,
     "title": "Why do you need a Cookie",
@@ -415,7 +415,7 @@
     ]
   },
   {
-    "type": "JS",
+    "type": "JAVASCRIPT",
     "id": "efc4f223-d1d4-421b-9212-1bc8084cd98e",
     "bookmarked": false,
     "title": "What are the options in a cookie",
@@ -428,7 +428,7 @@
     ]
   },
   {
-    "type": "JS",
+    "type": "JAVASCRIPT",
     "id": "c5f12b7f-6ffc-47e4-a4eb-86d80885044f",
     "bookmarked": false,
     "title": "How do you delete a cookie",
@@ -439,7 +439,7 @@
     ]
   },
   {
-    "type": "JS",
+    "type": "JAVASCRIPT",
     "id": "4906e9f4-ff55-48fe-838d-23282c74df07",
     "bookmarked": false,
     "title": "What are the differences between cookie, local storage and session storage",
@@ -449,7 +449,7 @@
     ]
   },
   {
-    "type": "JS",
+    "type": "JAVASCRIPT",
     "id": "3ad15b9e-ce1b-4a70-af94-a0313f8256cf",
     "bookmarked": false,
     "title": "What is the main difference between localStorage and sessionStorage",
@@ -458,7 +458,7 @@
     ]
   },
   {
-    "type": "JS",
+    "type": "JAVASCRIPT",
     "id": "4dbb1d02-ed8e-472f-b607-b817cb4cc689",
     "bookmarked": false,
     "title": "How do you access web storage",
@@ -468,7 +468,7 @@
     ]
   },
   {
-    "type": "JS",
+    "type": "JAVASCRIPT",
     "id": "e807ef4b-46a5-4665-8067-75dc796bb8c7",
     "bookmarked": false,
     "title": "What are the methods available on session storage",
@@ -478,7 +478,7 @@
     ]
   },
   {
-    "type": "JS",
+    "type": "JAVASCRIPT",
     "id": "0790a6b9-3dd0-4c2a-b769-fd2d1085f3f2",
     "bookmarked": false,
     "title": "What is a storage event and its event handler",
@@ -490,7 +490,7 @@
     ]
   },
   {
-    "type": "JS",
+    "type": "JAVASCRIPT",
     "id": "754ef09d-c0f3-436f-9648-868e53cd4d02",
     "bookmarked": false,
     "title": "Why do you need web storage",
@@ -499,7 +499,7 @@
     ]
   },
   {
-    "type": "JS",
+    "type": "JAVASCRIPT",
     "id": "bbb48cb7-69e1-46bf-a9ff-24981d3bde81",
     "bookmarked": false,
     "title": "How do you check web storage browser support",
@@ -509,7 +509,7 @@
     ]
   },
   {
-    "type": "JS",
+    "type": "JAVASCRIPT",
     "id": "c295a314-8fa8-411a-a4d2-a9b8df514790",
     "bookmarked": false,
     "title": "How do you check web workers browser support",
@@ -519,7 +519,7 @@
     ]
   },
   {
-    "type": "JS",
+    "type": "JAVASCRIPT",
     "id": "f163a95e-1805-4534-8e22-8caf4113fe8f",
     "bookmarked": false,
     "title": "Give an example of a web worker",
@@ -539,7 +539,7 @@
     ]
   },
   {
-    "type": "JS",
+    "type": "JAVASCRIPT",
     "id": "c5e2609e-1cf2-4252-985b-e72c43850a61",
     "bookmarked": false,
     "title": "What are the restrictions of web workers on DOM",
@@ -549,7 +549,7 @@
     ]
   },
   {
-    "type": "JS",
+    "type": "JAVASCRIPT",
     "id": "44c85a25-57b7-4349-89bc-33f3d9df5df5",
     "bookmarked": false,
     "title": "What is a promise",
@@ -564,7 +564,7 @@
     ]
   },
   {
-    "type": "JS",
+    "type": "JAVASCRIPT",
     "id": "db6a6b2b-4c38-4348-9ef5-e359b383f23c",
     "bookmarked": false,
     "title": "Why do you need a promise",
@@ -573,7 +573,7 @@
     ]
   },
   {
-    "type": "JS",
+    "type": "JAVASCRIPT",
     "id": "8ad5b2b2-e964-4f00-b4ea-0b51a012d7b4",
     "bookmarked": false,
     "title": "What are the three states of promise",
@@ -583,7 +583,7 @@
     ]
   },
   {
-    "type": "JS",
+    "type": "JAVASCRIPT",
     "id": "d1a898b7-6afc-43c2-adf8-e58c08b10dfa",
     "bookmarked": false,
     "title": "What is a callback function",
@@ -593,7 +593,7 @@
     ]
   },
   {
-    "type": "JS",
+    "type": "JAVASCRIPT",
     "id": "5f1f12c0-3582-4c1f-a5a1-2646644b89d0",
     "bookmarked": false,
     "title": "Why do we need callbacks",
@@ -604,7 +604,7 @@
     ]
   },
   {
-    "type": "JS",
+    "type": "JAVASCRIPT",
     "id": "9a94dbfc-60f5-4684-ad70-13d66185e08f",
     "bookmarked": false,
     "title": "What is a callback hell",
@@ -614,7 +614,7 @@
     ]
   },
   {
-    "type": "JS",
+    "type": "JAVASCRIPT",
     "id": "82744f5d-dcbf-48da-98e1-e9779d10f254",
     "bookmarked": false,
     "title": "What are server-sent events",
@@ -623,7 +623,7 @@
     ]
   },
   {
-    "type": "JS",
+    "type": "JAVASCRIPT",
     "id": "a2805eb0-2ba1-4079-a8ae-ec485febe660",
     "bookmarked": false,
     "title": "How do you receive server-sent event notifications",
@@ -633,7 +633,7 @@
     ]
   },
   {
-    "type": "JS",
+    "type": "JAVASCRIPT",
     "id": "12df87a9-4568-4c04-8b53-31a03caaa43b",
     "bookmarked": false,
     "title": "How do you check browser support for server-sent events",
@@ -643,7 +643,7 @@
     ]
   },
   {
-    "type": "JS",
+    "type": "JAVASCRIPT",
     "id": "036a97f2-cf58-4ed2-b544-8b4575bc2354",
     "bookmarked": false,
     "title": "What are the events available for server sent events",
@@ -652,7 +652,7 @@
     ]
   },
   {
-    "type": "JS",
+    "type": "JAVASCRIPT",
     "id": "6f52c00b-517e-419c-89a9-0eb41e30579d",
     "bookmarked": false,
     "title": "What are the main rules of promise",
@@ -662,7 +662,7 @@
     ]
   },
   {
-    "type": "JS",
+    "type": "JAVASCRIPT",
     "id": "afe1b5d3-f016-4991-965e-1ac64c33d4c2",
     "bookmarked": false,
     "title": "What is callback in callback",
@@ -672,7 +672,7 @@
     ]
   },
   {
-    "type": "JS",
+    "type": "JAVASCRIPT",
     "id": "ccc6a30b-06df-4af8-8be3-f856720c743a",
     "bookmarked": false,
     "title": "What is promise chaining",
@@ -684,7 +684,7 @@
     ]
   },
   {
-    "type": "JS",
+    "type": "JAVASCRIPT",
     "id": "c559cdad-daa3-4481-9a00-be739a756528",
     "bookmarked": false,
     "title": "What is promise.all",
@@ -695,7 +695,7 @@
     ]
   },
   {
-    "type": "JS",
+    "type": "JAVASCRIPT",
     "id": "ef7af4ab-03e4-45e0-83c9-60604a577e8a",
     "bookmarked": false,
     "title": "What is the purpose of the race method in promise",
@@ -705,7 +705,7 @@
     ]
   },
   {
-    "type": "JS",
+    "type": "JAVASCRIPT",
     "id": "96ec6c1a-ada7-45bd-8df9-84e85f5d7ec8",
     "bookmarked": false,
     "title": "What is a strict mode in javascript",
@@ -714,7 +714,7 @@
     ]
   },
   {
-    "type": "JS",
+    "type": "JAVASCRIPT",
     "id": "41d9d286-9c29-41b2-b4da-933b00abbff0",
     "bookmarked": false,
     "title": "Why do you need strict mode",
@@ -723,7 +723,7 @@
     ]
   },
   {
-    "type": "JS",
+    "type": "JAVASCRIPT",
     "id": "d13fdd6a-24ed-4d42-bcbc-75735cf75d45",
     "bookmarked": false,
     "title": "How do you declare strict mode",
@@ -735,7 +735,7 @@
     ]
   },
   {
-    "type": "JS",
+    "type": "JAVASCRIPT",
     "id": "7daf2aaa-4ba8-4487-893f-51f5b5ce074c",
     "bookmarked": false,
     "title": "What is the purpose of double exclamation",
@@ -748,7 +748,7 @@
     ]
   },
   {
-    "type": "JS",
+    "type": "JAVASCRIPT",
     "id": "bb2d8d8d-dba2-4e4b-be24-abf025091b7b",
     "bookmarked": false,
     "title": "What is the purpose of the delete operator",
@@ -758,7 +758,7 @@
     ]
   },
   {
-    "type": "JS",
+    "type": "JAVASCRIPT",
     "id": "20737a79-b6ec-4edb-b175-834a65e94b40",
     "bookmarked": false,
     "title": "What is the typeof operator",
@@ -768,7 +768,7 @@
     ]
   },
   {
-    "type": "JS",
+    "type": "JAVASCRIPT",
     "id": "f78a7f20-9f03-445e-8e63-17d3eeddc385",
     "bookmarked": false,
     "title": "What is undefined property",
@@ -780,7 +780,7 @@
     ]
   },
   {
-    "type": "JS",
+    "type": "JAVASCRIPT",
     "id": "93811660-a6da-4ab5-a74e-b01cdbce7994",
     "bookmarked": false,
     "title": "What is null value",
@@ -790,7 +790,7 @@
     ]
   },
   {
-    "type": "JS",
+    "type": "JAVASCRIPT",
     "id": "becca49d-ad73-4443-b5ef-a05ee9aba209",
     "bookmarked": false,
     "title": "What is the difference between null and undefined",
@@ -800,7 +800,7 @@
     ]
   },
   {
-    "type": "JS",
+    "type": "JAVASCRIPT",
     "id": "725fcc8f-f6af-41c2-afa9-ac0984c3f106",
     "bookmarked": false,
     "title": "What is eval",
@@ -810,7 +810,7 @@
     ]
   },
   {
-    "type": "JS",
+    "type": "JAVASCRIPT",
     "id": "48df51cd-c9bb-4109-88ee-8e709512bc7a",
     "bookmarked": false,
     "title": "What is the difference between window and document",
@@ -820,7 +820,7 @@
     ]
   },
   {
-    "type": "JS",
+    "type": "JAVASCRIPT",
     "id": "29e324cd-1e74-4a3a-90eb-0e9fafb532d7",
     "bookmarked": false,
     "title": "How do you access history in javascript",
@@ -831,7 +831,7 @@
     ]
   },
   {
-    "type": "JS",
+    "type": "JAVASCRIPT",
     "id": "28d634d8-93d3-4f2b-9328-90db16d0deba",
     "bookmarked": false,
     "title": "How do you detect caps lock key turned on or not",
@@ -842,7 +842,7 @@
     ]
   },
   {
-    "type": "JS",
+    "type": "JAVASCRIPT",
     "id": "077439dc-4986-40ea-b6ee-032099a61f34",
     "bookmarked": false,
     "title": "What is isNaN",
@@ -852,7 +852,7 @@
     ]
   },
   {
-    "type": "JS",
+    "type": "JAVASCRIPT",
     "id": "e3d82735-d5c2-488b-b152-534da6b11e0e",
     "bookmarked": false,
     "title": "What are the differences between undeclared and undefined variables",
@@ -862,7 +862,7 @@
     ]
   },
   {
-    "type": "JS",
+    "type": "JAVASCRIPT",
     "id": "ba12a20e-6268-4de3-b2f6-13fc1077415b",
     "bookmarked": false,
     "title": "What are global variables",
@@ -872,7 +872,7 @@
     ]
   },
   {
-    "type": "JS",
+    "type": "JAVASCRIPT",
     "id": "e3fc9022-2f70-43ae-aa15-8a349435f810",
     "bookmarked": false,
     "title": "What are the problems with global variables",
@@ -881,7 +881,7 @@
     ]
   },
   {
-    "type": "JS",
+    "type": "JAVASCRIPT",
     "id": "520947a9-b493-450a-a626-5721299eb73a",
     "bookmarked": false,
     "title": "What is NaN property",
@@ -891,7 +891,7 @@
     ]
   },
   {
-    "type": "JS",
+    "type": "JAVASCRIPT",
     "id": "e69ed5ee-72a4-41ac-8d1e-11f1ddc946c9",
     "bookmarked": false,
     "title": "What is the purpose of isFinite function",
@@ -901,7 +901,7 @@
     ]
   },
   {
-    "type": "JS",
+    "type": "JAVASCRIPT",
     "id": "71469a07-a836-4ecf-b9c4-4eb6c059f62c",
     "bookmarked": false,
     "title": "What is an event flow",
@@ -911,7 +911,7 @@
     ]
   },
   {
-    "type": "JS",
+    "type": "JAVASCRIPT",
     "id": "ec501221-b3d1-4eea-81ed-5a8476b7bd2b",
     "bookmarked": false,
     "title": "What is event bubbling",
@@ -920,7 +920,7 @@
     ]
   },
   {
-    "type": "JS",
+    "type": "JAVASCRIPT",
     "id": "58ecd705-53c6-43df-9ddd-b52368b8a4c8",
     "bookmarked": false,
     "title": "What is event capturing",
@@ -929,7 +929,7 @@
     ]
   },
   {
-    "type": "JS",
+    "type": "JAVASCRIPT",
     "id": "2b1409d2-f6aa-4bbc-8172-55d7083ee111",
     "bookmarked": false,
     "title": "How do you submit a form using JavaScript",
@@ -939,7 +939,7 @@
     ]
   },
   {
-    "type": "JS",
+    "type": "JAVASCRIPT",
     "id": "51af7e62-8717-48e9-ad45-d8d1ce894190",
     "bookmarked": false,
     "title": "How do you find operating system details",
@@ -949,7 +949,7 @@
     ]
   },
   {
-    "type": "JS",
+    "type": "JAVASCRIPT",
     "id": "aa9cdd16-4421-4cd7-803e-3e2213f23275",
     "bookmarked": false,
     "title": "What is the difference between document load and DOMContentLoaded events",
@@ -958,7 +958,7 @@
     ]
   },
   {
-    "type": "JS",
+    "type": "JAVASCRIPT",
     "id": "ebb528bd-1487-4c14-bc63-89ac1449cb9f",
     "bookmarked": false,
     "title": "What is the difference between native, host and user objects",
@@ -967,7 +967,7 @@
     ]
   },
   {
-    "type": "JS",
+    "type": "JAVASCRIPT",
     "id": "c5eed250-da74-4471-b046-a1308c15fe87",
     "bookmarked": false,
     "title": "What are the tools or techniques used for debugging JavaScript code",
@@ -977,7 +977,7 @@
     ]
   },
   {
-    "type": "JS",
+    "type": "JAVASCRIPT",
     "id": "de8ffa37-fcc0-418d-a4c6-a46fd7179505",
     "bookmarked": false,
     "title": "What are the pros and cons of promises over callbacks",
@@ -990,7 +990,7 @@
     ]
   },
   {
-    "type": "JS",
+    "type": "JAVASCRIPT",
     "id": "de4ddcd0-87fc-4e0d-8ae9-3ae5a9601c3a",
     "bookmarked": false,
     "title": "What is the difference between an attribute and a property",
@@ -1004,7 +1004,7 @@
     ]
   },
   {
-    "type": "JS",
+    "type": "JAVASCRIPT",
     "id": "b1bfec39-7909-4910-969f-46bcbb0365b2",
     "bookmarked": false,
     "title": "What is same-origin policy",
@@ -1013,7 +1013,7 @@
     ]
   },
   {
-    "type": "JS",
+    "type": "JAVASCRIPT",
     "id": "50ddcc37-5ee7-432b-942c-946e798d2df2",
     "bookmarked": false,
     "title": "What is the purpose of void 0",
@@ -1023,7 +1023,7 @@
     ]
   },
   {
-    "type": "JS",
+    "type": "JAVASCRIPT",
     "id": "b7af0d07-9678-49b2-9faf-a0ede7d19af8",
     "bookmarked": false,
     "title": "Is JavaScript a compiled or interpreted language",
@@ -1032,7 +1032,7 @@
     ]
   },
   {
-    "type": "JS",
+    "type": "JAVASCRIPT",
     "id": "2203c15d-1cae-44be-8a39-d6c4b3fb6429",
     "bookmarked": false,
     "title": "Is JavaScript a case-sensitive language",
@@ -1041,7 +1041,7 @@
     ]
   },
   {
-    "type": "JS",
+    "type": "JAVASCRIPT",
     "id": "17966662-7cc9-48ec-9019-8e808b67690f",
     "bookmarked": false,
     "title": "Is there any relation between Java and JavaScript",
@@ -1050,7 +1050,7 @@
     ]
   },
   {
-    "type": "JS",
+    "type": "JAVASCRIPT",
     "id": "59cd6b7f-c3e9-4594-b0a5-95f98fda53cf",
     "bookmarked": false,
     "title": "What are events",
@@ -1062,7 +1062,7 @@
     ]
   },
   {
-    "type": "JS",
+    "type": "JAVASCRIPT",
     "id": "f56ba1e5-1a7b-452d-9b01-18387ed55c68",
     "bookmarked": false,
     "title": "Who created javascript",
@@ -1071,7 +1071,7 @@
     ]
   },
   {
-    "type": "JS",
+    "type": "JAVASCRIPT",
     "id": "f314d463-bb72-4217-9ad5-c0736bf8cb5e",
     "bookmarked": false,
     "title": "What is the use of preventDefault method",
@@ -1082,7 +1082,7 @@
     ]
   },
   {
-    "type": "JS",
+    "type": "JAVASCRIPT",
     "id": "ac59d40e-6ae3-4857-a8b8-73d65c113939",
     "bookmarked": false,
     "title": "What is the use of stopPropagation method",
@@ -1092,7 +1092,7 @@
     ]
   },
   {
-    "type": "JS",
+    "type": "JAVASCRIPT",
     "id": "41eadff3-ca60-42db-a59c-13c29a7ae06f",
     "bookmarked": false,
     "title": "What are the steps involved in return false usage",
@@ -1102,7 +1102,7 @@
     ]
   },
   {
-    "type": "JS",
+    "type": "JAVASCRIPT",
     "id": "12abc268-b854-4953-b6f3-c199dfb757ee",
     "bookmarked": false,
     "title": "What is BOM",
@@ -1112,7 +1112,7 @@
     ]
   },
   {
-    "type": "JS",
+    "type": "JAVASCRIPT",
     "id": "77debc17-dbc2-4910-b5a7-72aabcc3aa16",
     "bookmarked": false,
     "title": "What is the use of setTimeout",
@@ -1122,7 +1122,7 @@
     ]
   },
   {
-    "type": "JS",
+    "type": "JAVASCRIPT",
     "id": "f22d7c41-f9ef-48de-b2bf-df4d34c2b0f4",
     "bookmarked": false,
     "title": "What is the use of setInterval",
@@ -1132,7 +1132,7 @@
     ]
   },
   {
-    "type": "JS",
+    "type": "JAVASCRIPT",
     "id": "3166fece-2207-4813-b1ff-911b5cbb160f",
     "bookmarked": false,
     "title": "Why is JavaScript treated as Single threaded",
@@ -1141,7 +1141,7 @@
     ]
   },
   {
-    "type": "JS",
+    "type": "JAVASCRIPT",
     "id": "d212a24d-7f63-45df-9483-fa30303ed47d",
     "bookmarked": false,
     "title": "What is an event delegation",
@@ -1152,7 +1152,7 @@
     ]
   },
   {
-    "type": "JS",
+    "type": "JAVASCRIPT",
     "id": "03617615-88bc-47d1-90a4-21e2ce482ce8",
     "bookmarked": false,
     "title": "What is ECMAScript",
@@ -1161,7 +1161,7 @@
     ]
   },
   {
-    "type": "JS",
+    "type": "JAVASCRIPT",
     "id": "3451aeae-6d35-4ef5-a155-d6a075a9b23e",
     "bookmarked": false,
     "title": "What is JSON",
@@ -1170,7 +1170,7 @@
     ]
   },
   {
-    "type": "JS",
+    "type": "JAVASCRIPT",
     "id": "270ecb74-d023-4f49-aa4a-00fab7e9eeed",
     "bookmarked": false,
     "title": "What are the syntax rules of JSON",
@@ -1180,7 +1180,7 @@
     ]
   },
   {
-    "type": "JS",
+    "type": "JAVASCRIPT",
     "id": "1e491fe7-601b-49b4-8a18-047aa39ef806",
     "bookmarked": false,
     "title": "What is the purpose JSON stringify",
@@ -1190,7 +1190,7 @@
     ]
   },
   {
-    "type": "JS",
+    "type": "JAVASCRIPT",
     "id": "fe0571b1-d525-4c0a-bc82-dc8c5864d25a",
     "bookmarked": false,
     "title": "How do you parse JSON string",
@@ -1200,7 +1200,7 @@
     ]
   },
   {
-    "type": "JS",
+    "type": "JAVASCRIPT",
     "id": "c3caca3e-5bc6-4c86-8eb8-dd9be38f82fb",
     "bookmarked": false,
     "title": "Why do you need JSON",
@@ -1209,7 +1209,7 @@
     ]
   },
   {
-    "type": "JS",
+    "type": "JAVASCRIPT",
     "id": "3e1b8a49-91c6-459b-bce7-e8d2406d6187",
     "bookmarked": false,
     "title": "What are PWAs",
@@ -1218,7 +1218,7 @@
     ]
   },
   {
-    "type": "JS",
+    "type": "JAVASCRIPT",
     "id": "12a6338c-c3b0-4640-9274-5447c772e0d3",
     "bookmarked": false,
     "title": "What is the purpose of clearTimeout method",
@@ -1229,7 +1229,7 @@
     ]
   },
   {
-    "type": "JS",
+    "type": "JAVASCRIPT",
     "id": "01c598dc-1255-47d7-b7b5-f5103dfb4f63",
     "bookmarked": false,
     "title": "What is the purpose of clearInterval method",
@@ -1240,7 +1240,7 @@
     ]
   },
   {
-    "type": "JS",
+    "type": "JAVASCRIPT",
     "id": "1fd9730d-0960-45a1-a404-88c4bf80a657",
     "bookmarked": false,
     "title": "How do you redirect new page in javascript",
@@ -1250,7 +1250,7 @@
     ]
   },
   {
-    "type": "JS",
+    "type": "JAVASCRIPT",
     "id": "99c6860d-1a6f-4e09-8874-12a077a41e21",
     "bookmarked": false,
     "title": "How do you check whether a string contains a substring",
@@ -1265,7 +1265,7 @@
     ]
   },
   {
-    "type": "JS",
+    "type": "JAVASCRIPT",
     "id": "448f084f-c640-41f6-8c12-6e2b268d80c0",
     "bookmarked": false,
     "title": "How do you validate an email in javascript",
@@ -1276,7 +1276,7 @@
     ]
   },
   {
-    "type": "JS",
+    "type": "JAVASCRIPT",
     "id": "4e49e690-4e85-47a4-9709-64a3a965ec43",
     "bookmarked": false,
     "title": "How do you get the current url with javascript",
@@ -1286,7 +1286,7 @@
     ]
   },
   {
-    "type": "JS",
+    "type": "JAVASCRIPT",
     "id": "930b6e80-386d-43f6-b84e-d55c2c68cfdf",
     "bookmarked": false,
     "title": "What are the various url properties of location object",
@@ -1296,7 +1296,7 @@
     ]
   },
   {
-    "type": "JS",
+    "type": "JAVASCRIPT",
     "id": "e345de4e-ddf4-4153-95af-2d10078f35b0",
     "bookmarked": false,
     "title": "How do get query string values in javascript",
@@ -1306,7 +1306,7 @@
     ]
   },
   {
-    "type": "JS",
+    "type": "JAVASCRIPT",
     "id": "8872bcca-4137-424a-973b-6b34110a3c4c",
     "bookmarked": false,
     "title": "How do you check if a key exists in an object",
@@ -1323,7 +1323,7 @@
     ]
   },
   {
-    "type": "JS",
+    "type": "JAVASCRIPT",
     "id": "f59147ac-56fe-41d3-979d-df77cacc2f86",
     "bookmarked": false,
     "title": "How do you loop through or enumerate javascript object",
@@ -1333,7 +1333,7 @@
     ]
   },
   {
-    "type": "JS",
+    "type": "JAVASCRIPT",
     "id": "4816be62-9689-488c-9fd3-7b71af342d6f",
     "bookmarked": false,
     "title": "How do you test for an empty object",
@@ -1348,7 +1348,7 @@
     ]
   },
   {
-    "type": "JS",
+    "type": "JAVASCRIPT",
     "id": "deecd579-9f4b-41c5-8302-760aac9ce760",
     "bookmarked": false,
     "title": "What is an arguments object",
@@ -1360,7 +1360,7 @@
     ]
   },
   {
-    "type": "JS",
+    "type": "JAVASCRIPT",
     "id": "5dbd483b-8232-436a-9571-15d9e7abf074",
     "bookmarked": false,
     "title": "How do you make first letter of the string in an uppercase",
@@ -1370,7 +1370,7 @@
     ]
   },
   {
-    "type": "JS",
+    "type": "JAVASCRIPT",
     "id": "7d35af92-0264-4b95-af45-3d7b17402bf2",
     "bookmarked": false,
     "title": "What are the pros and cons of for loop",
@@ -1383,7 +1383,7 @@
     ]
   },
   {
-    "type": "JS",
+    "type": "JAVASCRIPT",
     "id": "4ef57100-5bd0-4b80-a8a8-ce99505c98de",
     "bookmarked": false,
     "title": "How do you display the current date in javascript",
@@ -1393,7 +1393,7 @@
     ]
   },
   {
-    "type": "JS",
+    "type": "JAVASCRIPT",
     "id": "3a20035d-92f9-444d-8351-f6be25b91d10",
     "bookmarked": false,
     "title": "How do you compare two date objects",
@@ -1403,7 +1403,7 @@
     ]
   },
   {
-    "type": "JS",
+    "type": "JAVASCRIPT",
     "id": "017ee3be-96cd-4186-b4e0-c14f7f7582ae",
     "bookmarked": false,
     "title": "How do you check if a string starts with another string",
@@ -1413,7 +1413,7 @@
     ]
   },
   {
-    "type": "JS",
+    "type": "JAVASCRIPT",
     "id": "70664e0a-b105-4808-bb8d-2de19c37e2a8",
     "bookmarked": false,
     "title": "How do you trim a string in javascript",
@@ -1425,7 +1425,7 @@
     ]
   },
   {
-    "type": "JS",
+    "type": "JAVASCRIPT",
     "id": "396eee43-16d9-4af1-b319-723f86e470c7",
     "bookmarked": false,
     "title": "How do you add a key value pair in javascript",
@@ -1439,7 +1439,7 @@
     ]
   },
   {
-    "type": "JS",
+    "type": "JAVASCRIPT",
     "id": "7987ab30-322e-471a-ac9a-7200a40fada8",
     "bookmarked": false,
     "title": "Is the !-- notation represents a special operator",
@@ -1450,7 +1450,7 @@
     ]
   },
   {
-    "type": "JS",
+    "type": "JAVASCRIPT",
     "id": "d9984bb3-3ca4-49ce-9fae-48a62c373fbf",
     "bookmarked": false,
     "title": "How do you assign default values to variables",
@@ -1461,7 +1461,7 @@
     ]
   },
   {
-    "type": "JS",
+    "type": "JAVASCRIPT",
     "id": "b84e2964-4e26-4049-ba10-39c1b4d4cfb4",
     "bookmarked": false,
     "title": "How do you define multiline strings",
@@ -1472,7 +1472,7 @@
     ]
   },
   {
-    "type": "JS",
+    "type": "JAVASCRIPT",
     "id": "ff93549a-828e-496f-a330-4e9fc9becfd6",
     "bookmarked": false,
     "title": "What is an app shell model",
@@ -1481,7 +1481,7 @@
     ]
   },
   {
-    "type": "JS",
+    "type": "JAVASCRIPT",
     "id": "76aa05cf-d1dc-4367-b697-946bf5d46186",
     "bookmarked": false,
     "title": "Can we define properties for functions",
@@ -1491,7 +1491,7 @@
     ]
   },
   {
-    "type": "JS",
+    "type": "JAVASCRIPT",
     "id": "72983535-2ff7-4b4c-b60d-e4161511864c",
     "bookmarked": false,
     "title": "What is the way to find the number of parameters expected by a function",
@@ -1501,7 +1501,7 @@
     ]
   },
   {
-    "type": "JS",
+    "type": "JAVASCRIPT",
     "id": "50a6dc64-005e-443f-b6ca-b8ee41b6afbe",
     "bookmarked": false,
     "title": "What is a polyfill",
@@ -1510,7 +1510,7 @@
     ]
   },
   {
-    "type": "JS",
+    "type": "JAVASCRIPT",
     "id": "e3539c38-4a18-4101-8a69-4d583dd3cfd5",
     "bookmarked": false,
     "title": "What are break and continue statements",
@@ -1522,7 +1522,7 @@
     ]
   },
   {
-    "type": "JS",
+    "type": "JAVASCRIPT",
     "id": "62f08a7f-06cf-44cf-90c7-2c1828d12a3f",
     "bookmarked": false,
     "title": "What are js labels",
@@ -1532,7 +1532,7 @@
     ]
   },
   {
-    "type": "JS",
+    "type": "JAVASCRIPT",
     "id": "54adb554-9b26-4c02-acca-7359bedb3261",
     "bookmarked": false,
     "title": "What are the benefits of keeping declarations at the top",
@@ -1542,7 +1542,7 @@
     ]
   },
   {
-    "type": "JS",
+    "type": "JAVASCRIPT",
     "id": "714ca290-2f27-4b3e-a40a-46ccb53b4619",
     "bookmarked": false,
     "title": "What are the benefits of initializing variables",
@@ -1552,7 +1552,7 @@
     ]
   },
   {
-    "type": "JS",
+    "type": "JAVASCRIPT",
     "id": "e8e8be10-0784-41ff-833c-47543d0bcedc",
     "bookmarked": false,
     "title": "What are the recommendations to create new object",
@@ -1564,7 +1564,7 @@
     ]
   },
   {
-    "type": "JS",
+    "type": "JAVASCRIPT",
     "id": "a97eb9a5-d571-41a0-8c5c-251d8b951ef1",
     "bookmarked": false,
     "title": "How do you define JSON arrays",
@@ -1574,7 +1574,7 @@
     ]
   },
   {
-    "type": "JS",
+    "type": "JAVASCRIPT",
     "id": "55825e9e-04ad-44bf-9175-d38879d3fda8",
     "bookmarked": false,
     "title": "How do you generate random integers",
@@ -1585,7 +1585,7 @@
     ]
   },
   {
-    "type": "JS",
+    "type": "JAVASCRIPT",
     "id": "08543174-df17-48d0-a87a-6d0022c9f2d3",
     "bookmarked": false,
     "title": "Can you write a random integers function to print integers with in a range",
@@ -1595,7 +1595,7 @@
     ]
   },
   {
-    "type": "JS",
+    "type": "JAVASCRIPT",
     "id": "c4d2f6b9-8606-4054-84b6-a77ecf0106ad",
     "bookmarked": false,
     "title": "What is tree shaking",
@@ -1604,7 +1604,7 @@
     ]
   },
   {
-    "type": "JS",
+    "type": "JAVASCRIPT",
     "id": "f41160a3-d307-4750-8712-e3834fd61323",
     "bookmarked": false,
     "title": "What is the need of tree shaking",
@@ -1613,7 +1613,7 @@
     ]
   },
   {
-    "type": "JS",
+    "type": "JAVASCRIPT",
     "id": "7efd0c2f-5cb9-43dd-bae3-9fe0554fbaa9",
     "bookmarked": false,
     "title": "Is it recommended to use eval",
@@ -1622,7 +1622,7 @@
     ]
   },
   {
-    "type": "JS",
+    "type": "JAVASCRIPT",
     "id": "c2989b35-30bd-4d8f-8b6d-00f36025ed45",
     "bookmarked": false,
     "title": "What is a Regular Expression",
@@ -1634,7 +1634,7 @@
     ]
   },
   {
-    "type": "JS",
+    "type": "JAVASCRIPT",
     "id": "45eec572-9d16-4b18-9944-9f9b8a683b0a",
     "bookmarked": false,
     "title": "What are the string methods available in Regular expression",
@@ -1646,7 +1646,7 @@
     ]
   },
   {
-    "type": "JS",
+    "type": "JAVASCRIPT",
     "id": "88cdce98-dc38-487f-a88b-92ec322dd9d6",
     "bookmarked": false,
     "title": "What are modifiers in regular expression",
@@ -1658,7 +1658,7 @@
     ]
   },
   {
-    "type": "JS",
+    "type": "JAVASCRIPT",
     "id": "80b51e33-24cb-49d3-8146-47e9de69e73b",
     "bookmarked": false,
     "title": "What are regular expression patterns",
@@ -1668,7 +1668,7 @@
     ]
   },
   {
-    "type": "JS",
+    "type": "JAVASCRIPT",
     "id": "3ca5ab7a-7702-4f84-8b90-16aa64b1fc39",
     "bookmarked": false,
     "title": "What is a RegExp object",
@@ -1678,7 +1678,7 @@
     ]
   },
   {
-    "type": "JS",
+    "type": "JAVASCRIPT",
     "id": "d8b60578-ce6f-4fc4-9eee-0a34c89fdd12",
     "bookmarked": false,
     "title": "How do you search a string for a pattern",
@@ -1688,7 +1688,7 @@
     ]
   },
   {
-    "type": "JS",
+    "type": "JAVASCRIPT",
     "id": "90ed3b24-2b7f-4510-aaf9-8d9c467e6c2a",
     "bookmarked": false,
     "title": "What is the purpose of exec method",
@@ -1698,7 +1698,7 @@
     ]
   },
   {
-    "type": "JS",
+    "type": "JAVASCRIPT",
     "id": "513ea67b-06f7-4bf9-bc09-4d3603fc300e",
     "bookmarked": false,
     "title": "How do you change the style of a HTML element",
@@ -1711,7 +1711,7 @@
     ]
   },
   {
-    "type": "JS",
+    "type": "JAVASCRIPT",
     "id": "2f611105-33b8-40da-8160-414e9eae20d3",
     "bookmarked": false,
     "title": "What would be the result of 1+2+'3'",
@@ -1720,7 +1720,7 @@
     ]
   },
   {
-    "type": "JS",
+    "type": "JAVASCRIPT",
     "id": "75c156bb-c6e4-4b3b-bc39-75c7c477a547",
     "bookmarked": false,
     "title": "What is a debugger statement",
@@ -1730,7 +1730,7 @@
     ]
   },
   {
-    "type": "JS",
+    "type": "JAVASCRIPT",
     "id": "5d23046f-c864-4219-9119-b1a58a883afb",
     "bookmarked": false,
     "title": "What is the purpose of breakpoints in debugging",
@@ -1739,7 +1739,7 @@
     ]
   },
   {
-    "type": "JS",
+    "type": "JAVASCRIPT",
     "id": "304aeef8-4bc0-459b-98ab-75c5e468836d",
     "bookmarked": false,
     "title": "Can I use reserved words as identifiers",
@@ -1749,7 +1749,7 @@
     ]
   },
   {
-    "type": "JS",
+    "type": "JAVASCRIPT",
     "id": "401f2891-1cc1-4db2-8de2-4351162218c4",
     "bookmarked": false,
     "title": "How do you detect a mobile browser",
@@ -1759,7 +1759,7 @@
     ]
   },
   {
-    "type": "JS",
+    "type": "JAVASCRIPT",
     "id": "d407eadb-c747-4425-b068-45622ce518d6",
     "bookmarked": false,
     "title": "How do you detect a mobile browser without regexp",
@@ -1769,7 +1769,7 @@
     ]
   },
   {
-    "type": "JS",
+    "type": "JAVASCRIPT",
     "id": "bd3a5a42-d597-4942-8f26-ab33144aa87a",
     "bookmarked": false,
     "title": "How do you get the image width and height using JS",
@@ -1779,7 +1779,7 @@
     ]
   },
   {
-    "type": "JS",
+    "type": "JAVASCRIPT",
     "id": "d1928faf-dcfe-4745-beab-0bfd71940b99",
     "bookmarked": false,
     "title": "How do you make synchronous HTTP request",
@@ -1789,7 +1789,7 @@
     ]
   },
   {
-    "type": "JS",
+    "type": "JAVASCRIPT",
     "id": "1ef1af21-b738-41b5-b450-46cf63634741",
     "bookmarked": false,
     "title": "How do you make asynchronous HTTP request",
@@ -1799,7 +1799,7 @@
     ]
   },
   {
-    "type": "JS",
+    "type": "JAVASCRIPT",
     "id": "37ffb69a-9f29-42e2-8978-eec2e1df716f",
     "bookmarked": false,
     "title": "How do you convert date to another timezone in javascript",
@@ -1809,7 +1809,7 @@
     ]
   },
   {
-    "type": "JS",
+    "type": "JAVASCRIPT",
     "id": "d97bb4ca-c22c-45ac-9291-158a3bc77734",
     "bookmarked": false,
     "title": "What are the properties used to get size of window",
@@ -1819,7 +1819,7 @@
     ]
   },
   {
-    "type": "JS",
+    "type": "JAVASCRIPT",
     "id": "fabf7a29-7995-4c7b-92d4-6804d5ae002e",
     "bookmarked": false,
     "title": "What is a conditional operator in javascript",
@@ -1829,7 +1829,7 @@
     ]
   },
   {
-    "type": "JS",
+    "type": "JAVASCRIPT",
     "id": "ae6909c5-f1e3-4d47-921c-41012b2e1ee5",
     "bookmarked": false,
     "title": "Can you apply chaining on conditional operator",
@@ -1839,7 +1839,7 @@
     ]
   },
   {
-    "type": "JS",
+    "type": "JAVASCRIPT",
     "id": "2cc5d9f4-f535-4890-a68d-dd060d576e1d",
     "bookmarked": false,
     "title": "What are the ways to execute javascript after page load",
@@ -1854,7 +1854,7 @@
     ]
   },
   {
-    "type": "JS",
+    "type": "JAVASCRIPT",
     "id": "cd4504f9-b706-490f-8653-00de2e0ed620",
     "bookmarked": false,
     "title": "What is the difference between proto and prototype",
@@ -1864,7 +1864,7 @@
     ]
   },
   {
-    "type": "JS",
+    "type": "JAVASCRIPT",
     "id": "470101ac-8c98-44a2-b581-bda33d08a2b9",
     "bookmarked": false,
     "title": "Give an example where do you really need semicolon",
@@ -1877,7 +1877,7 @@
     ]
   },
   {
-    "type": "JS",
+    "type": "JAVASCRIPT",
     "id": "7653fccb-aa7d-47ca-942c-c3a8a1da0eb6",
     "bookmarked": false,
     "title": "What is a freeze method",
@@ -1888,7 +1888,7 @@
     ]
   },
   {
-    "type": "JS",
+    "type": "JAVASCRIPT",
     "id": "7661dbdd-e910-4af3-ad46-067abde99ce6",
     "bookmarked": false,
     "title": "What is the purpose of freeze method",
@@ -1898,7 +1898,7 @@
     ]
   },
   {
-    "type": "JS",
+    "type": "JAVASCRIPT",
     "id": "d08dd554-cf94-4d63-b2eb-8c9ab3b85786",
     "bookmarked": false,
     "title": "Why do I need to use freeze method",
@@ -1907,7 +1907,7 @@
     ]
   },
   {
-    "type": "JS",
+    "type": "JAVASCRIPT",
     "id": "f3fd364e-3de2-4994-a9ad-94baffd7ae90",
     "bookmarked": false,
     "title": "How do you detect a browser language preference",
@@ -1917,7 +1917,7 @@
     ]
   },
   {
-    "type": "JS",
+    "type": "JAVASCRIPT",
     "id": "728dbd87-6502-43a2-a0a3-c478233a9e61",
     "bookmarked": false,
     "title": "How to convert string to title case with javascript",
@@ -1927,7 +1927,7 @@
     ]
   },
   {
-    "type": "JS",
+    "type": "JAVASCRIPT",
     "id": "c26c5356-4ae8-4ec1-ab5e-a8bc8248027c",
     "bookmarked": false,
     "title": "How do you detect javascript disabled in the page",
@@ -1937,7 +1937,7 @@
     ]
   },
   {
-    "type": "JS",
+    "type": "JAVASCRIPT",
     "id": "99766cb3-973e-46d3-93ca-17653c8d2e4f",
     "bookmarked": false,
     "title": "What are various operators supported by javascript",
@@ -1947,7 +1947,7 @@
     ]
   },
   {
-    "type": "JS",
+    "type": "JAVASCRIPT",
     "id": "0b8fa238-1bf9-4200-900c-decce0851019",
     "bookmarked": false,
     "title": "What is a rest parameter",
@@ -1960,7 +1960,7 @@
     ]
   },
   {
-    "type": "JS",
+    "type": "JAVASCRIPT",
     "id": "d6fb1b6a-9912-4337-b476-1024d4f792a4",
     "bookmarked": false,
     "title": "What happens if you do not use rest parameter as a last argument",
@@ -1970,7 +1970,7 @@
     ]
   },
   {
-    "type": "JS",
+    "type": "JAVASCRIPT",
     "id": "2393a0cd-cd4c-4f2e-97eb-2b9f7b09ba16",
     "bookmarked": false,
     "title": "What are the bitwise operators available in javascript",
@@ -1980,7 +1980,7 @@
     ]
   },
   {
-    "type": "JS",
+    "type": "JAVASCRIPT",
     "id": "be0d49d5-d8d4-4240-b89b-1dc3da5cc4ff",
     "bookmarked": false,
     "title": "What is a spread operator",
@@ -1990,7 +1990,7 @@
     ]
   },
   {
-    "type": "JS",
+    "type": "JAVASCRIPT",
     "id": "9e40adbe-524f-414f-998c-9c450441bdae",
     "bookmarked": false,
     "title": "How do you determine whether object is frozen or not",
@@ -2001,7 +2001,7 @@
     ]
   },
   {
-    "type": "JS",
+    "type": "JAVASCRIPT",
     "id": "a2d0d0e0-2b43-4cc8-b390-b31143d72312",
     "bookmarked": false,
     "title": "How do you determine two values same or not using object",
@@ -2013,7 +2013,7 @@
     ]
   },
   {
-    "type": "JS",
+    "type": "JAVASCRIPT",
     "id": "7729b076-1540-465b-88ef-7a1ff46de04c",
     "bookmarked": false,
     "title": "What is the purpose of using object is method",
@@ -2023,7 +2023,7 @@
     ]
   },
   {
-    "type": "JS",
+    "type": "JAVASCRIPT",
     "id": "474aba40-843c-4a1c-9485-64387a57a8d5",
     "bookmarked": false,
     "title": "How do you copy properties from one object to other",
@@ -2036,7 +2036,7 @@
     ]
   },
   {
-    "type": "JS",
+    "type": "JAVASCRIPT",
     "id": "9ae03c29-d150-4c2d-96d7-e8076fd6ecf9",
     "bookmarked": false,
     "title": "What are the applications of assign method",
@@ -2046,7 +2046,7 @@
     ]
   },
   {
-    "type": "JS",
+    "type": "JAVASCRIPT",
     "id": "b0853492-1291-424f-992b-0f3c4bf17cb6",
     "bookmarked": false,
     "title": "What is a proxy object",
@@ -2059,7 +2059,7 @@
     ]
   },
   {
-    "type": "JS",
+    "type": "JAVASCRIPT",
     "id": "2fc9da70-ee65-412f-bff7-8949cc71731c",
     "bookmarked": false,
     "title": "What is the purpose of seal method",
@@ -2069,7 +2069,7 @@
     ]
   },
   {
-    "type": "JS",
+    "type": "JAVASCRIPT",
     "id": "51bc4dcf-89e5-4775-a37d-2216f1477a5d",
     "bookmarked": false,
     "title": "What are the applications of seal method",
@@ -2079,7 +2079,7 @@
     ]
   },
   {
-    "type": "JS",
+    "type": "JAVASCRIPT",
     "id": "2d4d5d5a-6631-4e54-b33e-dea6703833f9",
     "bookmarked": false,
     "title": "What are the differences between freeze and seal methods",
@@ -2088,7 +2088,7 @@
     ]
   },
   {
-    "type": "JS",
+    "type": "JAVASCRIPT",
     "id": "7ef1b698-bae1-4cbb-85a0-9e850f817448",
     "bookmarked": false,
     "title": "How do you determine if an object is sealed or not",
@@ -2099,7 +2099,7 @@
     ]
   },
   {
-    "type": "JS",
+    "type": "JAVASCRIPT",
     "id": "28580b7d-87da-41fc-af08-c3e6035d57d3",
     "bookmarked": false,
     "title": "How do you get enumerable key and value pairs",
@@ -2110,7 +2110,7 @@
     ]
   },
   {
-    "type": "JS",
+    "type": "JAVASCRIPT",
     "id": "2f360e44-dc1e-4649-ab40-98846c981a3f",
     "bookmarked": false,
     "title": "What is the main difference between Object.values and Object.entries method",
@@ -2120,7 +2120,7 @@
     ]
   },
   {
-    "type": "JS",
+    "type": "JAVASCRIPT",
     "id": "42ccccc3-c4ea-4bb6-809b-6925c95ab8cf",
     "bookmarked": false,
     "title": "How can you get the list of keys of any object",
@@ -2130,7 +2130,7 @@
     ]
   },
   {
-    "type": "JS",
+    "type": "JAVASCRIPT",
     "id": "79cc1c0e-0312-458b-87e4-01a248ac6fdf",
     "bookmarked": false,
     "title": "How do you create an object with prototype",
@@ -2140,7 +2140,7 @@
     ]
   },
   {
-    "type": "JS",
+    "type": "JAVASCRIPT",
     "id": "c89cca23-fb78-4526-a547-bf32e2aedad8",
     "bookmarked": false,
     "title": "What is a WeakSet",
@@ -2152,7 +2152,7 @@
     ]
   },
   {
-    "type": "JS",
+    "type": "JAVASCRIPT",
     "id": "5a38ccf1-3dd9-4d9e-a174-89c20f609641",
     "bookmarked": false,
     "title": "What are the differences between WeakSet and Set",
@@ -2162,7 +2162,7 @@
     ]
   },
   {
-    "type": "JS",
+    "type": "JAVASCRIPT",
     "id": "c24681e0-b9a3-4239-88e7-f8c7ed6f4191",
     "bookmarked": false,
     "title": "List down the collection of methods available on WeakSet",
@@ -2174,7 +2174,7 @@
     ]
   },
   {
-    "type": "JS",
+    "type": "JAVASCRIPT",
     "id": "0670a8cb-09bf-4924-864b-f0242fa40ebb",
     "bookmarked": false,
     "title": "What is a WeakMap",
@@ -2186,7 +2186,7 @@
     ]
   },
   {
-    "type": "JS",
+    "type": "JAVASCRIPT",
     "id": "eb15c475-dfd8-43cd-8219-2c5f81d0fd31",
     "bookmarked": false,
     "title": "What are the differences between WeakMap and Map",
@@ -2196,7 +2196,7 @@
     ]
   },
   {
-    "type": "JS",
+    "type": "JAVASCRIPT",
     "id": "778009e2-83a2-4387-a0a3-9f1868ba48c0",
     "bookmarked": false,
     "title": "List down the collection of methods available on WeakMap",
@@ -2207,7 +2207,7 @@
     ]
   },
   {
-    "type": "JS",
+    "type": "JAVASCRIPT",
     "id": "2a9e7b51-cac2-4bc8-97ca-600253bc0af0",
     "bookmarked": false,
     "title": "What is the purpose of uneval",
@@ -2217,7 +2217,7 @@
     ]
   },
   {
-    "type": "JS",
+    "type": "JAVASCRIPT",
     "id": "4d9a0dc5-5414-4953-b0a1-dd8cc43c6767",
     "bookmarked": false,
     "title": "How do you encode an URL",
@@ -2227,7 +2227,7 @@
     ]
   },
   {
-    "type": "JS",
+    "type": "JAVASCRIPT",
     "id": "01ce809e-93de-4a47-bf4c-97972cd33a8f",
     "bookmarked": false,
     "title": "How do you decode an URL",
@@ -2237,7 +2237,7 @@
     ]
   },
   {
-    "type": "JS",
+    "type": "JAVASCRIPT",
     "id": "4ae02d9b-67c7-410f-b69a-eafba7ec2701",
     "bookmarked": false,
     "title": "How do you print the contents of web page",
@@ -2248,7 +2248,7 @@
     ]
   },
   {
-    "type": "JS",
+    "type": "JAVASCRIPT",
     "id": "eeab1f35-3ce6-4958-989b-173d16a56a15",
     "bookmarked": false,
     "title": "What is the difference between uneval and eval",
@@ -2258,7 +2258,7 @@
     ]
   },
   {
-    "type": "JS",
+    "type": "JAVASCRIPT",
     "id": "e9d72a2d-64cc-4f86-8c30-d3edd5d294a9",
     "bookmarked": false,
     "title": "What is an anonymous function",
@@ -2270,7 +2270,7 @@
     ]
   },
   {
-    "type": "JS",
+    "type": "JAVASCRIPT",
     "id": "27c3aca8-6508-4ae2-b750-7c74574ee233",
     "bookmarked": false,
     "title": "What is the precedence order between local and global variables",
@@ -2280,7 +2280,7 @@
     ]
   },
   {
-    "type": "JS",
+    "type": "JAVASCRIPT",
     "id": "ffe18a97-a024-4ae9-a4ef-fd4fa085bc0b",
     "bookmarked": false,
     "title": "What are javascript accessors",
@@ -2290,7 +2290,7 @@
     ]
   },
   {
-    "type": "JS",
+    "type": "JAVASCRIPT",
     "id": "cb2c8634-fedf-4995-9d0e-2669ea3cbe85",
     "bookmarked": false,
     "title": "How do you define property on Object constructor",
@@ -2300,7 +2300,7 @@
     ]
   },
   {
-    "type": "JS",
+    "type": "JAVASCRIPT",
     "id": "91942e23-8deb-4007-a62a-c916e86c5ac3",
     "bookmarked": false,
     "title": "What is the difference between get and defineProperty",
@@ -2309,7 +2309,7 @@
     ]
   },
   {
-    "type": "JS",
+    "type": "JAVASCRIPT",
     "id": "dacfc1b8-2326-4dff-98d5-276cc9e107c5",
     "bookmarked": false,
     "title": "What are the advantages of Getters and Setters",
@@ -2319,7 +2319,7 @@
     ]
   },
   {
-    "type": "JS",
+    "type": "JAVASCRIPT",
     "id": "3e20d35d-d54c-4ce4-9e94-2bbe00f4d95e",
     "bookmarked": false,
     "title": "Can I add getters and setters using defineProperty method",
@@ -2329,7 +2329,7 @@
     ]
   },
   {
-    "type": "JS",
+    "type": "JAVASCRIPT",
     "id": "0a4e8314-aef3-441c-8804-649e65752b20",
     "bookmarked": false,
     "title": "What is the purpose of switch-case",
@@ -2340,7 +2340,7 @@
     ]
   },
   {
-    "type": "JS",
+    "type": "JAVASCRIPT",
     "id": "0e55ded2-ba96-4ff9-8389-5a98c22c0d9c",
     "bookmarked": false,
     "title": "What are the conventions to be followed for the usage of switch case",
@@ -2350,7 +2350,7 @@
     ]
   },
   {
-    "type": "JS",
+    "type": "JAVASCRIPT",
     "id": "5e17fdf0-d849-49df-90ab-a36dbf154a7a",
     "bookmarked": false,
     "title": "What are primitive data types",
@@ -2360,7 +2360,7 @@
     ]
   },
   {
-    "type": "JS",
+    "type": "JAVASCRIPT",
     "id": "9ddfa76a-3961-4a25-90fd-3c27d323e88b",
     "bookmarked": false,
     "title": "What are the different ways to access object properties",
@@ -2375,7 +2375,7 @@
     ]
   },
   {
-    "type": "JS",
+    "type": "JAVASCRIPT",
     "id": "b3cf2bb9-7ed4-4d15-afae-9a5c9dcaa7c3",
     "bookmarked": false,
     "title": "What are the function parameter rules",
@@ -2386,7 +2386,7 @@
     ]
   },
   {
-    "type": "JS",
+    "type": "JAVASCRIPT",
     "id": "0d5ac62f-4bf1-434e-80b9-6f35f35d1f2c",
     "bookmarked": false,
     "title": "What is an error object",
@@ -2396,7 +2396,7 @@
     ]
   },
   {
-    "type": "JS",
+    "type": "JAVASCRIPT",
     "id": "7c03d491-3c8d-4052-b404-01f78354cc77",
     "bookmarked": false,
     "title": "When you get a syntax error",
@@ -2406,7 +2406,7 @@
     ]
   },
   {
-    "type": "JS",
+    "type": "JAVASCRIPT",
     "id": "f634efa1-c372-45a7-9d21-f9f4da95b233",
     "bookmarked": false,
     "title": "What are the different error names from error object",
@@ -2415,7 +2415,7 @@
     ]
   },
   {
-    "type": "JS",
+    "type": "JAVASCRIPT",
     "id": "c63d18bb-3b5f-4c9e-8de1-5a36dc9f2c1d",
     "bookmarked": false,
     "title": "What are the various statements in error handling",
@@ -2425,7 +2425,7 @@
     ]
   },
   {
-    "type": "JS",
+    "type": "JAVASCRIPT",
     "id": "9df14e17-c0b6-4444-8c42-86a53c3f54f9",
     "bookmarked": false,
     "title": "What are the two types of loops in javascript",
@@ -2434,7 +2434,7 @@
     ]
   },
   {
-    "type": "JS",
+    "type": "JAVASCRIPT",
     "id": "18fa3eb0-9847-4d90-919d-4ca1e751f26b",
     "bookmarked": false,
     "title": "What is nodejs",
@@ -2443,7 +2443,7 @@
     ]
   },
   {
-    "type": "JS",
+    "type": "JAVASCRIPT",
     "id": "c3eb8fb4-2bac-41ac-9d7e-196a289a510c",
     "bookmarked": false,
     "title": "What is an Intl object",
@@ -2452,7 +2452,7 @@
     ]
   },
   {
-    "type": "JS",
+    "type": "JAVASCRIPT",
     "id": "6dbb4e5c-ed1f-4b78-ad10-2d03aeecb207",
     "bookmarked": false,
     "title": "How do you perform language specific date and time formatting",
@@ -2462,7 +2462,7 @@
     ]
   },
   {
-    "type": "JS",
+    "type": "JAVASCRIPT",
     "id": "965b3ef8-28a7-4019-9c36-998cea5519d6",
     "bookmarked": false,
     "title": "What is an Iterator",
@@ -2471,7 +2471,7 @@
     ]
   },
   {
-    "type": "JS",
+    "type": "JAVASCRIPT",
     "id": "480bd2f9-4a3e-461e-ae48-64d7cc701d9f",
     "bookmarked": false,
     "title": "How does synchronous iteration works",
@@ -2483,7 +2483,7 @@
     ]
   },
   {
-    "type": "JS",
+    "type": "JAVASCRIPT",
     "id": "8a66669f-2835-4051-ac15-ce221f0d58fe",
     "bookmarked": false,
     "title": "What is an event loop",
@@ -2492,7 +2492,7 @@
     ]
   },
   {
-    "type": "JS",
+    "type": "JAVASCRIPT",
     "id": "2777ae06-88c5-4ff9-b4aa-8b59a877d571",
     "bookmarked": false,
     "title": "What is call stack",
@@ -2507,14 +2507,14 @@
     ]
   },
   {
-    "type": "JS",
+    "type": "JAVASCRIPT",
     "id": "6c85c754-80d0-4dde-9f5c-da67b4670f06",
     "bookmarked": false,
     "title": "What is an event queue",
     "content": []
   },
   {
-    "type": "JS",
+    "type": "JAVASCRIPT",
     "id": "2183fd2f-7daf-4b51-a762-4487b2ca54c5",
     "bookmarked": false,
     "title": "What is a decorator",
@@ -2524,7 +2524,7 @@
     ]
   },
   {
-    "type": "JS",
+    "type": "JAVASCRIPT",
     "id": "28b2d3a2-c757-4204-8d7e-05d94db4eb7c",
     "bookmarked": false,
     "title": "What are the properties of Intl object",
@@ -2534,7 +2534,7 @@
     ]
   },
   {
-    "type": "JS",
+    "type": "JAVASCRIPT",
     "id": "48283a89-d3cb-4b10-9900-819c58339fe7",
     "bookmarked": false,
     "title": "What is an Unary operator",
@@ -2544,7 +2544,7 @@
     ]
   },
   {
-    "type": "JS",
+    "type": "JAVASCRIPT",
     "id": "5f538124-dc7f-48d1-a39e-786c3802d09d",
     "bookmarked": false,
     "title": "How do you sort elements in an array",
@@ -2554,7 +2554,7 @@
     ]
   },
   {
-    "type": "JS",
+    "type": "JAVASCRIPT",
     "id": "7c08baea-6619-4656-9975-d3e3e091dfa3",
     "bookmarked": false,
     "title": "What is the purpose of compareFunction while sorting arrays",
@@ -2564,7 +2564,7 @@
     ]
   },
   {
-    "type": "JS",
+    "type": "JAVASCRIPT",
     "id": "fb241730-d2e2-488a-8e57-28903113ddfd",
     "bookmarked": false,
     "title": "How do you reversing an array",
@@ -2574,7 +2574,7 @@
     ]
   },
   {
-    "type": "JS",
+    "type": "JAVASCRIPT",
     "id": "b636297d-107e-4500-be03-230b981f8b63",
     "bookmarked": false,
     "title": "How do you find min and max value in an array",
@@ -2584,7 +2584,7 @@
     ]
   },
   {
-    "type": "JS",
+    "type": "JAVASCRIPT",
     "id": "9c024b7b-edf6-4e2f-b542-6ea90ff2e203",
     "bookmarked": false,
     "title": "How do you find min and max values without Math functions",
@@ -2594,7 +2594,7 @@
     ]
   },
   {
-    "type": "JS",
+    "type": "JAVASCRIPT",
     "id": "b147fc68-e9a8-4ca3-bb99-90d56136525a",
     "bookmarked": false,
     "title": "What is an empty statement and purpose of it",
@@ -2604,7 +2604,7 @@
     ]
   },
   {
-    "type": "JS",
+    "type": "JAVASCRIPT",
     "id": "6db5cc5a-85f1-4409-8409-452da6379ed7",
     "bookmarked": false,
     "title": "How do you get metadata of a module",
@@ -2614,7 +2614,7 @@
     ]
   },
   {
-    "type": "JS",
+    "type": "JAVASCRIPT",
     "id": "56d2e080-bfd6-471c-b795-219c8b1f5fce",
     "bookmarked": false,
     "title": "What is a comma operator",
@@ -2624,7 +2624,7 @@
     ]
   },
   {
-    "type": "JS",
+    "type": "JAVASCRIPT",
     "id": "b32d2550-2e17-4710-88b2-24fea4efeb3b",
     "bookmarked": false,
     "title": "What is the advantage of a comma operator",
@@ -2636,7 +2636,7 @@
     ]
   },
   {
-    "type": "JS",
+    "type": "JAVASCRIPT",
     "id": "8761ff1c-a1f2-4ba4-bc3c-31a686b6aad1",
     "bookmarked": false,
     "title": "What is typescript",
@@ -2649,7 +2649,7 @@
     ]
   },
   {
-    "type": "JS",
+    "type": "JAVASCRIPT",
     "id": "b6bdac82-0550-407d-b07d-f387f306ddc1",
     "bookmarked": false,
     "title": "What are the differences between javascript and typescript",
@@ -2659,7 +2659,7 @@
     ]
   },
   {
-    "type": "JS",
+    "type": "JAVASCRIPT",
     "id": "5c4b51fe-e341-492d-a86a-3a866c630680",
     "bookmarked": false,
     "title": "What are the advantages of typescript over javascript",
@@ -2669,7 +2669,7 @@
     ]
   },
   {
-    "type": "JS",
+    "type": "JAVASCRIPT",
     "id": "cf03b01e-4232-4700-9fd4-438bc084e740",
     "bookmarked": false,
     "title": "What is an object initializer",
@@ -2679,7 +2679,7 @@
     ]
   },
   {
-    "type": "JS",
+    "type": "JAVASCRIPT",
     "id": "e423ced3-e426-422d-81ed-0370a984f880",
     "bookmarked": false,
     "title": "What is a constructor method",
@@ -2689,7 +2689,7 @@
     ]
   },
   {
-    "type": "JS",
+    "type": "JAVASCRIPT",
     "id": "cf33e085-5ce3-44e2-942e-59c3088b92ad",
     "bookmarked": false,
     "title": "What happens if you write constructor more than once in a class",
@@ -2699,7 +2699,7 @@
     ]
   },
   {
-    "type": "JS",
+    "type": "JAVASCRIPT",
     "id": "2bbaaabd-e2a4-4ad4-88d8-d3ed06e8daa9",
     "bookmarked": false,
     "title": "How do you call the constructor of a parent class",
@@ -2709,7 +2709,7 @@
     ]
   },
   {
-    "type": "JS",
+    "type": "JAVASCRIPT",
     "id": "9d37b0d7-cad2-45d5-b5d0-5d29cc8df439",
     "bookmarked": false,
     "title": "How do you get the prototype of an object",
@@ -2719,7 +2719,7 @@
     ]
   },
   {
-    "type": "JS",
+    "type": "JAVASCRIPT",
     "id": "cb358099-1913-44de-af8e-45f05e38e52e",
     "bookmarked": false,
     "title": "What happens If I pass string type for getPrototype method",
@@ -2729,7 +2729,7 @@
     ]
   },
   {
-    "type": "JS",
+    "type": "JAVASCRIPT",
     "id": "58f2db89-2380-4459-b59a-85597ac02a30",
     "bookmarked": false,
     "title": "How do you set prototype of one object to another",
@@ -2739,7 +2739,7 @@
     ]
   },
   {
-    "type": "JS",
+    "type": "JAVASCRIPT",
     "id": "febc9435-b61a-4029-b62c-7bc5eeccaff3",
     "bookmarked": false,
     "title": "How do you check whether an object can be extendable or not",
@@ -2750,7 +2750,7 @@
     ]
   },
   {
-    "type": "JS",
+    "type": "JAVASCRIPT",
     "id": "f8702a0c-c77e-4366-8a78-c9d919846cdb",
     "bookmarked": false,
     "title": "How do you prevent an object to extend",
@@ -2760,7 +2760,7 @@
     ]
   },
   {
-    "type": "JS",
+    "type": "JAVASCRIPT",
     "id": "e428a4e7-21d1-47da-9797-474f959d6418",
     "bookmarked": false,
     "title": "What are the different ways to make an object non-extensible",
@@ -2771,7 +2771,7 @@
     ]
   },
   {
-    "type": "JS",
+    "type": "JAVASCRIPT",
     "id": "42af8b2d-0715-42d9-bf95-6566cdd23f54",
     "bookmarked": false,
     "title": "How do you define multiple properties on an object",
@@ -2781,7 +2781,7 @@
     ]
   },
   {
-    "type": "JS",
+    "type": "JAVASCRIPT",
     "id": "1078212a-3015-43f9-b281-07210c86a8b3",
     "bookmarked": false,
     "title": "What is MEAN in javascript",
@@ -2790,7 +2790,7 @@
     ]
   },
   {
-    "type": "JS",
+    "type": "JAVASCRIPT",
     "id": "8babe642-aa25-42d0-a594-6d05a737926c",
     "bookmarked": false,
     "title": "What Is Obfuscation in javascript",
@@ -2802,7 +2802,7 @@
     ]
   },
   {
-    "type": "JS",
+    "type": "JAVASCRIPT",
     "id": "c80f6351-bbb4-4a21-a2b5-8f0be3ad65a6",
     "bookmarked": false,
     "title": "Why do you need Obfuscation",
@@ -2812,7 +2812,7 @@
     ]
   },
   {
-    "type": "JS",
+    "type": "JAVASCRIPT",
     "id": "8f5ea0ec-f64a-4f7c-a30a-2c24dddf3074",
     "bookmarked": false,
     "title": "What is Minification",
@@ -2821,7 +2821,7 @@
     ]
   },
   {
-    "type": "JS",
+    "type": "JAVASCRIPT",
     "id": "6e1fd29a-eeb0-4c64-90df-4d82dc5a10b9",
     "bookmarked": false,
     "title": "What are the advantages of minification",
@@ -2831,7 +2831,7 @@
     ]
   },
   {
-    "type": "JS",
+    "type": "JAVASCRIPT",
     "id": "0ca87aaf-3cf4-447a-aa18-33ac8c513e07",
     "bookmarked": false,
     "title": "What are the differences between Obfuscation and Encryption",
@@ -2841,7 +2841,7 @@
     ]
   },
   {
-    "type": "JS",
+    "type": "JAVASCRIPT",
     "id": "fa102e34-9b3d-4852-8a74-d8d22f983923",
     "bookmarked": false,
     "title": "What are the common tools used for minification",
@@ -2851,7 +2851,7 @@
     ]
   },
   {
-    "type": "JS",
+    "type": "JAVASCRIPT",
     "id": "24f6f4f5-ae03-4a30-9d89-8d9338187df2",
     "bookmarked": false,
     "title": "How do you perform form validation using javascript",
@@ -2863,7 +2863,7 @@
     ]
   },
   {
-    "type": "JS",
+    "type": "JAVASCRIPT",
     "id": "f4c10c71-56ec-436c-961f-1fd03987dc01",
     "bookmarked": false,
     "title": "How do you perform form validation without javascript",
@@ -2874,7 +2874,7 @@
     ]
   },
   {
-    "type": "JS",
+    "type": "JAVASCRIPT",
     "id": "4c19f47c-7bf1-4e8c-9b1b-d98295da074e",
     "bookmarked": false,
     "title": "What are the DOM methods available for constraint validation",
@@ -2885,7 +2885,7 @@
     ]
   },
   {
-    "type": "JS",
+    "type": "JAVASCRIPT",
     "id": "4ac35407-e079-4d72-a779-c5f2121c14b5",
     "bookmarked": false,
     "title": "What are the available constraint validation DOM properties",
@@ -2895,7 +2895,7 @@
     ]
   },
   {
-    "type": "JS",
+    "type": "JAVASCRIPT",
     "id": "58299979-b9ea-4470-8f75-037ac533b1c4",
     "bookmarked": false,
     "title": "What are the list of validity properties",
@@ -2905,7 +2905,7 @@
     ]
   },
   {
-    "type": "JS",
+    "type": "JAVASCRIPT",
     "id": "41d11aba-508b-4f43-ab1a-9364c3748ff7",
     "bookmarked": false,
     "title": "Give an example usage of rangeOverflow property",
@@ -2916,7 +2916,7 @@
     ]
   },
   {
-    "type": "JS",
+    "type": "JAVASCRIPT",
     "id": "1d3eac50-ac61-46a3-b783-ace8497725cc",
     "bookmarked": false,
     "title": "Is enums feature available in javascript",
@@ -2926,7 +2926,7 @@
     ]
   },
   {
-    "type": "JS",
+    "type": "JAVASCRIPT",
     "id": "5cea411e-92c3-468f-9be1-4dece0046ecd",
     "bookmarked": false,
     "title": "What is an enum",
@@ -2936,7 +2936,7 @@
     ]
   },
   {
-    "type": "JS",
+    "type": "JAVASCRIPT",
     "id": "31ae5d69-fd5a-410c-8750-00c3ecc2628e",
     "bookmarked": false,
     "title": "How do you list all properties of an object",
@@ -2946,7 +2946,7 @@
     ]
   },
   {
-    "type": "JS",
+    "type": "JAVASCRIPT",
     "id": "0f224fa8-e050-4553-a585-ecf7fd46cfe9",
     "bookmarked": false,
     "title": "How do you get property descriptors of an object",
@@ -2956,7 +2956,7 @@
     ]
   },
   {
-    "type": "JS",
+    "type": "JAVASCRIPT",
     "id": "4a594a54-8a84-484c-8681-f0e24250e01c",
     "bookmarked": false,
     "title": "What are the attributes provided by a property descriptor",
@@ -2966,7 +2966,7 @@
     ]
   },
   {
-    "type": "JS",
+    "type": "JAVASCRIPT",
     "id": "426290a0-1103-4225-8102-4bdd7ffce728",
     "bookmarked": false,
     "title": "How do you extend classes",
@@ -2978,7 +2978,7 @@
     ]
   },
   {
-    "type": "JS",
+    "type": "JAVASCRIPT",
     "id": "21e7d1c1-181a-4b2b-92a8-017c293c68fe",
     "bookmarked": false,
     "title": "How do I modify the url without reloading the page",
@@ -2988,7 +2988,7 @@
     ]
   },
   {
-    "type": "JS",
+    "type": "JAVASCRIPT",
     "id": "e95c3d0f-d9be-4022-bb43-a8351464eb3c",
     "bookmarked": false,
     "title": "How do you check whether an array includes a particular value or not",
@@ -2998,7 +2998,7 @@
     ]
   },
   {
-    "type": "JS",
+    "type": "JAVASCRIPT",
     "id": "b3634ed5-7dd2-4bd7-b23d-2baea9e6135f",
     "bookmarked": false,
     "title": "How do you compare scalar arrays",
@@ -3010,7 +3010,7 @@
     ]
   },
   {
-    "type": "JS",
+    "type": "JAVASCRIPT",
     "id": "afb3df01-8b5b-4907-99f8-51f6d740c2b9",
     "bookmarked": false,
     "title": "How to get the value from get parameters",
@@ -3020,7 +3020,7 @@
     ]
   },
   {
-    "type": "JS",
+    "type": "JAVASCRIPT",
     "id": "0162c43b-a6ef-4458-9e0d-f3dc7ef9a129",
     "bookmarked": false,
     "title": "How do you print numbers with commas as thousand separators",
@@ -3030,7 +3030,7 @@
     ]
   },
   {
-    "type": "JS",
+    "type": "JAVASCRIPT",
     "id": "43afb860-a666-402f-9e23-2002ccb8c949",
     "bookmarked": false,
     "title": "What is the difference between java and javascript",
@@ -3039,7 +3039,7 @@
     ]
   },
   {
-    "type": "JS",
+    "type": "JAVASCRIPT",
     "id": "27a2142a-8ab5-4e46-9052-f02751b6dcbe",
     "bookmarked": false,
     "title": "Does JavaScript supports namespace",
@@ -3050,7 +3050,7 @@
     ]
   },
   {
-    "type": "JS",
+    "type": "JAVASCRIPT",
     "id": "5bb4cfb0-9955-4da2-b07e-5594ff4bb4c9",
     "bookmarked": false,
     "title": "How do you declare namespace",
@@ -3065,7 +3065,7 @@
     ]
   },
   {
-    "type": "JS",
+    "type": "JAVASCRIPT",
     "id": "21619556-e02e-4c6f-b95d-961ca007913b",
     "bookmarked": false,
     "title": "How do you invoke javascript code in an iframe from parent page",
@@ -3075,7 +3075,7 @@
     ]
   },
   {
-    "type": "JS",
+    "type": "JAVASCRIPT",
     "id": "a7f078b9-636e-410a-be8a-ce80b83e9f5b",
     "bookmarked": false,
     "title": "How do get the timezone offset from date",
@@ -3085,7 +3085,7 @@
     ]
   },
   {
-    "type": "JS",
+    "type": "JAVASCRIPT",
     "id": "411d7229-e1ba-4306-a52e-a053db3d8c14",
     "bookmarked": false,
     "title": "How do you load CSS and JS files dynamically",
@@ -3095,7 +3095,7 @@
     ]
   },
   {
-    "type": "JS",
+    "type": "JAVASCRIPT",
     "id": "5d389ef6-31d8-429c-9a86-14facff80799",
     "bookmarked": false,
     "title": "What are the different methods to find HTML elements in DOM",
@@ -3105,7 +3105,7 @@
     ]
   },
   {
-    "type": "JS",
+    "type": "JAVASCRIPT",
     "id": "5b704779-6971-443a-9b97-50e0f01e7353",
     "bookmarked": false,
     "title": "What is jQuery",
@@ -3116,7 +3116,7 @@
     ]
   },
   {
-    "type": "JS",
+    "type": "JAVASCRIPT",
     "id": "8c2b37f9-0e38-448d-bce7-221c6e1e1f9c",
     "bookmarked": false,
     "title": "What is V8 JavaScript engine",
@@ -3125,7 +3125,7 @@
     ]
   },
   {
-    "type": "JS",
+    "type": "JAVASCRIPT",
     "id": "444b1b33-12f2-4d97-ae3b-47641b03c213",
     "bookmarked": false,
     "title": "Why do we call javascript as dynamic language",
@@ -3135,7 +3135,7 @@
     ]
   },
   {
-    "type": "JS",
+    "type": "JAVASCRIPT",
     "id": "8f01b126-32f4-4c0e-b0a7-a4bd44ef9696",
     "bookmarked": false,
     "title": "What is a void operator",
@@ -3148,7 +3148,7 @@
     ]
   },
   {
-    "type": "JS",
+    "type": "JAVASCRIPT",
     "id": "10cd754b-289c-4fb5-984b-4f8aa460ea14",
     "bookmarked": false,
     "title": "How to set the cursor to wait",
@@ -3160,7 +3160,7 @@
     ]
   },
   {
-    "type": "JS",
+    "type": "JAVASCRIPT",
     "id": "56e3c37f-b056-4606-a008-f035dadcb23c",
     "bookmarked": false,
     "title": "How do you create an infinite loop",
@@ -3170,7 +3170,7 @@
     ]
   },
   {
-    "type": "JS",
+    "type": "JAVASCRIPT",
     "id": "c9baf377-a620-4bc6-8e6a-74a8c32826ed",
     "bookmarked": false,
     "title": "Why do you need to avoid with statement",
@@ -3183,7 +3183,7 @@
     ]
   },
   {
-    "type": "JS",
+    "type": "JAVASCRIPT",
     "id": "02d4ac2b-2509-4b8a-ad61-7803514319a3",
     "bookmarked": false,
     "title": "What is the output of below for loops",
@@ -3195,7 +3195,7 @@
     ]
   },
   {
-    "type": "JS",
+    "type": "JAVASCRIPT",
     "id": "84ce5506-c5ea-4b01-859b-a9f7a57caa00",
     "bookmarked": false,
     "title": "List down some of the features of ES6",
@@ -3205,7 +3205,7 @@
     ]
   },
   {
-    "type": "JS",
+    "type": "JAVASCRIPT",
     "id": "b0a50a57-62e6-4f5f-9f44-c0911cee95c3",
     "bookmarked": false,
     "title": "What is ES6",
@@ -3214,7 +3214,7 @@
     ]
   },
   {
-    "type": "JS",
+    "type": "JAVASCRIPT",
     "id": "c71fd422-8b41-460e-94cc-70282c484ccd",
     "bookmarked": false,
     "title": "Can I redeclare let and const variables",
@@ -3228,7 +3228,7 @@
     ]
   },
   {
-    "type": "JS",
+    "type": "JAVASCRIPT",
     "id": "2c5ccbef-cc2c-4e37-998e-f0e9996dd5f8",
     "bookmarked": false,
     "title": "Is const variable makes the value immutable",
@@ -3238,7 +3238,7 @@
     ]
   },
   {
-    "type": "JS",
+    "type": "JAVASCRIPT",
     "id": "152ec0e0-7584-496c-9975-31f7c71d435e",
     "bookmarked": false,
     "title": "What are default parameters",
@@ -3250,7 +3250,7 @@
     ]
   },
   {
-    "type": "JS",
+    "type": "JAVASCRIPT",
     "id": "2ebed350-9b4b-4d95-a5dc-4eb3a3b1fa3b",
     "bookmarked": false,
     "title": "What are template literals",
@@ -3263,7 +3263,7 @@
     ]
   },
   {
-    "type": "JS",
+    "type": "JAVASCRIPT",
     "id": "069f61cc-bfb7-4ea4-bbfc-dee208ff63b6",
     "bookmarked": false,
     "title": "How do you write multi-line strings in template literals",
@@ -3275,7 +3275,7 @@
     ]
   },
   {
-    "type": "JS",
+    "type": "JAVASCRIPT",
     "id": "dac67fe9-416a-4fd1-8834-cf55e1780882",
     "bookmarked": false,
     "title": "What are nesting templates",
@@ -3287,7 +3287,7 @@
     ]
   },
   {
-    "type": "JS",
+    "type": "JAVASCRIPT",
     "id": "6e34dee0-6022-4edf-8c08-dbe65373f65b",
     "bookmarked": false,
     "title": "What are tagged templates",
@@ -3297,7 +3297,7 @@
     ]
   },
   {
-    "type": "JS",
+    "type": "JAVASCRIPT",
     "id": "9fa85567-fef2-458c-958b-64e99b1d108b",
     "bookmarked": false,
     "title": "What are raw strings",
@@ -3311,7 +3311,7 @@
     ]
   },
   {
-    "type": "JS",
+    "type": "JAVASCRIPT",
     "id": "99cc09c9-b723-4b54-96a4-1c5590d19eeb",
     "bookmarked": false,
     "title": "What is destructuring assignment",
@@ -3323,7 +3323,7 @@
     ]
   },
   {
-    "type": "JS",
+    "type": "JAVASCRIPT",
     "id": "722ad0e4-9ca3-4d96-b174-2c0e92cfd01d",
     "bookmarked": false,
     "title": "What are default values in destructuring assignment",
@@ -3336,7 +3336,7 @@
     ]
   },
   {
-    "type": "JS",
+    "type": "JAVASCRIPT",
     "id": "5f5849dc-af9c-4c80-b4de-40c00a898b71",
     "bookmarked": false,
     "title": "How do you swap variables in destructuring assignment",
@@ -3346,7 +3346,7 @@
     ]
   },
   {
-    "type": "JS",
+    "type": "JAVASCRIPT",
     "id": "14efb83a-549c-41f7-b89c-10a4d6c8bbc0",
     "bookmarked": false,
     "title": "What are enhanced object literals",
@@ -3356,7 +3356,7 @@
     ]
   },
   {
-    "type": "JS",
+    "type": "JAVASCRIPT",
     "id": "b859a6a4-77c1-4202-bf65-71a1c12a8ed4",
     "bookmarked": false,
     "title": "What are dynamic imports",
@@ -3366,7 +3366,7 @@
     ]
   },
   {
-    "type": "JS",
+    "type": "JAVASCRIPT",
     "id": "5eba2d39-e671-47ea-bc56-c079e338d28d",
     "bookmarked": false,
     "title": "What are the use cases for dynamic imports",
@@ -3380,7 +3380,7 @@
     ]
   },
   {
-    "type": "JS",
+    "type": "JAVASCRIPT",
     "id": "bf85a5e5-7e8c-4114-9010-6ed1a8ac1727",
     "bookmarked": false,
     "title": "What are typed arrays",
@@ -3392,7 +3392,7 @@
     ]
   },
   {
-    "type": "JS",
+    "type": "JAVASCRIPT",
     "id": "f6090fb5-0e1d-4465-8505-858e1360466b",
     "bookmarked": false,
     "title": "What are the advantages of module loaders",
@@ -3402,7 +3402,7 @@
     ]
   },
   {
-    "type": "JS",
+    "type": "JAVASCRIPT",
     "id": "33c1cc02-5e8c-418a-a0a4-9e86eb66811e",
     "bookmarked": false,
     "title": "What is collation",
@@ -3415,7 +3415,7 @@
     ]
   },
   {
-    "type": "JS",
+    "type": "JAVASCRIPT",
     "id": "bfcae8a4-c9e6-420b-8802-3cb847f50852",
     "bookmarked": false,
     "title": "What is for...of statement",
@@ -3425,7 +3425,7 @@
     ]
   },
   {
-    "type": "JS",
+    "type": "JAVASCRIPT",
     "id": "32080b11-a2e9-42e6-aa74-0dc552db142f",
     "bookmarked": false,
     "title": "What is the output of below spread operator array",
@@ -3435,7 +3435,7 @@
     ]
   },
   {
-    "type": "JS",
+    "type": "JAVASCRIPT",
     "id": "62f0c062-7e32-46a6-b2db-6773c22491d9",
     "bookmarked": false,
     "title": "Is PostMessage secure",
@@ -3444,7 +3444,7 @@
     ]
   },
   {
-    "type": "JS",
+    "type": "JAVASCRIPT",
     "id": "57bf9d96-40c0-4775-910c-0dbeabfbfc7e",
     "bookmarked": false,
     "title": "What are the problems with postmessage target origin as wildcard",
@@ -3454,7 +3454,7 @@
     ]
   },
   {
-    "type": "JS",
+    "type": "JAVASCRIPT",
     "id": "2f2ec9b3-4ee8-4783-a6ae-12b98c31f11c",
     "bookmarked": false,
     "title": "How do you avoid receiving postMessages from attackers",
@@ -3464,7 +3464,7 @@
     ]
   },
   {
-    "type": "JS",
+    "type": "JAVASCRIPT",
     "id": "6aeadffa-878d-48e1-acbd-d588f86fecfa",
     "bookmarked": false,
     "title": "Can I avoid using postMessages completely",
@@ -3473,7 +3473,7 @@
     ]
   },
   {
-    "type": "JS",
+    "type": "JAVASCRIPT",
     "id": "afb92776-119a-44ab-b0aa-a8e6900f9763",
     "bookmarked": false,
     "title": "Is postMessages synchronous",
@@ -3482,7 +3482,7 @@
     ]
   },
   {
-    "type": "JS",
+    "type": "JAVASCRIPT",
     "id": "1963a51b-4e1c-4104-bf1b-5c5ec0f986a6",
     "bookmarked": false,
     "title": "What paradigm is Javascript",
@@ -3491,7 +3491,7 @@
     ]
   },
   {
-    "type": "JS",
+    "type": "JAVASCRIPT",
     "id": "0b1f2904-f985-4e90-b700-85546e6b1e14",
     "bookmarked": false,
     "title": "What is the difference between internal and external javascript",
@@ -3500,7 +3500,7 @@
     ]
   },
   {
-    "type": "JS",
+    "type": "JAVASCRIPT",
     "id": "7cec8e4a-9513-4d37-b864-d1cad96f9cd0",
     "bookmarked": false,
     "title": "Is JavaScript faster than server side script",
@@ -3509,7 +3509,7 @@
     ]
   },
   {
-    "type": "JS",
+    "type": "JAVASCRIPT",
     "id": "85e798b8-b5b6-4aaa-ba3c-0c66b4d870dc",
     "bookmarked": false,
     "title": "How do you get the status of a checkbox",
@@ -3520,7 +3520,7 @@
     ]
   },
   {
-    "type": "JS",
+    "type": "JAVASCRIPT",
     "id": "ad49c086-5728-479e-968d-da7af90f32c9",
     "bookmarked": false,
     "title": "What is the purpose of double tilde operator",
@@ -3529,7 +3529,7 @@
     ]
   },
   {
-    "type": "JS",
+    "type": "JAVASCRIPT",
     "id": "fd0c3cfe-81ce-4ef8-9e4f-8ceca38e20d2",
     "bookmarked": false,
     "title": "How do you convert character to ASCII code",
@@ -3541,7 +3541,7 @@
     ]
   },
   {
-    "type": "JS",
+    "type": "JAVASCRIPT",
     "id": "ca118cab-ad7a-44d8-b1d4-a8496b0d1b6a",
     "bookmarked": false,
     "title": "What is ArrayBuffer",
@@ -3553,7 +3553,7 @@
     ]
   },
   {
-    "type": "JS",
+    "type": "JAVASCRIPT",
     "id": "4314978e-8352-4825-87f3-29dba90c8188",
     "bookmarked": false,
     "title": "What is the output of below string expression",
@@ -3563,7 +3563,7 @@
     ]
   },
   {
-    "type": "JS",
+    "type": "JAVASCRIPT",
     "id": "a45d239d-01a7-4c87-ae2a-e293d8970aea",
     "bookmarked": false,
     "title": "What is the purpose of Error object",
@@ -3575,7 +3575,7 @@
     ]
   },
   {
-    "type": "JS",
+    "type": "JAVASCRIPT",
     "id": "910df460-086b-44d3-b3d0-e581c697d042",
     "bookmarked": false,
     "title": "What is the purpose of EvalError object",
@@ -3587,7 +3587,7 @@
     ]
   },
   {
-    "type": "JS",
+    "type": "JAVASCRIPT",
     "id": "fd4e5664-ee4b-4fa9-9e0c-9feb7e8721fa",
     "bookmarked": false,
     "title": "What are the list of cases error thrown from non-strict mode to strict mode",
@@ -3601,7 +3601,7 @@
     ]
   },
   {
-    "type": "JS",
+    "type": "JAVASCRIPT",
     "id": "dbded244-441a-4e9c-82ab-3c525a8a226c",
     "bookmarked": false,
     "title": "Do all objects have prototypes",
@@ -3610,7 +3610,7 @@
     ]
   },
   {
-    "type": "JS",
+    "type": "JAVASCRIPT",
     "id": "73d9653f-adfc-48b3-897f-408c6549e79f",
     "bookmarked": false,
     "title": "What is the difference between a parameter and an argument",
@@ -3620,7 +3620,7 @@
     ]
   },
   {
-    "type": "JS",
+    "type": "JAVASCRIPT",
     "id": "5836d724-1624-4a2f-8141-18f1e121605c",
     "bookmarked": false,
     "title": "What is the purpose of some method in arrays",
@@ -3630,7 +3630,7 @@
     ]
   },
   {
-    "type": "JS",
+    "type": "JAVASCRIPT",
     "id": "f973dd77-9990-4530-8ec8-2aabe683b7d6",
     "bookmarked": false,
     "title": "How do you combine two or more arrays",
@@ -3642,7 +3642,7 @@
     ]
   },
   {
-    "type": "JS",
+    "type": "JAVASCRIPT",
     "id": "ab889547-d30b-4643-b0d3-fc21cff60a6d",
     "bookmarked": false,
     "title": "What is the difference between Shallow and Deep copy",
@@ -3665,7 +3665,7 @@
     ]
   },
   {
-    "type": "JS",
+    "type": "JAVASCRIPT",
     "id": "3fda1eb4-c0fe-4b9d-a7b1-742484aec422",
     "bookmarked": false,
     "title": "How do you create specific number of copies of a string",
@@ -3675,7 +3675,7 @@
     ]
   },
   {
-    "type": "JS",
+    "type": "JAVASCRIPT",
     "id": "17ac56b1-4751-4166-aa5b-845004bc295f",
     "bookmarked": false,
     "title": "How do you return all matching strings against a regular expression",
@@ -3685,7 +3685,7 @@
     ]
   },
   {
-    "type": "JS",
+    "type": "JAVASCRIPT",
     "id": "0d0bf58e-7642-47ae-9f10-c8c41a26e64a",
     "bookmarked": false,
     "title": "How do you trim a string at the beginning or ending",
@@ -3695,7 +3695,7 @@
     ]
   },
   {
-    "type": "JS",
+    "type": "JAVASCRIPT",
     "id": "d8b044b2-9ed4-4195-8977-8e9882649ee3",
     "bookmarked": false,
     "title": "What is the output of below console statement with unary operator",
@@ -3706,7 +3706,7 @@
     ]
   },
   {
-    "type": "JS",
+    "type": "JAVASCRIPT",
     "id": "4b129d06-b6d1-458e-a6cb-5edbd0973df4",
     "bookmarked": false,
     "title": "Does javascript uses mixins",
@@ -3718,7 +3718,7 @@
     ]
   },
   {
-    "type": "JS",
+    "type": "JAVASCRIPT",
     "id": "b384ab50-ed66-4604-a24f-40ef96b42634",
     "bookmarked": false,
     "title": "What is a thunk function",
@@ -3728,7 +3728,7 @@
     ]
   },
   {
-    "type": "JS",
+    "type": "JAVASCRIPT",
     "id": "9a52edc3-de76-4c63-8233-79191e89ff6b",
     "bookmarked": false,
     "title": "What are asynchronous thunks",
@@ -3739,7 +3739,7 @@
     ]
   },
   {
-    "type": "JS",
+    "type": "JAVASCRIPT",
     "id": "c66a3c6d-6dbb-4ab9-af35-4d48fe754c8a",
     "bookmarked": false,
     "title": "What is the output of below function calls",
@@ -3752,7 +3752,7 @@
     ]
   },
   {
-    "type": "JS",
+    "type": "JAVASCRIPT",
     "id": "094ea0bf-9215-4a31-b179-4ff7b4013a78",
     "bookmarked": false,
     "title": "How to remove all line breaks from a string",
@@ -3763,7 +3763,7 @@
     ]
   },
   {
-    "type": "JS",
+    "type": "JAVASCRIPT",
     "id": "88af0648-96ad-404d-8170-76290351381b",
     "bookmarked": false,
     "title": "What is the difference between reflow and repaint",
@@ -3772,7 +3772,7 @@
     ]
   },
   {
-    "type": "JS",
+    "type": "JAVASCRIPT",
     "id": "f10e6779-8bf2-4d7d-9e98-8189e496937b",
     "bookmarked": false,
     "title": "What happens with negating an array",
@@ -3782,7 +3782,7 @@
     ]
   },
   {
-    "type": "JS",
+    "type": "JAVASCRIPT",
     "id": "2f783440-95cd-4759-919c-befb2f9d8060",
     "bookmarked": false,
     "title": "What happens if we add two arrays",
@@ -3792,7 +3792,7 @@
     ]
   },
   {
-    "type": "JS",
+    "type": "JAVASCRIPT",
     "id": "f4fc4ad3-87fa-47a9-82da-170ee00c97c9",
     "bookmarked": false,
     "title": "What is the output of prepend additive operator on falsy values",
@@ -3802,7 +3802,7 @@
     ]
   },
   {
-    "type": "JS",
+    "type": "JAVASCRIPT",
     "id": "00b93ae5-c4f9-4843-b94a-d232329684ab",
     "bookmarked": false,
     "title": "How do you create self string using special characters",
@@ -3816,7 +3816,7 @@
     ]
   },
   {
-    "type": "JS",
+    "type": "JAVASCRIPT",
     "id": "cccf9935-f889-4f76-b8a8-1f967ef9b6ff",
     "bookmarked": false,
     "title": "How do you remove falsy values from an array",
@@ -3826,7 +3826,7 @@
     ]
   },
   {
-    "type": "JS",
+    "type": "JAVASCRIPT",
     "id": "fea55398-b3d2-4ebc-bccb-7de205fc48f4",
     "bookmarked": false,
     "title": "How do you get unique values of an array",
@@ -3836,7 +3836,7 @@
     ]
   },
   {
-    "type": "JS",
+    "type": "JAVASCRIPT",
     "id": "81a6f68c-af65-4790-8e07-b27fd6828e60",
     "bookmarked": false,
     "title": "What is destructuring aliases",
@@ -3846,7 +3846,7 @@
     ]
   },
   {
-    "type": "JS",
+    "type": "JAVASCRIPT",
     "id": "b2a621b4-03bc-478d-aa6b-92a7ea1c1a46",
     "bookmarked": false,
     "title": "How do you map the array values without using map method",
@@ -3856,7 +3856,7 @@
     ]
   },
   {
-    "type": "JS",
+    "type": "JAVASCRIPT",
     "id": "5c38b0a9-57e3-4470-b9eb-5ef22cdfa7f9",
     "bookmarked": false,
     "title": "How do you empty an array",
@@ -3866,7 +3866,7 @@
     ]
   },
   {
-    "type": "JS",
+    "type": "JAVASCRIPT",
     "id": "dc629648-3d36-42c7-801d-d6d5bb4d2d78",
     "bookmarked": false,
     "title": "How do you rounding numbers to certain decimals",
@@ -3876,7 +3876,7 @@
     ]
   },
   {
-    "type": "JS",
+    "type": "JAVASCRIPT",
     "id": "71c06c04-c043-439e-8fcb-fc7ec41cc210",
     "bookmarked": false,
     "title": "What is the easiest way to convert an array to an object",
@@ -3886,7 +3886,7 @@
     ]
   },
   {
-    "type": "JS",
+    "type": "JAVASCRIPT",
     "id": "74ee311f-1575-4a0d-acf3-83fb176a12c4",
     "bookmarked": false,
     "title": "How do you create an array with some data",
@@ -3896,7 +3896,7 @@
     ]
   },
   {
-    "type": "JS",
+    "type": "JAVASCRIPT",
     "id": "4d65767a-71cb-449a-9c9c-a3a899052a47",
     "bookmarked": false,
     "title": "What are the placeholders from console object",
@@ -3907,7 +3907,7 @@
     ]
   },
   {
-    "type": "JS",
+    "type": "JAVASCRIPT",
     "id": "f8e44eb3-8b98-4e0e-ac32-b23b4ac9d023",
     "bookmarked": false,
     "title": "Is it possible to add CSS to console messages",
@@ -3919,7 +3919,7 @@
     ]
   },
   {
-    "type": "JS",
+    "type": "JAVASCRIPT",
     "id": "fce67c8a-6d03-4e4a-8732-82acceb8d593",
     "bookmarked": false,
     "title": "What is the purpose of dir method of console object",
@@ -3930,7 +3930,7 @@
     ]
   },
   {
-    "type": "JS",
+    "type": "JAVASCRIPT",
     "id": "9574f500-12bb-4e89-b2fa-defb01100d70",
     "bookmarked": false,
     "title": "Is it possible to debug HTML elements in console",
@@ -3942,7 +3942,7 @@
     ]
   },
   {
-    "type": "JS",
+    "type": "JAVASCRIPT",
     "id": "8fb25e57-7707-47a1-ab09-50dca1ce8c05",
     "bookmarked": false,
     "title": "How do you display data in a tabular format using console object",
@@ -3954,7 +3954,7 @@
     ]
   },
   {
-    "type": "JS",
+    "type": "JAVASCRIPT",
     "id": "40757227-aecd-4f82-bb21-2a4895b4da97",
     "bookmarked": false,
     "title": "How do you verify that an argument is a Number or not",
@@ -3964,7 +3964,7 @@
     ]
   },
   {
-    "type": "JS",
+    "type": "JAVASCRIPT",
     "id": "9ac19675-532d-44bf-954e-88c84208dd17",
     "bookmarked": false,
     "title": "How do you create copy to clipboard button",
@@ -3974,7 +3974,7 @@
     ]
   },
   {
-    "type": "JS",
+    "type": "JAVASCRIPT",
     "id": "75d09043-47d4-4300-9896-6e1477678c18",
     "bookmarked": false,
     "title": "What is the shortcut to get timestamp",
@@ -3984,7 +3984,7 @@
     ]
   },
   {
-    "type": "JS",
+    "type": "JAVASCRIPT",
     "id": "a1d1a4a8-4842-4685-b575-e9cde5bbddcf",
     "bookmarked": false,
     "title": "How do you flattening multi dimensional arrays",
@@ -3996,7 +3996,7 @@
     ]
   },
   {
-    "type": "JS",
+    "type": "JAVASCRIPT",
     "id": "9c7f426f-4eb5-4e06-a48e-147f6a2d507c",
     "bookmarked": false,
     "title": "What is the easiest multi condition checking",
@@ -4006,7 +4006,7 @@
     ]
   },
   {
-    "type": "JS",
+    "type": "JAVASCRIPT",
     "id": "6e3a31cb-6e33-4f99-b08b-441e49c6d1b1",
     "bookmarked": false,
     "title": "How do you capture browser back button",
@@ -4016,7 +4016,7 @@
     ]
   },
   {
-    "type": "JS",
+    "type": "JAVASCRIPT",
     "id": "ed158ad8-c910-476f-b0d8-95fd476b0c82",
     "bookmarked": false,
     "title": "How do you disable right click in the web page",
@@ -4026,7 +4026,7 @@
     ]
   },
   {
-    "type": "JS",
+    "type": "JAVASCRIPT",
     "id": "c5a7124f-fb9c-4fa0-b3a0-469306a083c8",
     "bookmarked": false,
     "title": "What are wrapper objects",
@@ -4037,7 +4037,7 @@
     ]
   },
   {
-    "type": "JS",
+    "type": "JAVASCRIPT",
     "id": "e33890c4-bb2f-4683-b072-cbe885edf1f8",
     "bookmarked": false,
     "title": "What is AJAX",
@@ -4046,7 +4046,7 @@
     ]
   },
   {
-    "type": "JS",
+    "type": "JAVASCRIPT",
     "id": "bedffdc3-5da1-4262-b600-2b5883110888",
     "bookmarked": false,
     "title": "What are the different ways to deal with Asynchronous Code",
@@ -4056,7 +4056,7 @@
     ]
   },
   {
-    "type": "JS",
+    "type": "JAVASCRIPT",
     "id": "2b42fbe0-d57a-4a36-ab9f-6bb5c9c1d30a",
     "bookmarked": false,
     "title": "How to cancel a fetch request",
@@ -4067,7 +4067,7 @@
     ]
   },
   {
-    "type": "JS",
+    "type": "JAVASCRIPT",
     "id": "70e5bb68-2cac-4997-9d1a-e7357dd97a7e",
     "bookmarked": false,
     "title": "What is web speech API",
@@ -4082,7 +4082,7 @@
     ]
   },
   {
-    "type": "JS",
+    "type": "JAVASCRIPT",
     "id": "f7603f86-8e5f-4bfc-9f71-5b649b87511e",
     "bookmarked": false,
     "title": "What is minimum timeout throttling",
@@ -4098,7 +4098,7 @@
     ]
   },
   {
-    "type": "JS",
+    "type": "JAVASCRIPT",
     "id": "79636231-7ba3-49bd-818f-2ccdcc682717",
     "bookmarked": false,
     "title": "How do you implement zero timeout in modern browsers",
@@ -4107,7 +4107,7 @@
     ]
   },
   {
-    "type": "JS",
+    "type": "JAVASCRIPT",
     "id": "466379b1-b112-45ad-86ca-f769859e38ef",
     "bookmarked": false,
     "title": "What are tasks in event loop",
@@ -4117,7 +4117,7 @@
     ]
   },
   {
-    "type": "JS",
+    "type": "JAVASCRIPT",
     "id": "88b2ce23-12e6-4c40-b951-7379add4c23d",
     "bookmarked": false,
     "title": "What is microtask",
@@ -4127,21 +4127,21 @@
     ]
   },
   {
-    "type": "JS",
+    "type": "JAVASCRIPT",
     "id": "f9e49cbc-1188-4d4e-bf7b-2e7f8d713d8b",
     "bookmarked": false,
     "title": "What are different event loops",
     "content": []
   },
   {
-    "type": "JS",
+    "type": "JAVASCRIPT",
     "id": "9b981011-6f49-4ae2-b7f0-68737855b528",
     "bookmarked": false,
     "title": "What is the purpose of queueMicrotask",
     "content": []
   },
   {
-    "type": "JS",
+    "type": "JAVASCRIPT",
     "id": "32b302cc-89f1-4927-93a8-30e74f469899",
     "bookmarked": false,
     "title": "How do you use javascript libraries in typescript file",
@@ -4153,7 +4153,7 @@
     ]
   },
   {
-    "type": "JS",
+    "type": "JAVASCRIPT",
     "id": "9961ef17-c213-40e8-80fc-5213ee8f1ee0",
     "bookmarked": false,
     "title": "What are the differences between promises and observables",
@@ -4163,7 +4163,7 @@
     ]
   },
   {
-    "type": "JS",
+    "type": "JAVASCRIPT",
     "id": "17f19d09-ba77-4fd5-95db-e94bd131ced4",
     "bookmarked": false,
     "title": "What is heap",
@@ -4173,7 +4173,7 @@
     ]
   },
   {
-    "type": "JS",
+    "type": "JAVASCRIPT",
     "id": "1ac58fbd-a517-424b-a5ea-ecef471022e7",
     "bookmarked": false,
     "title": "What is an event table",
@@ -4183,7 +4183,7 @@
     ]
   },
   {
-    "type": "JS",
+    "type": "JAVASCRIPT",
     "id": "d9c14109-8956-4287-9915-71a5b2b8c719",
     "bookmarked": false,
     "title": "What is a microTask queue",
@@ -4192,7 +4192,7 @@
     ]
   },
   {
-    "type": "JS",
+    "type": "JAVASCRIPT",
     "id": "3632e0ba-89dc-4a62-ad55-02100d7f79fa",
     "bookmarked": false,
     "title": "What is the difference between shim and polyfill",
@@ -4201,7 +4201,7 @@
     ]
   },
   {
-    "type": "JS",
+    "type": "JAVASCRIPT",
     "id": "7d540c36-ad7a-4dea-a536-1ce4592d88b4",
     "bookmarked": false,
     "title": "How do you detect primitive or non primitive value type",
@@ -4212,7 +4212,7 @@
     ]
   },
   {
-    "type": "JS",
+    "type": "JAVASCRIPT",
     "id": "2197966e-3f81-44a9-ad40-1b83a08a15bd",
     "bookmarked": false,
     "title": "What is babel",
@@ -4222,7 +4222,7 @@
     ]
   },
   {
-    "type": "JS",
+    "type": "JAVASCRIPT",
     "id": "10799eeb-33fd-4785-89b0-c8b16ac71994",
     "bookmarked": false,
     "title": "Is Node.js completely single threaded",
@@ -4231,7 +4231,7 @@
     ]
   },
   {
-    "type": "JS",
+    "type": "JAVASCRIPT",
     "id": "8050f9a8-0f57-468b-bd84-3cf5bd4ab455",
     "bookmarked": false,
     "title": "What are the common use cases of observables",
@@ -4240,7 +4240,7 @@
     ]
   },
   {
-    "type": "JS",
+    "type": "JAVASCRIPT",
     "id": "d795f752-0f34-4bfd-8e26-a3838082e18e",
     "bookmarked": false,
     "title": "What is RxJS",
@@ -4249,7 +4249,7 @@
     ]
   },
   {
-    "type": "JS",
+    "type": "JAVASCRIPT",
     "id": "ab876070-82a6-4063-8495-2dfd5fa4b75e",
     "bookmarked": false,
     "title": "What is the difference between Function constructor and function declaration",
@@ -4263,7 +4263,7 @@
     ]
   },
   {
-    "type": "JS",
+    "type": "JAVASCRIPT",
     "id": "6ecc10dc-e2cf-4465-8392-6bf34070db68",
     "bookmarked": false,
     "title": "What is a Short circuit condition",
@@ -4275,7 +4275,7 @@
     ]
   },
   {
-    "type": "JS",
+    "type": "JAVASCRIPT",
     "id": "22e68f5e-32c0-4361-82cf-7a21ef193321",
     "bookmarked": false,
     "title": "What is the easiest way to resize an array",
@@ -4287,7 +4287,7 @@
     ]
   },
   {
-    "type": "JS",
+    "type": "JAVASCRIPT",
     "id": "9a05dd82-f8cd-4d91-946d-88deac008ac3",
     "bookmarked": false,
     "title": "What is an observable",
@@ -4299,7 +4299,7 @@
     ]
   },
   {
-    "type": "JS",
+    "type": "JAVASCRIPT",
     "id": "466bf83a-3a6e-4a38-8713-9e116e380981",
     "bookmarked": false,
     "title": "What is the difference between function and class declarations",
@@ -4312,7 +4312,7 @@
     ]
   },
   {
-    "type": "JS",
+    "type": "JAVASCRIPT",
     "id": "545d52e4-93a3-45e7-b81b-8dd412d6b263",
     "bookmarked": false,
     "title": "What is an async function",
@@ -4324,7 +4324,7 @@
     ]
   },
   {
-    "type": "JS",
+    "type": "JAVASCRIPT",
     "id": "6c1970ac-f44d-48a0-bb61-5e1b07f0c187",
     "bookmarked": false,
     "title": "How do you prevent promises swallowing errors",
@@ -4337,7 +4337,7 @@
     ]
   },
   {
-    "type": "JS",
+    "type": "JAVASCRIPT",
     "id": "3736799c-026f-44fe-be0e-d5d355606004",
     "bookmarked": false,
     "title": "What is deno",
@@ -4346,7 +4346,7 @@
     ]
   },
   {
-    "type": "JS",
+    "type": "JAVASCRIPT",
     "id": "7710125e-e43f-43e8-9c29-0374a96d33b6",
     "bookmarked": false,
     "title": "How do you make an object iterable in javascript",
@@ -4359,7 +4359,7 @@
     ]
   },
   {
-    "type": "JS",
+    "type": "JAVASCRIPT",
     "id": "e3b9ce9a-23fc-4926-b17e-b0b479478a6f",
     "bookmarked": false,
     "title": "What is a Proper Tail Call",
@@ -4373,7 +4373,7 @@
     ]
   },
   {
-    "type": "JS",
+    "type": "JAVASCRIPT",
     "id": "c9526460-a3e4-484f-a366-2cb086f1a0bf",
     "bookmarked": false,
     "title": "How do you check an object is a promise or not",
@@ -4385,7 +4385,7 @@
     ]
   },
   {
-    "type": "JS",
+    "type": "JAVASCRIPT",
     "id": "e8d8e40d-a1ae-4a42-9f71-c33556eb2c0a",
     "bookmarked": false,
     "title": "How to detect if a function is called as constructor",
@@ -4396,7 +4396,7 @@
     ]
   },
   {
-    "type": "JS",
+    "type": "JAVASCRIPT",
     "id": "4e59fbbb-5c1f-47f7-b9ac-3545b36f9a72",
     "bookmarked": false,
     "title": "What are the differences between arguments object and rest parameter",
@@ -4406,7 +4406,7 @@
     ]
   },
   {
-    "type": "JS",
+    "type": "JAVASCRIPT",
     "id": "55d43831-cc8c-47ab-ad3e-88ee1c48bd6b",
     "bookmarked": false,
     "title": "What are the differences between spread operator and rest parameter",
@@ -4415,7 +4415,7 @@
     ]
   },
   {
-    "type": "JS",
+    "type": "JAVASCRIPT",
     "id": "85e856ae-276b-420c-b5f2-dacf236c8b55",
     "bookmarked": false,
     "title": "What are the different kinds of generators",
@@ -4425,7 +4425,7 @@
     ]
   },
   {
-    "type": "JS",
+    "type": "JAVASCRIPT",
     "id": "9e40ee79-93a2-4124-9d40-c00710700409",
     "bookmarked": false,
     "title": "What are the built-in iterables",
@@ -4435,7 +4435,7 @@
     ]
   },
   {
-    "type": "JS",
+    "type": "JAVASCRIPT",
     "id": "69369f52-4852-488f-a88f-d2f7955ac463",
     "bookmarked": false,
     "title": "What are the differences between for...of and for...in statements",
@@ -4448,7 +4448,7 @@
     ]
   },
   {
-    "type": "JS",
+    "type": "JAVASCRIPT",
     "id": "c67b2ae2-0546-45d7-bc97-a4b0b946c8b7",
     "bookmarked": false,
     "title": "How do you define instance and non-instance properties",
@@ -4460,7 +4460,7 @@
     ]
   },
   {
-    "type": "JS",
+    "type": "JAVASCRIPT",
     "id": "d2b024e7-d887-40f7-bc25-12537f3bfcf2",
     "bookmarked": false,
     "title": "What is the difference between isNaN and Number.isNaN?",
@@ -4471,7 +4471,7 @@
     ]
   },
   {
-    "type": "JS",
+    "type": "JAVASCRIPT",
     "id": "46a7f023-ed31-452b-846c-92c31c682709",
     "bookmarked": false,
     "title": "How to invoke an IIFE without any extra brackets?",
@@ -4483,7 +4483,7 @@
     ]
   },
   {
-    "type": "JS",
+    "type": "JAVASCRIPT",
     "id": "5fb6c591-19cd-431b-b612-a694d1cc8df6",
     "bookmarked": false,
     "title": "Is that possible to use expressions in switch cases?",
@@ -4493,7 +4493,7 @@
     ]
   },
   {
-    "type": "JS",
+    "type": "JAVASCRIPT",
     "id": "c33eb2c9-7d2c-4971-9d72-c99349969a15",
     "bookmarked": false,
     "title": "What is the easiest way to ignore promise errors?",
@@ -4503,7 +4503,7 @@
     ]
   },
   {
-    "type": "JS",
+    "type": "JAVASCRIPT",
     "id": "1d34a935-d4ed-40c3-bb38-e29105e1771c",
     "bookmarked": false,
     "title": "How do style the console output using CSS?",
@@ -4515,7 +4515,7 @@
     ]
   },
   {
-    "type": "JS",
+    "type": "JAVASCRIPT",
     "id": "0a4bb16b-2db0-45da-a407-ea13199e82e5",
     "bookmarked": false,
     "title": "What is nullish coalescing operator (??)?",
@@ -4525,7 +4525,7 @@
     ]
   },
   {
-    "type": "JS",
+    "type": "JAVASCRIPT",
     "id": "d4d5b017-f9ea-4401-95aa-64e6cf250aa8",
     "bookmarked": false,
     "title": "How do you group and nest console output?",
@@ -4537,7 +4537,7 @@
     ]
   },
   {
-    "type": "JS",
+    "type": "JAVASCRIPT",
     "id": "a4949d08-77c2-4a91-9b65-fdb4ca4a7dbd",
     "bookmarked": false,
     "title": "What is the difference between dense and sparse arrays?",
@@ -4548,7 +4548,7 @@
     ]
   },
   {
-    "type": "JS",
+    "type": "JAVASCRIPT",
     "id": "d7e550ad-f95f-4f47-aa87-e16fdfbf3e15",
     "bookmarked": false,
     "title": "What are the different ways to create sparse arrays?",
@@ -4558,7 +4558,7 @@
     ]
   },
   {
-    "type": "JS",
+    "type": "JAVASCRIPT",
     "id": "546d06ca-e1b5-4bb4-8cdd-54774d12cdce",
     "bookmarked": false,
     "title": "What is the difference between setTimeout, setImmediate and process.nextTick?",
@@ -4567,7 +4567,7 @@
     ]
   },
   {
-    "type": "JS",
+    "type": "JAVASCRIPT",
     "id": "408b677a-6d2e-4ba2-8d65-eff5211faaea",
     "bookmarked": false,
     "title": "How do you reverse an array without modifying original array?",
@@ -4579,7 +4579,7 @@
     ]
   },
   {
-    "type": "JS",
+    "type": "JAVASCRIPT",
     "id": "1b14e4af-15b2-4c7c-b52f-a87516fa3d8c",
     "bookmarked": false,
     "title": "How do you create custom HTML element?",
@@ -4590,7 +4590,7 @@
     ]
   },
   {
-    "type": "JS",
+    "type": "JAVASCRIPT",
     "id": "de248e26-d5d0-4b6f-8afb-715664b4400a",
     "bookmarked": false,
     "title": "What is global execution context?",
@@ -4601,7 +4601,7 @@
     ]
   },
   {
-    "type": "JS",
+    "type": "JAVASCRIPT",
     "id": "2acf7514-5b6b-48dd-aea3-08456840348c",
     "bookmarked": false,
     "title": "What is function execution context?",
@@ -4610,7 +4610,7 @@
     ]
   },
   {
-    "type": "JS",
+    "type": "JAVASCRIPT",
     "id": "7e8f6398-a487-414f-abf2-07983cdaaf98",
     "bookmarked": false,
     "title": "What is debouncing?",
@@ -4628,7 +4628,7 @@
     ]
   },
   {
-    "type": "JS",
+    "type": "JAVASCRIPT",
     "id": "d9e670e8-741b-4273-b57f-6485b1a551b6",
     "bookmarked": false,
     "title": "What is throttling?",
@@ -4639,7 +4639,7 @@
     ]
   },
   {
-    "type": "JS",
+    "type": "JAVASCRIPT",
     "id": "db384097-08ce-45bf-9353-c34de64844d0",
     "bookmarked": false,
     "title": "What is the output of below code",
@@ -4651,7 +4651,7 @@
     ]
   },
   {
-    "type": "JS",
+    "type": "JAVASCRIPT",
     "id": "4ee7c648-7576-414a-8760-eebde9dbb506",
     "bookmarked": false,
     "title": "What is the output of below code",
@@ -4665,7 +4665,7 @@
     ]
   },
   {
-    "type": "JS",
+    "type": "JAVASCRIPT",
     "id": "4100f746-ac95-4dfb-9472-b94156cf3831",
     "bookmarked": false,
     "title": "What is the output of below code",
@@ -4678,7 +4678,7 @@
     ]
   },
   {
-    "type": "JS",
+    "type": "JAVASCRIPT",
     "id": "de5acc1e-96e1-4ace-b416-755ad6bd4372",
     "bookmarked": false,
     "title": "What is the output of below equality check",
@@ -4690,7 +4690,7 @@
     ]
   },
   {
-    "type": "JS",
+    "type": "JAVASCRIPT",
     "id": "f27fa5eb-e2ea-4d47-9457-cc4a63bbe7fc",
     "bookmarked": false,
     "title": "What is the output of below code",
@@ -4706,7 +4706,7 @@
     ]
   },
   {
-    "type": "JS",
+    "type": "JAVASCRIPT",
     "id": "c377bf6e-9932-4fbc-be2e-ff5490abc008",
     "bookmarked": false,
     "title": "What is the output of below code",
@@ -4720,7 +4720,7 @@
     ]
   },
   {
-    "type": "JS",
+    "type": "JAVASCRIPT",
     "id": "7dc37608-aaf5-40cb-9114-370c1827f711",
     "bookmarked": false,
     "title": "What is the output of below code",
@@ -4732,7 +4732,7 @@
     ]
   },
   {
-    "type": "JS",
+    "type": "JAVASCRIPT",
     "id": "a3846764-a54b-4cb5-9eda-8ddfb8351165",
     "bookmarked": false,
     "title": "What is the output of below code in latest Chrome",
@@ -4744,7 +4744,7 @@
     ]
   },
   {
-    "type": "JS",
+    "type": "JAVASCRIPT",
     "id": "3f397aad-a245-43ac-b3aa-fcb72f9c7f54",
     "bookmarked": false,
     "title": "What is the output of below code",
@@ -4756,7 +4756,7 @@
     ]
   },
   {
-    "type": "JS",
+    "type": "JAVASCRIPT",
     "id": "d0e198ef-182f-4923-838f-f6bd1e68c182",
     "bookmarked": false,
     "title": "What is the output of below code",
@@ -4771,7 +4771,7 @@
     ]
   },
   {
-    "type": "JS",
+    "type": "JAVASCRIPT",
     "id": "ef38e2ca-83d6-432a-8919-79248439fae4",
     "bookmarked": false,
     "title": "What is the output of below code in non-strict mode",
@@ -4784,7 +4784,7 @@
     ]
   },
   {
-    "type": "JS",
+    "type": "JAVASCRIPT",
     "id": "e904eec9-54bd-4d71-ad79-6244427b2e3e",
     "bookmarked": false,
     "title": "What is the output of below code",
@@ -4796,7 +4796,7 @@
     ]
   },
   {
-    "type": "JS",
+    "type": "JAVASCRIPT",
     "id": "76b7de6c-1ca6-4105-9e19-12db49382299",
     "bookmarked": false,
     "title": "What is the output of below code",
@@ -4812,7 +4812,7 @@
     ]
   },
   {
-    "type": "JS",
+    "type": "JAVASCRIPT",
     "id": "2ae3afa5-3397-446e-af0d-19bdb198445a",
     "bookmarked": false,
     "title": "What is the output of below code",
@@ -4824,7 +4824,7 @@
     ]
   },
   {
-    "type": "JS",
+    "type": "JAVASCRIPT",
     "id": "981afe43-dcc7-48da-8c68-be39c81ead38",
     "bookmarked": false,
     "title": "What is the output of below code",
@@ -4836,7 +4836,7 @@
     ]
   },
   {
-    "type": "JS",
+    "type": "JAVASCRIPT",
     "id": "824a5b9a-87dd-497a-9164-5a4ffa474a1a",
     "bookmarked": false,
     "title": "What is the output of below code",
@@ -4850,7 +4850,7 @@
     ]
   },
   {
-    "type": "JS",
+    "type": "JAVASCRIPT",
     "id": "50090b27-44a9-49b7-84d2-4b2ab953e3f3",
     "bookmarked": false,
     "title": "What is the output of below code",
@@ -4862,7 +4862,7 @@
     ]
   },
   {
-    "type": "JS",
+    "type": "JAVASCRIPT",
     "id": "56a9a96a-5fbc-43ed-88c5-b704139f6609",
     "bookmarked": false,
     "title": "What is the output of below code",
@@ -4874,7 +4874,7 @@
     ]
   },
   {
-    "type": "JS",
+    "type": "JAVASCRIPT",
     "id": "5035cee8-5a8c-48d6-844f-d0ee70424325",
     "bookmarked": false,
     "title": "What is the output of below code",
@@ -4886,7 +4886,7 @@
     ]
   },
   {
-    "type": "JS",
+    "type": "JAVASCRIPT",
     "id": "c3cc70f2-ce5d-48a4-bf15-3397fb992789",
     "bookmarked": false,
     "title": "What is the output of below code",
@@ -4898,7 +4898,7 @@
     ]
   },
   {
-    "type": "JS",
+    "type": "JAVASCRIPT",
     "id": "6ce971ec-2a51-4a3c-ae85-f13ae5dc433f",
     "bookmarked": false,
     "title": "What is the output of below code",
@@ -4910,7 +4910,7 @@
     ]
   },
   {
-    "type": "JS",
+    "type": "JAVASCRIPT",
     "id": "10e77ada-87fb-411a-9095-fa2d5ab0c6ba",
     "bookmarked": false,
     "title": "What is the output of below code",
@@ -4923,7 +4923,7 @@
     ]
   },
   {
-    "type": "JS",
+    "type": "JAVASCRIPT",
     "id": "f265aa6f-3e51-4b16-aa44-8b2dd036ed9d",
     "bookmarked": false,
     "title": "What is the output of below code",
@@ -4936,7 +4936,7 @@
     ]
   },
   {
-    "type": "JS",
+    "type": "JAVASCRIPT",
     "id": "7d0c2ecf-a3df-48c5-98df-d2e07ab1df25",
     "bookmarked": false,
     "title": "What is the output of below code",
@@ -4949,7 +4949,7 @@
     ]
   },
   {
-    "type": "JS",
+    "type": "JAVASCRIPT",
     "id": "ec698b0d-eaa7-4da9-a574-4a43a2a63bdc",
     "bookmarked": false,
     "title": "What is the output of below code",
@@ -4962,7 +4962,7 @@
     ]
   },
   {
-    "type": "JS",
+    "type": "JAVASCRIPT",
     "id": "6014fd11-4c88-457b-bcce-3341d3e622a8",
     "bookmarked": false,
     "title": "What is the output of below code",
@@ -4974,7 +4974,7 @@
     ]
   },
   {
-    "type": "JS",
+    "type": "JAVASCRIPT",
     "id": "f65d4748-754c-46c1-afea-7dd29c9b7368",
     "bookmarked": false,
     "title": "What is the output of below code",
@@ -4988,7 +4988,7 @@
     ]
   },
   {
-    "type": "JS",
+    "type": "JAVASCRIPT",
     "id": "8520667f-b61e-4da6-a059-308eb4e555e1",
     "bookmarked": false,
     "title": "What is the output of below code",
@@ -5001,7 +5001,7 @@
     ]
   },
   {
-    "type": "JS",
+    "type": "JAVASCRIPT",
     "id": "3e8011cb-a080-4ef6-bc05-d744a352bc7d",
     "bookmarked": false,
     "title": "What is the output of below code",
@@ -5015,7 +5015,7 @@
     ]
   },
   {
-    "type": "JS",
+    "type": "JAVASCRIPT",
     "id": "dc5d56cc-3823-41da-a5df-6672b289fc7e",
     "bookmarked": false,
     "title": "What is the output of below code",
@@ -5027,7 +5027,7 @@
     ]
   },
   {
-    "type": "JS",
+    "type": "JAVASCRIPT",
     "id": "343c3d60-9ec9-4476-b09d-853d6024d847",
     "bookmarked": false,
     "title": "What is the output of below code",
@@ -5039,7 +5039,7 @@
     ]
   },
   {
-    "type": "JS",
+    "type": "JAVASCRIPT",
     "id": "bb618586-2d20-44d4-a75b-b1cf7325caf3",
     "bookmarked": false,
     "title": "What is the output of below code",
@@ -5057,7 +5057,7 @@
     ]
   },
   {
-    "type": "JS",
+    "type": "JAVASCRIPT",
     "id": "4577484e-e4cc-4001-bacb-1e2aaf4594ff",
     "bookmarked": false,
     "title": "What is the output of below code",
@@ -5069,7 +5069,7 @@
     ]
   },
   {
-    "type": "JS",
+    "type": "JAVASCRIPT",
     "id": "8a5e06bc-450c-4140-bf22-8e48afbdd017",
     "bookmarked": false,
     "title": "What is the output of below code",
@@ -5082,7 +5082,7 @@
     ]
   },
   {
-    "type": "JS",
+    "type": "JAVASCRIPT",
     "id": "ccd5c9f0-29c4-4754-95ce-a28ea9a121e6",
     "bookmarked": false,
     "title": "What is the output of below code",
@@ -5099,7 +5099,7 @@
     ]
   },
   {
-    "type": "JS",
+    "type": "JAVASCRIPT",
     "id": "fda5f7be-c82b-45aa-abfb-eaca0a6d8107",
     "bookmarked": false,
     "title": "What is the output of below code",
@@ -5111,7 +5111,7 @@
     ]
   },
   {
-    "type": "JS",
+    "type": "JAVASCRIPT",
     "id": "2944fd8a-a02c-4b19-a47e-581ed6375951",
     "bookmarked": false,
     "title": "What is the output of below code",
@@ -5125,7 +5125,7 @@
     ]
   },
   {
-    "type": "JS",
+    "type": "JAVASCRIPT",
     "id": "8da8fb60-b292-4117-a271-9660314b60c0",
     "bookmarked": false,
     "title": "What is the output of below code",
@@ -5137,7 +5137,7 @@
     ]
   },
   {
-    "type": "JS",
+    "type": "JAVASCRIPT",
     "id": "312ee020-c3d7-4b28-916a-915f24d4363c",
     "bookmarked": false,
     "title": "What is the output of below code",
@@ -5149,7 +5149,7 @@
     ]
   },
   {
-    "type": "JS",
+    "type": "JAVASCRIPT",
     "id": "bf6fa69f-abae-4f38-b21d-aa0e72edfb34",
     "bookmarked": false,
     "title": "What is the output of below code",
@@ -5161,7 +5161,7 @@
     ]
   },
   {
-    "type": "JS",
+    "type": "JAVASCRIPT",
     "id": "3ed89a70-2f04-41f5-b46c-0359eb5b2fe0",
     "bookmarked": false,
     "title": "What is the output of below code",
@@ -5173,7 +5173,7 @@
     ]
   },
   {
-    "type": "JS",
+    "type": "JAVASCRIPT",
     "id": "40402a7b-50ec-4eae-97be-b9c371732e32",
     "bookmarked": false,
     "title": "What is the output of below code",
@@ -5185,7 +5185,7 @@
     ]
   },
   {
-    "type": "JS",
+    "type": "JAVASCRIPT",
     "id": "0f01dd47-0867-40d4-aae6-0320827a2a46",
     "bookmarked": false,
     "title": "What is the output of below code",
@@ -5197,7 +5197,7 @@
     ]
   },
   {
-    "type": "JS",
+    "type": "JAVASCRIPT",
     "id": "981d6aa7-66e9-433a-90c8-5da71e24d3b4",
     "bookmarked": false,
     "title": "What is the output of below code",
@@ -5209,7 +5209,7 @@
     ]
   },
   {
-    "type": "JS",
+    "type": "JAVASCRIPT",
     "id": "f8a7494e-99f4-44f3-8439-2d0bd21b743c",
     "bookmarked": false,
     "title": "What is the output of below code",
@@ -5221,7 +5221,7 @@
     ]
   },
   {
-    "type": "JS",
+    "type": "JAVASCRIPT",
     "id": "e6c12f09-28e2-480f-ae10-511e672ca769",
     "bookmarked": false,
     "title": "What is the output of below code",
@@ -5233,7 +5233,7 @@
     ]
   },
   {
-    "type": "JS",
+    "type": "JAVASCRIPT",
     "id": "e29edb8c-b1ae-41f7-a325-1ad8005b2ff5",
     "bookmarked": false,
     "title": "What is the output of below code",
@@ -5246,7 +5246,7 @@
     ]
   },
   {
-    "type": "JS",
+    "type": "JAVASCRIPT",
     "id": "f0645999-f0c9-4d16-b3eb-fa4c8a349ce1",
     "bookmarked": false,
     "title": "What is the output of below code",
@@ -5258,7 +5258,7 @@
     ]
   },
   {
-    "type": "JS",
+    "type": "JAVASCRIPT",
     "id": "a352f606-0ec9-4d3b-95f4-002745e91c95",
     "bookmarked": false,
     "title": "What is the output of below code",
@@ -5270,7 +5270,7 @@
     ]
   },
   {
-    "type": "JS",
+    "type": "JAVASCRIPT",
     "id": "002b1742-1a71-452a-88fb-b36bd3b285bb",
     "bookmarked": false,
     "title": "What is the output of below code",
@@ -5282,7 +5282,7 @@
     ]
   },
   {
-    "type": "JS",
+    "type": "JAVASCRIPT",
     "id": "773e0199-eccd-48ff-998e-a9e76715fbef",
     "bookmarked": false,
     "title": "What is the output of below code",
@@ -5294,7 +5294,7 @@
     ]
   },
   {
-    "type": "JS",
+    "type": "JAVASCRIPT",
     "id": "77e279bd-61b7-4e31-8312-a313a13a12db",
     "bookmarked": false,
     "title": "What is the output of below code?",
@@ -5306,7 +5306,7 @@
     ]
   },
   {
-    "type": "JS",
+    "type": "JAVASCRIPT",
     "id": "60108e88-96ec-4f11-816a-c3cb059cc04f",
     "bookmarked": false,
     "title": "What is the output of below code?",
@@ -5319,7 +5319,7 @@
     ]
   },
   {
-    "type": "JS",
+    "type": "JAVASCRIPT",
     "id": "e9ddab10-a426-4bc1-a943-a8a515bb2e49",
     "bookmarked": false,
     "title": "What is the output of below code in non strict mode?",
@@ -5331,7 +5331,7 @@
     ]
   },
   {
-    "type": "JS",
+    "type": "JAVASCRIPT",
     "id": "a4e68cb9-4503-4be1-b40d-d673478bbb39",
     "bookmarked": false,
     "title": "What is the output of below code?",
@@ -5344,7 +5344,7 @@
     ]
   },
   {
-    "type": "JS",
+    "type": "JAVASCRIPT",
     "id": "cdf77101-2757-4e2a-8102-9c7aeaa83397",
     "bookmarked": false,
     "title": "What is the output of below code ?",
@@ -5362,7 +5362,7 @@
     ]
   },
   {
-    "type": "JS",
+    "type": "JAVASCRIPT",
     "id": "3a89e6ba-501b-4f56-87c9-a10a708b22d1",
     "bookmarked": false,
     "title": "What is the output of below code?",
